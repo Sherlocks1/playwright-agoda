@@ -84,12 +84,11 @@ async def run(playwright: Playwright) -> None:
             print(f"Error: {e}")
             if retries == 2:
                 print(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
-                if retries == 2:
-                    return  # 达到最大重试次数，退出程序
-                else:
-                    # 刷新页面，并递增计数器
-                    await page2.reload()
-                    retries += 1
+                return  # 达到最大重试次数，退出程序
+            else:
+                # 刷新页面，并递增计数器
+                await page2.reload()
+                retries += 1
 
     # ---------------------
     await context.close()
