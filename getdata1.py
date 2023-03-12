@@ -28,6 +28,7 @@ async def run(playwright: Playwright) -> None:
             # 等待新窗口打开
             async with page.expect_popup() as page1_info:
                 page1 = await page1_info.value
+                await page.close()
                 break
         except Exception as e:
             print(f"Error: {e}")
@@ -41,28 +42,30 @@ async def run(playwright: Playwright) -> None:
 
     await page1.goto(page1.url)
 
-    async with page1.expect_popup() as page2_info:
-        page2 = None
-        retries = 0
-        while True:
-            try:
+    page2 = None
+    retries = 0
+    while True:
+        try:
+            async with page1.expect_popup() as page2_info:
 
                 # 单击链接
-                await page1.get_by_role("link", name="UHG The Quarter阿里酒店【SHA Plus+】 (The Quarter Ari by UHG (SHA Plus+))",
+                await page1.get_by_role("link",
+                                        name="UHG The Quarter阿里酒店【SHA Plus+】 (The Quarter Ari by UHG (SHA Plus+))",
                                         exact=True).click()
                 page2 = await page2_info.value
+                await page1.close()
                 break
-            except Exception as e:
-                print(f"Error: {e}")
-                print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
-                if retries == 2:
-                    return  # 达到最大重试次数，退出程序
-                else:
-                    # 刷新页面，并递增计数器
-                    await page1.reload()
-                    retries += 1
+        except Exception as e:
+            print(f"Error: {e}")
+            print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+            if retries == 2:
+                return  # 达到最大重试次数，退出程序
+            else:
+                # 刷新页面，并递增计数器
+                await page1.reload()
+                retries += 1
 
-    await page1.goto(page2.url)
+    await page2.goto(page2.url)
 
     retries = 0
     while True:
@@ -71,16 +74,16 @@ async def run(playwright: Playwright) -> None:
             # 等待元素加载完成
             await page2.wait_for_selector("//*[@id='roomGrid']", timeout=90000)
 
-            html = page2.content()
+            html = await page2.content()
             print(html)
 
-            await page.close()
+            await page2.close()
             break
 
         except Exception as e:
             print(f"Error: {e}")
             if retries == 2:
-                print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                print(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
                 if retries == 2:
                     return  # 达到最大重试次数，退出程序
                 else:
