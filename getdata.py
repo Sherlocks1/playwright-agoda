@@ -2,6 +2,7 @@ from playwright.async_api import async_playwright
 import asyncio
 import re
 
+
 def clean_filename(url: str) -> str:
     match = re.search(r'checkIn=(\d{4}-\d{2}-\d{1,2})', url)
     if match:
@@ -41,7 +42,7 @@ async def get_data(page, url, filenames, max_retries=2):
                 print(f"Max retries ({max_retries}) reached.")
                 break
             retries += 1
-            print(f"Page load timed out, retrying... (attempt {retries} of {max_retries+1})")
+            print(f"Page load timed out, retrying... (attempt {retries} of {max_retries + 1})")
             await page.reload()
 
 
