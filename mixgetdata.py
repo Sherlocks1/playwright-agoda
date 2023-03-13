@@ -18,7 +18,9 @@ async def get_data(page, url, filenames, max_retries=4):
     while True:
         try:
 
-            await page.goto(url)
+            await page.goto(url, timeout=60000)
+
+            await page.wait_for_selector("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']", timeout=90000)
 
             # 点击AGD-logo
             await page.locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']").click()
@@ -31,7 +33,7 @@ async def get_data(page, url, filenames, max_retries=4):
         except Exception as e:
             print(f"Error: {e}")
             print(f"etrip第 {retries + 1} 次等待元素超时！尝试重新加载")
-            if retries == max_retries:
+            if retries == 4:
                 return  # 达到最大重试次数，退出程序
             else:
                 # 刷新页面，并递增计数器
@@ -56,7 +58,7 @@ async def get_data(page, url, filenames, max_retries=4):
             except Exception as e:
                 print(f"Error: {e}")
                 print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
-                if retries == max_retries:
+                if retries == 4:
                     return  # 达到最大重试次数，退出程序
                 else:
                     # 刷新页面，并递增计数器
@@ -83,7 +85,7 @@ async def get_data(page, url, filenames, max_retries=4):
 
         except Exception as e:
             print(f"Error: {e}")
-            if retries == max_retries:
+            if retries == 4:
                 print(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
                 return  # 达到最大重试次数，退出程序
             else:
@@ -102,7 +104,7 @@ async def main():
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
-        timeout = 10 * 1000  # 90 minutes in milliseconds
+        timeout = 5 * 1000  # 90 minutes in milliseconds
         context.set_default_navigation_timeout(timeout)
 
         tasks = []
