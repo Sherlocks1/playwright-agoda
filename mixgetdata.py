@@ -12,38 +12,84 @@ def clean_filename(url: str) -> str:
     return filename
 
 
-async def get_data(page, url, filenames, max_retries=2):
-    await page.route("**/*.png", lambda route: route.abort())
-    await page.route("**/*.jpg", lambda route: route.abort())
-    await page.route("**/*.jpeg", lambda route: route.abort())
-    await page.route("**/*.gif", lambda route: route.abort())
+async def get_data(page, url, filenames, max_retries=4):
+    page1 = None
+    retries = 0
+    while True:
+        try:
+
+            await page.goto(url)
+
+            # 点击AGD-logo
+            await page.locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']").click()
+
+            # 等待新窗口打开
+            async with page.expect_popup() as page1_info:
+                page1 = await page1_info.value
+                await page.close()
+                break
+        except Exception as e:
+            print(f"Error: {e}")
+            print(f"etrip第 {retries + 1} 次等待元素超时！尝试重新加载")
+            if retries == max_retries:
+                return  # 达到最大重试次数，退出程序
+            else:
+                # 刷新页面，并递增计数器
+                await page.reload()
+                retries += 1
+
+    await page1.goto(page1.url)
+
+    page2 = None
+    retries = 0
+    async with page1.expect_popup() as page2_info:
+        while True:
+            try:
+
+                # 单击链接
+                await page1.get_by_role("link",
+                                        name="UHG The Quarter阿里酒店【SHA Plus+】 (The Quarter Ari by UHG (SHA Plus+))",
+                                        exact=True).click()
+                page2 = await page2_info.value
+                await page1.close()
+                break
+            except Exception as e:
+                print(f"Error: {e}")
+                print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                if retries == max_retries:
+                    return  # 达到最大重试次数，退出程序
+                else:
+                    # 刷新页面，并递增计数器
+                    await page1.reload()
+                    retries += 1
+
+    await page2.goto(page2.url)
 
     retries = 0
     while True:
         try:
-            await page.goto(url)
 
             # 等待元素加载完成
-            await page.wait_for_selector("//*[@id='roomGrid']", timeout=90000)
+            await page2.wait_for_selector("//*[@id='roomGrid']", timeout=90000)
 
-            # 获取网页HTML并保存
-            html = await page.content()
+            html = await page2.content()
             filename = clean_filename(url)
             filenames.append(filename)  # 将文件名添加到列表中
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(html)
 
-            await page.close()
+            await page2.close()
             break
 
         except Exception as e:
             print(f"Error: {e}")
             if retries == max_retries:
-                print(f"Max retries ({max_retries}) reached.")
-                break
-            retries += 1
-            print(f"Page load timed out, retrying... (attempt {retries} of {max_retries + 1})")
-            await page.reload()
+                print(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
+                return  # 达到最大重试次数，退出程序
+            else:
+                # 刷新页面，并递增计数器
+                await page2.reload()
+                retries += 1
 
 
 async def main():
@@ -56,7 +102,7 @@ async def main():
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
-        timeout = 90 * 1000  # 90 minutes in milliseconds
+        timeout = 10 * 1000  # 90 minutes in milliseconds
         context.set_default_navigation_timeout(timeout)
 
         tasks = []

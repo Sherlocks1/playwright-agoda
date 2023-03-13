@@ -19,7 +19,7 @@ async def run(playwright: Playwright) -> None:
         try:
 
             await page.goto(
-                "https://search.etrip.net/Hotel/Search?hotelId=4387380&checkIn=2023-03-12&checkOut=2023-03-13&rooms=2"
+                "https://search.etrip.net/Hotel/Search?hotelId=4387380&checkIn=2023-03-13&checkOut=2023-03-14&rooms=2"
                 "&homeSearch=1&userSearch=1")
 
             # 点击AGD-logo
@@ -44,9 +44,9 @@ async def run(playwright: Playwright) -> None:
 
     page2 = None
     retries = 0
-    while True:
-        try:
-            async with page1.expect_popup() as page2_info:
+    async with page1.expect_popup() as page2_info:
+        while True:
+            try:
 
                 # 单击链接
                 await page1.get_by_role("link",
@@ -55,15 +55,15 @@ async def run(playwright: Playwright) -> None:
                 page2 = await page2_info.value
                 await page1.close()
                 break
-        except Exception as e:
-            print(f"Error: {e}")
-            print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
-            if retries == 2:
-                return  # 达到最大重试次数，退出程序
-            else:
-                # 刷新页面，并递增计数器
-                await page1.reload()
-                retries += 1
+            except Exception as e:
+                print(f"Error: {e}")
+                print(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                if retries == 2:
+                    return  # 达到最大重试次数，退出程序
+                else:
+                    # 刷新页面，并递增计数器
+                    await page1.reload()
+                    retries += 1
 
     await page2.goto(page2.url)
 
