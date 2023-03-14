@@ -109,11 +109,8 @@ async def main():
     async with async_playwright() as p:
 
         print('Launching browser')
-        browser = await p.chromium.launch_persistent_context(
-            user_data_dir='./cache_directory',
-            headless=False,
-        )
-        context = browser
+        browser = await p.chromium.launch(headless=False)
+        context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
         timeout = 90 * 1000  # 90 minutes in milliseconds
@@ -121,11 +118,28 @@ async def main():
 
         tasks = []
         filenames = []
+
+        # 控制同时执行的任务数量
+        MAX_CONCURRENT_TASKS = 3
+        current_task_count = 0
+        total_task_count = len(urls)
+
         for i in range(len(urls)):
             page = await context.new_page()
-            tasks.append(asyncio.create_task(get_data(page, urls[i], filenames)))  # 传递 filenames 参数
+            task = asyncio.create_task(get_data(page, urls[i], filenames))  # 传递 filenames 参数
+            tasks.append(task)
 
-        await asyncio.gather(*tasks)
+            # 等待当前任务数量小于最大限制
+            while current_task_count >= MAX_CONCURRENT_TASKS:
+                done, _ = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                current_task_count -= len(done)
+
+            current_task_count += 1
+
+        # 等待所有任务完成
+        while tasks:
+            done, tasks = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+            current_task_count -= len(done)
 
         await browser.close()
 
