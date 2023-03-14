@@ -49,9 +49,9 @@ async def get_data(page, url, filenames, max_retries=4):
             try:
 
                 # 单击链接
-                await page1.get_by_role("link",
-                                        name="UHG The Quarter阿里酒店【SHA Plus+】 (The Quarter Ari by UHG (SHA Plus+))",
-                                        exact=True).click()
+                await page1.locator('xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div['
+                                    '3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]').click()
+
                 page2 = await page2_info.value
                 await page1.close()
                 break
