@@ -80,6 +80,8 @@ async def get_data(page, url, filenames, max_retries=4):
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(html)
 
+            print(filenames)
+
             await page2.close()
             break
 
@@ -99,19 +101,19 @@ async def main():
     with open("urls.txt", "r") as f:
         urls = f.read().splitlines()
 
+    cache_dir = './cache_directory'
+    if not os.path.exists(cache_dir):
+        os.makedirs(cache_dir)
+    print('Cache directory:', os.path.abspath(cache_dir))
+
     async with async_playwright() as p:
 
-        cache_dir = './cache_directory'
-        if not os.path.exists(cache_dir):
-            os.makedirs(cache_dir)
         print('Launching browser')
         browser = await p.chromium.launch_persistent_context(
             user_data_dir='./cache_directory',
             headless=False,
-            devtools=True,  # 启用 DevTools 调试
-            slow_mo=50,  # 添加延迟，使操作缓慢
         )
-        context = await browser.new_context()
+        context = browser
 
         # 设置页面默认超时时间为60秒
         timeout = 90 * 1000  # 90 minutes in milliseconds
@@ -122,7 +124,7 @@ async def main():
         for i in range(len(urls)):
             page = await context.new_page()
             tasks.append(asyncio.create_task(get_data(page, urls[i], filenames)))  # 传递 filenames 参数
-            print(filenames)
+
         await asyncio.gather(*tasks)
 
         await browser.close()
