@@ -1,3 +1,5 @@
+import os
+
 from playwright.async_api import async_playwright
 import asyncio
 import re
@@ -18,9 +20,7 @@ async def get_data(page, url, filenames, max_retries=4):
     while True:
         try:
 
-            await page.goto(url, timeout=60000)
-
-            await page.wait_for_selector("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']", timeout=90000)
+            await page.goto(url)
 
             # 点击AGD-logo
             await page.locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']").click()
@@ -100,11 +100,21 @@ async def main():
         urls = f.read().splitlines()
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+
+        cache_dir = './cache_directory'
+        if not os.path.exists(cache_dir):
+            os.makedirs(cache_dir)
+        print('Launching browser')
+        browser = await p.chromium.launch_persistent_context(
+            user_data_dir='./cache_directory',
+            headless=False,
+            devtools=True,  # 启用 DevTools 调试
+            slow_mo=50,  # 添加延迟，使操作缓慢
+        )
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
-        timeout = 5 * 1000  # 90 minutes in milliseconds
+        timeout = 90 * 1000  # 90 minutes in milliseconds
         context.set_default_navigation_timeout(timeout)
 
         tasks = []
@@ -112,9 +122,8 @@ async def main():
         for i in range(len(urls)):
             page = await context.new_page()
             tasks.append(asyncio.create_task(get_data(page, urls[i], filenames)))  # 传递 filenames 参数
+            print(filenames)
         await asyncio.gather(*tasks)
-
-        print(filenames)
 
         await browser.close()
 

@@ -56,7 +56,7 @@ async def main():
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
-        timeout = 90 * 1000  # 90 minutes in milliseconds
+        timeout = 5 * 1000  # 90 minutes in milliseconds
         context.set_default_navigation_timeout(timeout)
 
         tasks = []

@@ -8,7 +8,7 @@ async def run(playwright: Playwright) -> None:
     context = await browser.new_context()
 
     # 设置页面默认超时时间为60秒
-    timeout = 30 * 1000  # 90 minutes in milliseconds
+    timeout = 5 * 1000  # 90 minutes in milliseconds
     context.set_default_navigation_timeout(timeout)
 
     page = await context.new_page()  # 新建页面
