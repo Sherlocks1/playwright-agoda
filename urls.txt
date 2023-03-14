@@ -26,3 +26,4 @@ https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-25&checkOu
 https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-26&checkOut=2023-04-27&rooms=2&homeSearch=1&userSearch=1&locale=zh-CN&currency=CNY
 https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-27&checkOut=2023-04-28&rooms=2&homeSearch=1&userSearch=1&locale=zh-CN&currency=CNY
 https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-28&checkOut=2023-04-29&rooms=2&homeSearch=1&userSearch=1&locale=zh-CN&currency=CNY
+https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-29&checkOut=2023-04-30&rooms=2&homeSearch=1&userSearch=1&locale=zh-CN&currency=CNY
