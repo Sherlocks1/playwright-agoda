@@ -118,32 +118,15 @@ async def main():
     with open("urls.txt", "r") as f:
         urls = f.read().splitlines()
 
-    cache_dir = './cache_directory'
-    if not os.path.exists(cache_dir):
-        os.makedirs(cache_dir)
-    print('Cache directory:', os.path.abspath(cache_dir))
-
-    # 检查存储状态文件所在的目录是否存在，如果不存在，则创建它。然后，它将检查存储状态文件是否存在，如果不存在，则创建一个空的 JSON 文件并写入其中。
-    storage_path = os.path.abspath('my-storage-state.json')
-
-    if not os.path.exists(os.path.dirname(storage_path)):
-        os.makedirs(os.path.dirname(storage_path))
-
-    if not os.path.exists(storage_path):
-        with open(storage_path, 'w') as f:
-            # 写入空 JSON 对象
-            f.write('{}')
-
     async with async_playwright() as p:
 
         print('Launching browser')
         browser = await p.chromium.launch(headless=False)
-        #await context.storage_state(path="my-storage-state.json")
-        context = await browser.new_context(storage_state="my-storage-state.json")
+        context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
         timeout = 180 * 1000  # 90 minutes in milliseconds
-        context.set_default_navigation_timeout(timeout)
+        context.set_default_timeout(timeout)
 
         tasks = []
         filenames = []

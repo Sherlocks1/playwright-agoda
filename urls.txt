@@ -1,7 +1,5 @@
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-02&checkOut=2023-04-03&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-03&checkOut=2023-04-04&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-04&checkOut=2023-04-05&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-05&checkOut=2023-04-06&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-06&checkOut=2023-04-07&rooms=2&homeSearch=1&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-07&checkOut=2023-04-08&rooms=2&homeSearch=1&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-30&checkOut=2023-03-31&rooms=2&homeSearch=1&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-31&checkOut=2023-04-01&rooms=2&homeSearch=1&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1
