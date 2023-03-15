@@ -23,6 +23,9 @@ async def get_data(page, url, filenames, max_retries=4):
     page1 = None
     retries = 0
 
+    filename = clean_filename(url)
+    filenames.append(filename)  # 将文件名添加到列表中
+
     while True:
         try:
 
@@ -38,8 +41,8 @@ async def get_data(page, url, filenames, max_retries=4):
             # 等待新窗口打开
             async with page.expect_popup(timeout=60000) as page1_info:
                 page1 = await page1_info.value
-                await page.close()
-                break
+
+            break
         except Exception as e:
             print(f"{filenames[-1]}: Error - {e}")
             logging.error(f"{filenames[-1]}: Error - {e}")
@@ -50,6 +53,8 @@ async def get_data(page, url, filenames, max_retries=4):
                 # 刷新页面，并递增计数器
                 await page.reload()
                 retries += 1
+        finally:
+            await page.close()
 
     await page1.goto(page1.url)
 
@@ -63,7 +68,7 @@ async def get_data(page, url, filenames, max_retries=4):
                 link = await page1.wait_for_selector(
                     'xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div['
                     '2]/a[1]/div[1]/div[3]/div[1]',
-                    timeout=20000)
+                    timeout=40000)
 
                 # 单击链接
                 await link.click()
@@ -131,9 +136,11 @@ async def main():
         tasks = []
         filenames = []
 
-        # 控制同时执行的任务数量
-        MAX_CONCURRENT_TASKS = 4
-        current_task_count = 0
+        MAX_CONCURRENT_TASKS = 4  # 控制同时执行的任务数量
+        current_task_count = 0  # 当前正在执行的任务数
+
+        tasks = []
+        filenames = []
 
         for i in range(len(urls)):
             page = await context.new_page()
@@ -142,17 +149,15 @@ async def main():
             tasks.append(task)
             current_task_count += 1
 
-            # 如果任务数量已经达到上限，等待其中一个任务完成再继续添加新任务
-
             if current_task_count >= MAX_CONCURRENT_TASKS:
-                for completed_task in asyncio.as_completed(tasks):
+                # 等待其中一个任务完成再继续添加新任务
+                done, _ = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                for completed_task in done:
                     await completed_task
                     current_task_count -= 1
-                    break  # 每次只等待一个任务完成就跳出循环继续添加新任务
 
         # 等待所有任务完成
-        for completed_task in asyncio.as_completed(tasks):
-            await completed_task
+        await asyncio.gather(*tasks)
 
         await browser.close()
 

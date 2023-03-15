@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
+      <change afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mixgetdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixgetdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-storage-state.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlgen.py" beforeDir="false" afterPath="$PROJECT_DIR$/urlgen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.savedata">
-    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playwright-agoda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdata.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mixgetdata">
     <configuration name="getdata1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +70,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdata1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mixdata2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playwright-agoda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mixdata2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +168,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.getdata" />
+      <item itemvalue="Python.mixdata2" />
       <item itemvalue="Python.getdata1 (1)" />
       <item itemvalue="Python.mixgetdata" />
       <item itemvalue="Python.savedata" />
@@ -180,11 +176,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.savedata" />
         <item itemvalue="Python.mixgetdata" />
+        <item itemvalue="Python.mixdata2" />
+        <item itemvalue="Python.savedata" />
         <item itemvalue="Python.urlgen" />
         <item itemvalue="Python.getdata1 (1)" />
-        <item itemvalue="Python.getdata" />
       </list>
     </recent_temporary>
   </component>
