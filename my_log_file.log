@@ -536,3 +536,1054 @@ task: <Task cancelling name='Task-7' coro=<get_data() running at C:\Users\produ\
 task: <Task cancelling name='Task-5' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py:63> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
 2023-03-15 16:37:05,721 [ERROR] Task was destroyed but it is pending!
 task: <Task cancelling name='Task-6' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py:63> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
+2023-03-15 22:38:32,749 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168, <1 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:38:32,750 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-5' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168, <1 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:38:32,750 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-7' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168, <1 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:43:53,158 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 22:43:55,606 [ERROR] 2023-04-01.html: Error - Target page, context or browser has been closed
+2023-03-15 22:44:10,743 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-13' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:44:10,743 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-7' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\czy51\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754, <1 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:44:10,743 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-6' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixgetdata.py:57> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\czy51\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754, <1 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-15 22:57:33,195 [INFO] Launching browser
+2023-03-15 22:58:27,077 [ERROR] Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 22:58:53,349 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:08:00,109 [INFO] Launching browser
+2023-03-15 23:08:32,473 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:09:11,425 [WARNING] socket.send() raised exception.
+2023-03-15 23:09:41,630 [INFO] Launching browser
+2023-03-15 23:10:11,780 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:11:03,296 [WARNING] socket.send() raised exception.
+2023-03-15 23:11:10,164 [INFO] Launching browser
+2023-03-15 23:11:39,460 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-31&checkOut=2023-04-01&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:11:39,503 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:13:55,967 [INFO] Launching browser
+2023-03-15 23:14:25,702 [INFO] Successfully crawled https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-30&checkOut=2023-03-31&rooms=2&homeSearch=1&userSearch=1
+2023-03-15 23:16:43,584 [INFO] Launching browser
+2023-03-15 23:22:41,110 [INFO] Launching browser
+2023-03-15 23:23:35,919 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:23:35,919 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:23:37,163 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:23:37,164 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:23:49,138 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-31.html']
+2023-03-15 23:23:59,050 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-15 23:23:59,494 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-31.html', '2023-04-01.html', '2023-03-29.html']
+2023-03-15 23:24:07,763 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:24:07,763 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:24:36,172 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:24:36,172 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:24:37,330 [ERROR] 2023-03-29.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:24:37,331 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:24:54,865 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:24:54,865 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:25:08,093 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:08,093 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:25:09,843 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:09,843 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:25:17,563 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:17,564 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:25:48,898 [ERROR] 2023-03-29.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:48,898 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:25:50,717 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:50,741 [ERROR] 2023-03-29.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:25:50,742 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:25:50,750 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:25:50,756 [ERROR] 2023-03-29.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:25:50,756 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:25:50,761 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:38:05,332 [INFO] Launching browser
+2023-03-15 23:38:14,953 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:14,953 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:38:15,206 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:15,206 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:38:19,114 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:19,114 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:38:20,477 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:20,478 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:38:21,372 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:21,372 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:38:24,956 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:24,956 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:38:24,989 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:24,989 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:38:26,889 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:26,889 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:38:26,924 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:26,924 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:38:29,303 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:29,304 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:38:29,757 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:29,757 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:38:30,271 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:30,271 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:38:31,383 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:31,384 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:38:33,630 [ERROR] 2023-03-31.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:33,630 [INFO] etrip第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:38:33,889 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:33,889 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:38:35,860 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:35,860 [INFO] etrip第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:38:38,088 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:38,088 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:38:38,422 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:38,422 [INFO] etrip第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:38:39,367 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:39,367 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:38:41,810 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:41,810 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:38:45,849 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:45,849 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:38:46,845 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:46,846 [INFO] etrip第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:38:51,730 [ERROR] 2023-04-01.html: Error - 'ElementHandle' object has no attribute 'click_and_wait_for_target'
+2023-03-15 23:38:51,731 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:38:52,996 [ERROR] 2023-04-01.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:38:52,998 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:38:53,005 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:39:18,851 [INFO] Launching browser
+2023-03-15 23:39:27,992 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:27,992 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:39:30,348 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:30,348 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:39:35,439 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:35,439 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:39:35,512 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:35,512 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:39:36,482 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:36,482 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:39:38,232 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:39:38,233 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:39:38,713 [ERROR] Error while running task: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-15 23:39:38,716 [ERROR] 2023-03-31.html: Error - net::ERR_ABORTED at https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:39:38,716 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:39:38,779 [ERROR] Error while running task: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-15 23:39:38,779 [ERROR] Error while running task: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-15 23:39:38,780 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-31&checkOut=2023-04-01&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-15 23:39:38,787 [ERROR] Error while running task: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-15 23:39:38,793 [ERROR] 2023-04-01.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:39:38,793 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:39:38,797 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:39:40,175 [ERROR] 2023-04-01.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:39:40,175 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:39:40,178 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:41:58,492 [INFO] Launching browser
+2023-03-15 23:42:08,278 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:42:08,279 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:42:08,336 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:42:08,336 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:42:08,637 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:42:08,637 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:42:10,022 [ERROR] 2023-03-31.html: Error - object method can't be used in 'await' expression
+2023-03-15 23:42:10,022 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,007 [ERROR] 2023-03-31.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:42:13,008 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,011 [ERROR] 2023-03-31.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:42:13,012 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,015 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,019 [ERROR] 2023-03-31.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:42:13,019 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,023 [ERROR] 2023-03-31.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:42:13,023 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,137 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,138 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:13,855 [ERROR] 2023-04-01.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:42:13,855 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:42:13,857 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:42:43,908 [INFO] Launching browser
+2023-03-15 23:43:34,288 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-31.html']
+2023-03-15 23:43:36,183 [ERROR] 2023-04-01.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:43:36,183 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:43:41,533 [ERROR] 2023-04-01.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:43:41,533 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:43:41,659 [ERROR] 2023-04-01.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:43:41,659 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:43:56,193 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:43:56,193 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:44:11,291 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:11,291 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:44:16,039 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:16,039 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:44:21,218 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:21,218 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:44:21,899 [ERROR] 2023-04-01.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:44:21,899 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:44:38,827 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:38,827 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:44:46,326 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:46,326 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:44:51,762 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:51,762 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:44:58,172 [ERROR] 2023-04-01.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:44:58,172 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:45:07,530 [ERROR] 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:45:07,530 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:45:07,538 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:45:07,594 [ERROR] 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+2023-03-15 23:45:07,594 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:45:07,604 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:45:07,610 [ERROR] 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:45:07,611 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:45:07,616 [ERROR] 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:45:07,616 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:45:07,627 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:45:07,627 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:45:10,451 [INFO] Launching browser
+2023-03-15 23:46:06,773 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-30.html']
+2023-03-15 23:46:14,634 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-30.html', '2023-04-01.html', '2023-03-28.html']
+2023-03-15 23:46:15,067 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-30.html', '2023-04-01.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-15 23:46:15,688 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-30.html', '2023-04-01.html', '2023-03-28.html', '2023-03-29.html', '2023-03-31.html']
+2023-03-15 23:46:39,664 [INFO] ['2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html', '2023-03-30.html', '2023-04-01.html', '2023-03-28.html', '2023-03-29.html', '2023-03-31.html', '2023-04-01.html']
+2023-03-15 23:49:15,572 [INFO] Launching browser
+2023-03-15 23:49:17,858 [ERROR] 2023-03-31.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-31&checkOut=2023-04-01&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:49:17,858 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:49:17,861 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,863 [ERROR] 2023-03-31.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-30&checkOut=2023-03-31&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:49:17,863 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:49:17,867 [ERROR] 2023-03-31.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:49:17,867 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:49:17,870 [ERROR] 2023-03-31.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=32210349&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 23:49:17,870 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:49:17,934 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-15 23:50:34,317 [INFO] Launching browser
+2023-03-15 23:50:58,517 [ERROR] 2023-03-18.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:50:58,517 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:51:18,287 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html']
+2023-03-15 23:51:20,872 [ERROR] 2023-03-31.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:51:20,872 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:51:30,539 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-15 23:51:35,838 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-03-15 23:51:36,429 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-15 23:51:38,804 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-15 23:51:45,127 [ERROR] 2023-03-31.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:51:45,127 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:52:07,332 [ERROR] 2023-03-31.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:52:07,332 [INFO] etrip第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:52:16,818 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:16,818 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:16,919 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:16,920 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:16,944 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:16,945 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:17,411 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:17,412 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:18,403 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:18,403 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:20,597 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:20,597 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:22,385 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:22,386 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:22,756 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:22,756 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:22,828 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:22,829 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:23,076 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:23,076 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:23,184 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:52:23,184 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:33,286 [ERROR] 2023-03-31.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:52:33,287 [INFO] etrip第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:52:33,437 [ERROR] 2023-03-31.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:52:33,438 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:52:37,688 [ERROR] 2023-03-31.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:52:37,688 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:53:03,488 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:03,488 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:03,584 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:03,584 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:03,668 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:03,669 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:04,684 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:04,685 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:05,944 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:05,944 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:06,123 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:06,123 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:08,730 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:08,730 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:09,358 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:09,358 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:09,810 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:09,810 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:10,611 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:10,612 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:10,816 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:10,816 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:53:27,974 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:27,975 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:53:30,279 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:30,280 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:53:51,202 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:51,202 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:52,476 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:52,477 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:53,020 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:53,020 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:53,302 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:53,302 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:53,641 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:53,642 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:58,344 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:58,344 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:58,512 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:58,512 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:58,864 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:58,864 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:59,363 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:59,365 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:53:59,674 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:53:59,674 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:54:00,869 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:00,869 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:54:15,019 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:15,019 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:54:17,338 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:17,339 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:54:40,974 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:40,974 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:44,785 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:44,785 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:44,983 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:44,983 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:45,014 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:45,014 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:45,138 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:45,138 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:46,449 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:46,450 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:49,010 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:49,011 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:50,402 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:50,403 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:50,697 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:50,697 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:51,128 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:51,128 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:54:52,628 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:54:52,630 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:55:04,007 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:04,007 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:55:05,116 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:05,116 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:55:37,165 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:37,165 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:37,196 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:41,422 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:41,422 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:41,457 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:42,861 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:42,861 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:42,873 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:42,923 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:42,923 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:42,931 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:44,419 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:44,420 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:44,431 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:44,482 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:44,482 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:44,489 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:45,016 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:45,016 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:45,022 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:45,577 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:45,577 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:45,592 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:45,703 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:45,703 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:45,711 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:45,781 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:45,782 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:45,789 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:46,850 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:46,850 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:55:46,857 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:55:54,483 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:54,484 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:55:54,869 [ERROR] 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 23:55:54,869 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-15 23:56:16,832 [ERROR] 2023-03-31.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:56:16,832 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:56:16,850 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:56:17,006 [ERROR] 2023-03-31.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:56:17,006 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-15 23:56:17,023 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 23:58:12,293 [INFO] Launching browser
+2023-03-15 23:58:36,832 [ERROR] 2023-03-18.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:58:36,832 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-15 23:59:00,247 [ERROR] 2023-03-18.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:59:00,247 [INFO] etrip第 2 次等待元素超时！尝试重新加载
+2023-03-15 23:59:01,120 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html']
+2023-03-15 23:59:02,299 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html']
+2023-03-15 23:59:09,091 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html']
+2023-03-15 23:59:23,723 [ERROR] 2023-03-21.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-15 23:59:23,723 [INFO] etrip第 3 次等待元素超时！尝试重新加载
+2023-03-15 23:59:41,527 [INFO] ['2023-03-15.html', '2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-15 23:59:41,714 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,755 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,807 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,855 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,900 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,939 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:41,987 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:42,030 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-15 23:59:42,078 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-16 00:00:32,239 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-16' coro=<get_data() running at D:\code\agoda\playwright-agoda\mixdata2.py:92> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-16 00:00:32,722 [INFO] Launching browser
+2023-03-16 00:00:44,806 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,814 [ERROR] 2023-03-18.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-16 00:00:44,815 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-16 00:00:44,822 [ERROR] 2023-03-18.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-16 00:00:44,822 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-16 00:00:44,906 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,906 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,907 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,907 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,942 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,942 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,942 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,942 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,993 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:44,993 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,993 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:44,993 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,038 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,038 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,038 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,038 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,088 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,088 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,088 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,088 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,135 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,135 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,135 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,135 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,191 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,192 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,192 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,192 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,238 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,238 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,238 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,238 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,285 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,286 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,286 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,286 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,331 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,331 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,331 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,331 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,376 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,376 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,376 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,376 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,422 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=432.7&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTYlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE3JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMwMzgmb2lkPW9XNUxNakw2dVNmayZwaWQ9YWdkJnNpZD1iYzI1MWE3MC1iYzlmLTQzZWYtODhjOS0yODcxZTJjYzBiMTUmc2lnPTk3MTkxOWNjYjQzYjYyOTRlOGU0MWQ0NDlmMTcxYzBlZGM4M2MxOTMzNjkxOTZkZGJiMjRmZDg2MmRmYzcwZDMzNTM4MzkzODMxMzYzNTM3MzEmYWlkPWRlYWM5MzdjLTQ4MTUtNDlmNi04ZmNhLTdiYzFlNGUzY2NhNQ%3D%3D&totalPrice=432.7&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,422 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,422 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-16 00:00:45,422 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=573.9582116&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTg3NjExODIlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDMtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTAzLTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDI3OTgzJm9pZD1vYXZ0Z1h5MDVnc00mcGlkPWFnZCZzaWQ9ZjQ4MjQ2YTgtYzVmMC00NzYzLWIyYmEtYWVhOWU1NGYzMzhmJnNpZz05NTY4Mjk2YjZlM2NlNTZmMWU4NTMzZDgyNWFkYzU3YTk2MzQxOTkxOTUyYjkxNWZjZGU4MmQyNTVmYmY3ZTA3MzkzMDM2MzYzMzMzMzYzMzM3JmFpZD1kZWFjOTM3Yy00ODE1LTQ5ZjYtOGZjYS03YmMxZTRlM2NjYTU%3D&totalPrice=457.01&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-16 00:00:45,766 [ERROR] Error: Target page, context or browser has been closed
+2023-03-16 00:01:05,735 [INFO] Launching browser
+2023-03-16 00:02:05,372 [INFO] Launching browser
+2023-03-16 00:02:35,062 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html']
+2023-03-16 00:02:35,465 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html']
+2023-03-16 00:02:36,814 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-16 00:02:41,881 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-16 00:03:00,157 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-16 00:03:00,525 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-16 00:03:02,804 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-16 00:03:07,341 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-16 00:03:24,725 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-16 00:03:25,682 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-16 00:03:27,019 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-16 00:03:32,280 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-16 00:03:49,712 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:03:49,807 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:03:49,910 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:03:55,112 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:06:53,766 [INFO] Launching browser
+2023-03-16 00:07:23,386 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html']
+2023-03-16 00:07:23,990 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html']
+2023-03-16 00:07:25,055 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-16 00:07:26,011 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-16 00:07:47,472 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-16 00:07:47,750 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-16 00:07:50,002 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-16 00:07:51,834 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-16 00:08:10,725 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-16 00:08:15,767 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-16 00:08:18,224 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-16 00:08:25,564 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-16 00:08:35,854 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:08:43,470 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:08:46,814 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
+2023-03-16 00:08:49,140 [INFO] ['2023-03-16.html', '2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html', '2023-03-31.html']
