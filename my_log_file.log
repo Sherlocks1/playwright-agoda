@@ -1,0 +1,247 @@
+2023-03-15 14:27:10,836 [ERROR] Error: Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-01&checkOut=2023-04-02&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 14:27:11,051 [ERROR] Error: Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-03&checkOut=2023-04-04&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 14:35:57,402 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<get_data() done, defined at C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py:22> exception=TimeoutError('Timeout 60000ms exceeded while waiting for event "popup"\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 63, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 8197, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 364, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 75, in get_data
+    print(f"{filenames[-1]}: Error - {e}")
+             ^^^^^^^^^^^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 58, in get_data
+    async with page1.expect_popup(timeout=60000) as page2_info:
+playwright._impl._api_types.TimeoutError: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 14:35:57,404 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<get_data() done, defined at C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py:22> exception=TimeoutError('Timeout 60000ms exceeded while waiting for event "popup"\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 63, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 8197, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 364, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+  locator resolved to hidden <div class="Box-sc-kv6pi1-0 gDVubK">бн</div>
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 75, in get_data
+    print(f"{filenames[-1]}: Error - {e}")
+             ^^^^^^^^^^^^^
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 58, in get_data
+    async with page1.expect_popup(timeout=60000) as page2_info:
+playwright._impl._api_types.TimeoutError: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 14:40:54,234 [ERROR] 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:42:59,520 [ERROR] 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:43:07,876 [ERROR] 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:43:35,663 [ERROR] 2023-04-03.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 14:47:03,670 [ERROR] 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:47:05,948 [ERROR] 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:47:30,649 [ERROR] 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-15 14:47:32,403 [ERROR] 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-15 14:47:48,606 [ERROR] 2023-04-04.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-15 14:48:17,346 [ERROR] 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-15 14:48:29,549 [ERROR] 2023-04-07.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-05&checkOut=2023-04-06&rooms=2&homeSearch=1&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-05&checkOut=2023-04-06&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-15 14:48:30,204 [ERROR] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-7' coro=<get_data() done, defined at C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py:22> exception=TimeoutError('Timeout 60000ms exceeded while waiting for event "popup"\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 33, in get_data
+    await page.goto(url)
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 9135, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 491, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-05&checkOut=2023-04-06&rooms=2&homeSearch=1&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn=2023-04-05&checkOut=2023-04-06&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 177, in main
+    await completed_task
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 605, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 55, in get_data
+    await page.reload()
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 9176, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 499, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 67, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 8197, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 364, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 70, in inner_send
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 418, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py", line 525, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\mixgetdata.py", line 62, in get_data
+    async with page1.expect_popup(timeout=60000) as page2_info:
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================

@@ -1,6 +1,6 @@
 import datetime
 
-base_url = "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn={check_in_date}&checkOut={check_out_date}&rooms=2&homeSearch=1&userSearch=1&locale=zh-CN&currency=CNY"
+base_url = "https://search.etrip.net/Hotel/Search?hotelId=7336673&checkIn={check_in_date}&checkOut={check_out_date}&rooms=2&homeSearch=1&userSearch=1"
 
 check_in_date_str = input("请输入入住日期（格式为YYYY-MM-DD）：")
 check_out_date_str = input("请输入离店日期（格式为YYYY-MM-DD）：")
