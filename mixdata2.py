@@ -122,7 +122,7 @@ async def main():
     async with async_playwright() as p:
         logging.info('Launching browser')
 
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒

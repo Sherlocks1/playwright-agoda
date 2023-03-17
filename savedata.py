@@ -5,6 +5,14 @@ from openpyxl import Workbook
 from explaindata2 import explain_data
 from openpyxl.styles import PatternFill
 
+delete_html_files_input = input("是否删除所有 HTML 文件？输入 1 表示是，输入 0 表示否：")
+
+
+def delete_html_files():
+    for filename in os.listdir("."):
+        if filename.endswith(".html"):
+            os.remove(filename)
+
 
 def save_data():
     # 指定保存 Excel 文件的路径
@@ -20,8 +28,9 @@ def save_data():
     # 创建新的 Excel 文件
     if not wb:
         wb = Workbook()
+    current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     ws = wb.active
-    ws.title = "Sheet1"
+    ws.title = f"Sheet1_{current_time}"
 
     # 写入表头
     ws.cell(row=1, column=1, value="Check-in")
@@ -46,7 +55,6 @@ def save_data():
 
     new_data = sorted(new_data, key=lambda row: row[0])
 
-
     # 如果文件已存在，则读取数据以供比较
     old_data = []
     if wb:
@@ -66,7 +74,7 @@ def save_data():
         new_room_names = ", ".join(map(str, new_row[1]))
 
         # 查找旧数据是否包含相同的行，并将新数据覆盖旧数据
-        old_row_nums = [i+1 for i, old_row in enumerate(old_data)
+        old_row_nums = [i + 1 for i, old_row in enumerate(old_data)
                         if old_row[0] == new_row[0]
                         and ", ".join(map(str, old_row[1])) == new_room_names]
 
@@ -124,6 +132,15 @@ def save_data():
 
     # 保存 Excel 文件
     wb.save(filename=xls_path)
+
+    while True:
+        if delete_html_files_input == "1":
+            delete_html_files()
+            break
+        elif delete_html_files_input == "0":
+            break
+        else:
+            print("输入无效，请重新输入。")
 
     # 保存成功的消息
     print(f"Excel file saved successfully to {xls_path}.")

@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
-      <change afterPath="$PROJECT_DIR$/results.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/savesql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-22.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-22.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-23.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-24.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-24.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-25.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-26.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-26.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-27.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-27.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-28.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-28.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-29.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-30.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-27.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-30.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixdata2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixdata2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.savesql">
+  <component name="RunManager" selected="Python.savedata">
     <configuration name="getdata1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,10 +190,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.savesql" />
         <item itemvalue="Python.savedata" />
         <item itemvalue="Python.mixdata2" />
         <item itemvalue="Python.urlgen" />
+        <item itemvalue="Python.savesql" />
         <item itemvalue="Python.getdata1" />
       </list>
     </recent_temporary>

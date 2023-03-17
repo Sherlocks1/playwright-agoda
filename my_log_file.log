@@ -2413,3 +2413,108 @@ navigating to "https://search.etrip.net/Hotel/Search?hotelId=1196750&checkIn=202
 2023-03-17 10:05:17,187 [INFO] ['2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
 2023-03-17 10:05:23,091 [INFO] ['2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
 2023-03-17 10:05:30,771 [INFO] ['2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-17 15:51:41,464 [INFO] Launching browser
+2023-03-17 15:52:45,052 [ERROR] 2023-03-20.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-17 15:52:45,052 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-17 15:53:28,237 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html']
+2023-03-17 15:53:40,204 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-17 15:53:42,446 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-17 15:54:20,430 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-17 15:54:21,462 [ERROR] 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-17 15:54:21,463 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-17 15:54:32,153 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:32,287 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:32,350 [ERROR] 2023-03-25.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-24&checkOut=2023-03-25&rooms=2&homeSearch=1&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-24&checkOut=2023-03-25&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-17 15:54:32,350 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-17 15:54:32,570 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:32,570 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:32,570 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:32,863 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:32,863 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:32,863 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:33,018 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:33,018 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:33,018 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:33,208 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:33,208 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:54:33,208 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-17 15:54:35,244 [ERROR] Error: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-17 15:57:05,365 [INFO] Launching browser
+2023-03-17 15:58:06,439 [ERROR] 2023-03-20.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-17 15:58:06,439 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-17 15:58:46,220 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html']
+2023-03-17 15:59:01,561 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-17 15:59:01,845 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-17 15:59:42,275 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-17 16:00:07,343 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-17 16:01:30,397 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-17 16:01:38,316 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-17 16:01:38,856 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-17 16:01:55,976 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-17 16:03:11,750 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-03-17 16:03:21,548 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-17 16:03:41,876 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-17 16:03:50,165 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-17 16:03:56,649 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-17 16:05:43,819 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
