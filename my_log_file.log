@@ -4739,3 +4739,43 @@ waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/
 2023-03-18 16:28:39,446 [INFO] Task 41 - 2023-04-27.html: 爬取成功
 2023-03-18 16:29:13,328 [INFO] Task 43 - 2023-04-29.html: 爬取成功
 2023-03-18 16:29:15,148 [INFO] Task 42 - 2023-04-28.html: 爬取成功
+2023-03-18 17:22:12,548 [INFO] Launching browser
+2023-03-18 17:23:17,585 [INFO] Launching browser
+2023-03-18 17:23:24,126 [INFO] Agoda Scraper - Task 43 开始爬取：2023-03-18.html
+2023-03-18 17:23:24,308 [INFO] Agoda Scraper - Task 42 开始爬取：2023-03-19.html
+2023-03-18 17:23:24,326 [INFO] Agoda Scraper - Task 41 开始爬取：2023-03-20.html
+2023-03-18 17:25:09,152 [ERROR] Agoda Scraper - Task 41 - 2023-03-20.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 17:25:09,153 [INFO] Agoda Scraper - Task 41 - 2023-03-20.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 17:26:40,259 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 17:26:40,272 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-48' coro=<process_queue() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata3.py:160> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754, <1 more>, gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
+2023-03-18 17:26:56,834 [INFO] Launching browser
+2023-03-18 17:28:00,502 [INFO] Launching browser
+2023-03-18 17:28:05,676 [INFO] Agoda Scraper - Task 42 开始爬取：2023-03-19.html
+2023-03-18 17:28:05,746 [INFO] Agoda Scraper - Task 41 开始爬取：2023-03-20.html
+2023-03-18 17:28:05,788 [INFO] Agoda Scraper - Task 43 开始爬取：2023-03-18.html
+2023-03-18 17:29:18,331 [ERROR] Agoda Scraper - Task 43 - 2023-03-18.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 17:29:18,331 [INFO] Agoda Scraper - Task 43 - 2023-03-18.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 17:29:18,348 [ERROR] Agoda Scraper - Task 41 - 2023-03-20.html: Error - Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 17:29:18,348 [INFO] Agoda Scraper - Task 41 - 2023-03-20.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 17:29:18,379 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 17:29:18,380 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 17:29:19,411 [ERROR] Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
