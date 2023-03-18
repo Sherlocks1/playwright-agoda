@@ -2,6 +2,7 @@ import os
 import re
 import logging
 import asyncio
+import random
 
 from playwright.async_api import async_playwright
 
@@ -20,6 +21,12 @@ def clean_filename(url: str) -> str:
     return filename
 
 
+async def random_wait(min_time=1.0, max_time=3.0):
+    seconds = random.uniform(min_time, max_time)
+    logging.info(f"随机等待 {seconds:.2f} 秒")
+    await asyncio.sleep(seconds)
+
+
 async def get_data(page, url, filenames, max_retries=4):
     page1 = None
     retries = 0
@@ -34,6 +41,8 @@ async def get_data(page, url, filenames, max_retries=4):
             # 等待 AGD-logo 出现
             agd_logo = await page.wait_for_selector("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']",
                                                     timeout=20000)
+            # 随机等待一段时间
+            await random_wait()
 
             # 单击 AGD-logo
             await agd_logo.click()
@@ -70,6 +79,9 @@ async def get_data(page, url, filenames, max_retries=4):
                         '1]/div[2]/a[1]/div[1]/div[3]/div[1]',
                         timeout=40000)
 
+                    # 随机等待一段时间
+                    await random_wait()
+
                     # 单击链接
                     await link.click()
 
@@ -105,6 +117,11 @@ async def get_data(page, url, filenames, max_retries=4):
                         f.write(html)
 
                     logging.info(filenames)
+                    logging.info(f"{filenames}: 爬取成功")
+                    logging.info(f"{filenames[-1]}: 爬取成功")
+                    # 随机等待一段时间
+                    await random_wait()
+
                     await page2.close()
                     break
 
@@ -114,6 +131,7 @@ async def get_data(page, url, filenames, max_retries=4):
                         logging.info(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
                         return  # 达到最大重试次数，退出程序
 
+
 async def main():
     # 打开存储 URL 的文件
     with open("urls.txt", "r") as f:
@@ -122,7 +140,7 @@ async def main():
     async with async_playwright() as p:
         logging.info('Launching browser')
 
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(headless=False)
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
@@ -147,7 +165,7 @@ async def main():
                         logging.error(f"Error while running task: {e}")
 
             page = await context.new_page()
-            page.set_default_timeout(60000)
+            page.set_default_timeout(timeout)
             task = asyncio.create_task(get_data(page, urls[i], filenames))  # 传递 filenames 参数
             tasks.append(task)
             current_task_count += 1

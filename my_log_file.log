@@ -2518,3 +2518,706 @@ waiting for locator("xpath=//*[@id='roomGrid']") to be visible
 2023-03-17 16:03:50,165 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
 2023-03-17 16:03:56,649 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
 2023-03-17 16:05:43,819 [INFO] ['2023-03-17.html', '2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:04:26,053 [INFO] Launching browser
+2023-03-18 11:04:36,654 [INFO] Launching browser
+2023-03-18 11:05:04,299 [INFO] Launching browser
+2023-03-18 11:05:48,216 [ERROR] 2023-03-21.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:05:48,216 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:48,267 [ERROR] 2023-03-21.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:05:48,268 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:48,276 [ERROR] 2023-03-21.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:05:48,276 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:48,292 [ERROR] 2023-03-21.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:05:48,292 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:48,360 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 11:05:48,378 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:48,379 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:48,894 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:48,894 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:48,894 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:48,894 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,111 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,112 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,112 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,112 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,366 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,367 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,367 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,367 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,580 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,580 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,581 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,581 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,757 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,757 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,757 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:49,757 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:50,046 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:50,046 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:50,047 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:50,047 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:50,109 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 11:05:50,110 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 11:05:50,110 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-18 11:05:51,567 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,567 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,567 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,567 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,926 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,926 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,926 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:51,927 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:05:52,082 [ERROR] 2023-03-29.html: Error - net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,082 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,090 [ERROR] 2023-03-29.html: Error - net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,093 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,102 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-27&checkOut=2023-03-28&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,102 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,118 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-26&checkOut=2023-03-27&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,118 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,130 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-25&checkOut=2023-03-26&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,132 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,149 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-24&checkOut=2023-03-25&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,150 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,159 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-23&checkOut=2023-03-24&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,160 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:52,180 [ERROR] 2023-03-29.html: Error - Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-22&checkOut=2023-03-23&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:05:52,182 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:05:54,309 [ERROR] Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:09:31,993 [INFO] Launching browser
+2023-03-18 11:10:22,704 [INFO] 随机等待 1.43 秒
+2023-03-18 11:10:33,349 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:10:33,349 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:10:33,745 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:10:33,745 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:10:33,846 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-21&checkOut=2023-03-22&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:10:33,846 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:10:46,979 [INFO] 随机等待 1.77 秒
+2023-03-18 11:10:49,023 [INFO] 随机等待 2.87 秒
+2023-03-18 11:10:50,572 [INFO] 随机等待 1.01 秒
+2023-03-18 11:10:57,785 [INFO] 随机等待 2.36 秒
+2023-03-18 11:11:16,465 [INFO] 随机等待 1.16 秒
+2023-03-18 11:11:17,844 [INFO] 随机等待 2.95 秒
+2023-03-18 11:11:18,463 [INFO] 随机等待 1.04 秒
+2023-03-18 11:11:24,652 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:11:37,466 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-18 11:11:38,739 [INFO] 随机等待 1.37 秒
+2023-03-18 11:11:40,880 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:11:41,603 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:11:48,935 [INFO] 随机等待 1.45 秒
+2023-03-18 11:11:53,456 [INFO] 随机等待 2.99 秒
+2023-03-18 11:11:54,663 [INFO] 随机等待 1.82 秒
+2023-03-18 11:12:05,831 [INFO] 随机等待 1.29 秒
+2023-03-18 11:12:19,732 [INFO] 随机等待 2.39 秒
+2023-03-18 11:12:22,594 [INFO] 随机等待 1.75 秒
+2023-03-18 11:12:22,695 [INFO] 随机等待 2.36 秒
+2023-03-18 11:12:26,142 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-18 11:12:43,306 [INFO] 随机等待 2.07 秒
+2023-03-18 11:12:44,997 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-18 11:12:46,577 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-18 11:12:49,441 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-18 11:12:58,481 [INFO] 随机等待 1.03 秒
+2023-03-18 11:12:58,651 [INFO] 随机等待 2.49 秒
+2023-03-18 11:13:18,627 [INFO] 随机等待 1.32 秒
+2023-03-18 11:13:23,800 [INFO] 随机等待 1.50 秒
+2023-03-18 11:13:46,815 [ERROR] 2023-03-29.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:13:46,815 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:13:47,737 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-18 11:14:02,020 [ERROR] 2023-03-30.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:14:02,020 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:14:04,489 [INFO] 随机等待 2.91 秒
+2023-03-18 11:14:07,728 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:14:07,729 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-18 11:14:11,021 [ERROR] 2023-03-30.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:14:11,022 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:14:15,038 [INFO] 随机等待 2.82 秒
+2023-03-18 11:14:22,048 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:14:22,048 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-18 11:14:31,864 [INFO] 随机等待 2.40 秒
+2023-03-18 11:14:48,048 [INFO] 随机等待 1.32 秒
+2023-03-18 11:14:51,581 [INFO] 随机等待 1.91 秒
+2023-03-18 11:14:53,679 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:14:53,679 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-18 11:14:55,946 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:14:55,946 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-18 11:14:58,710 [ERROR] 2023-03-30.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:14:58,710 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-18 11:15:13,876 [INFO] 随机等待 1.20 秒
+2023-03-18 11:15:42,800 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:15:43,781 [INFO] 随机等待 1.86 秒
+2023-03-18 11:15:46,191 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:15:46,192 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-18 11:15:59,586 [INFO] 随机等待 1.12 秒
+2023-03-18 11:16:00,223 [INFO] 随机等待 1.86 秒
+2023-03-18 11:16:01,306 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:16:01,306 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-18 11:16:04,418 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:16:04,418 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-18 11:16:21,034 [INFO] 随机等待 1.57 秒
+2023-03-18 11:16:23,553 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:16:23,554 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-18 11:16:24,570 [INFO] 随机等待 1.32 秒
+2023-03-18 11:16:30,232 [INFO] 随机等待 2.08 秒
+2023-03-18 11:16:30,234 [ERROR] 2023-03-30.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:16:30,234 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-18 11:16:49,290 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-34' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:66> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:16:49,291 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-32' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:66> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:16:50,561 [INFO] Launching browser
+2023-03-18 11:17:35,983 [INFO] 随机等待 1.33 秒
+2023-03-18 11:17:55,509 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-19&checkOut=2023-03-20&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:17:55,509 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:17:55,618 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:17:55,618 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:17:55,817 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-21&checkOut=2023-03-22&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:17:55,817 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:18:09,864 [INFO] 随机等待 1.60 秒
+2023-03-18 11:18:12,396 [INFO] 随机等待 1.23 秒
+2023-03-18 11:18:19,909 [INFO] 随机等待 2.66 秒
+2023-03-18 11:18:21,943 [ERROR] 2023-03-21.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-18 11:18:21,943 [INFO] agoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:18:42,326 [INFO] 随机等待 1.35 秒
+2023-03-18 11:18:44,664 [INFO] 随机等待 2.34 秒
+2023-03-18 11:18:52,072 [INFO] 随机等待 1.97 秒
+2023-03-18 11:19:08,027 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:19:11,228 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-18 11:19:15,427 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:19:18,890 [INFO] 随机等待 2.42 秒
+2023-03-18 11:19:20,452 [INFO] 随机等待 2.66 秒
+2023-03-18 11:19:23,015 [INFO] 随机等待 2.11 秒
+2023-03-18 11:19:24,437 [ERROR] 2023-03-24.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:19:24,437 [INFO] agoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-18 11:19:26,777 [INFO] 随机等待 1.16 秒
+2023-03-18 11:19:48,656 [INFO] 随机等待 2.67 秒
+2023-03-18 11:19:50,745 [INFO] 随机等待 1.83 秒
+2023-03-18 11:19:52,732 [INFO] 随机等待 2.28 秒
+2023-03-18 11:19:59,814 [INFO] 随机等待 2.69 秒
+2023-03-18 11:20:03,998 [ERROR] 2023-03-24.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:20:03,999 [INFO] agoda列表页第 3 次等待元素超时！尝试重新加载
+2023-03-18 11:20:09,869 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-18 11:20:12,754 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-18 11:20:16,045 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-18 11:20:20,622 [INFO] 随机等待 1.78 秒
+2023-03-18 11:20:29,779 [INFO] 随机等待 1.28 秒
+2023-03-18 11:20:42,609 [INFO] 随机等待 1.07 秒
+2023-03-18 11:20:43,441 [INFO] 随机等待 2.35 秒
+2023-03-18 11:20:43,813 [INFO] 随机等待 2.74 秒
+2023-03-18 11:20:44,457 [ERROR] 2023-03-27.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:20:44,459 [INFO] agoda列表页第 4 次等待元素超时！尝试重新加载
+2023-03-18 11:20:54,732 [INFO] 随机等待 1.06 秒
+2023-03-18 11:21:00,669 [INFO] 随机等待 2.06 秒
+2023-03-18 11:21:04,936 [ERROR] 2023-03-27.html: Error - Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:21:04,936 [INFO] agoda列表页第 5 次等待元素超时！尝试重新加载
+2023-03-18 11:21:04,961 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:21:05,229 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:21:05,846 [ERROR] Error while running task: Timeout 60000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-18 11:22:20,412 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-26' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:104> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:22:20,413 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-28' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:104> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:22:20,413 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-27' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:72> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, <1 more>, gather.<locals>._done_callback() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
+2023-03-18 11:22:21,481 [INFO] Launching browser
+2023-03-18 11:23:13,707 [INFO] 随机等待 1.17 秒
+2023-03-18 11:23:22,957 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:23:22,957 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:23:23,082 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-19&checkOut=2023-03-20&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:23:23,082 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:23:23,373 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:23:23,373 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:23:35,813 [INFO] 随机等待 1.59 秒
+2023-03-18 11:23:36,538 [INFO] 随机等待 2.56 秒
+2023-03-18 11:23:37,735 [INFO] 随机等待 1.81 秒
+2023-03-18 11:23:45,068 [INFO] 随机等待 2.02 秒
+2023-03-18 11:24:05,466 [INFO] 随机等待 1.73 秒
+2023-03-18 11:24:06,614 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:24:07,925 [INFO] 随机等待 2.73 秒
+2023-03-18 11:24:17,767 [INFO] 随机等待 1.96 秒
+2023-03-18 11:24:26,029 [INFO] 随机等待 1.58 秒
+2023-03-18 11:24:30,025 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html']
+2023-03-18 11:24:30,787 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:24:41,191 [INFO] 随机等待 2.31 秒
+2023-03-18 11:24:44,060 [INFO] 随机等待 1.65 秒
+2023-03-18 11:24:48,559 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-18 11:24:50,043 [INFO] 随机等待 1.36 秒
+2023-03-18 11:24:57,217 [INFO] 随机等待 1.24 秒
+2023-03-18 11:25:09,367 [INFO] 随机等待 1.31 秒
+2023-03-18 11:25:11,086 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-18 11:25:14,648 [INFO] 随机等待 2.65 秒
+2023-03-18 11:25:21,240 [INFO] 随机等待 2.92 秒
+2023-03-18 11:25:30,764 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html']
+2023-03-18 11:25:38,191 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-18 11:25:41,140 [INFO] 随机等待 1.02 秒
+2023-03-18 11:25:43,902 [INFO] 随机等待 2.78 秒
+2023-03-18 11:25:55,334 [INFO] 随机等待 3.00 秒
+2023-03-18 11:26:01,934 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-18 11:26:09,791 [INFO] 随机等待 1.67 秒
+2023-03-18 11:26:10,982 [INFO] 随机等待 2.09 秒
+2023-03-18 11:26:21,791 [INFO] 随机等待 2.04 秒
+2023-03-18 11:26:25,463 [INFO] 随机等待 2.17 秒
+2023-03-18 11:26:38,407 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-18 11:26:41,341 [INFO] 随机等待 2.98 秒
+2023-03-18 11:26:46,956 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:26:48,482 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:26:49,138 [INFO] 随机等待 2.13 秒
+2023-03-18 11:27:02,783 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:27:14,284 [INFO] 随机等待 2.68 秒
+2023-03-18 11:27:26,390 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:29:25,644 [INFO] Launching browser
+2023-03-18 11:30:26,196 [INFO] 随机等待 2.56 秒
+2023-03-18 11:30:26,940 [INFO] 随机等待 2.86 秒
+2023-03-18 11:30:27,000 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:30:27,001 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:30:27,321 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:30:27,322 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:30:37,604 [INFO] 随机等待 1.47 秒
+2023-03-18 11:30:38,045 [INFO] 随机等待 1.73 秒
+2023-03-18 11:30:47,525 [INFO] 随机等待 2.43 秒
+2023-03-18 11:30:49,033 [INFO] 随机等待 2.64 秒
+2023-03-18 11:31:04,090 [INFO] 随机等待 1.72 秒
+2023-03-18 11:31:07,203 [INFO] 随机等待 2.69 秒
+2023-03-18 11:31:10,797 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:31:10,797 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']: 爬取成功
+2023-03-18 11:31:10,798 [INFO] 随机等待 2.61 秒
+2023-03-18 11:31:10,841 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:31:10,842 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']: 爬取成功
+2023-03-18 11:31:10,842 [INFO] 随机等待 2.39 秒
+2023-03-18 11:31:24,568 [INFO] 随机等待 1.10 秒
+2023-03-18 11:31:28,102 [INFO] 随机等待 2.58 秒
+2023-03-18 11:31:29,112 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:31:29,113 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']: 爬取成功
+2023-03-18 11:31:29,113 [INFO] 随机等待 2.78 秒
+2023-03-18 11:31:31,028 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:31:31,028 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']: 爬取成功
+2023-03-18 11:31:31,028 [INFO] 随机等待 2.36 秒
+2023-03-18 11:31:45,658 [INFO] 随机等待 1.94 秒
+2023-03-18 11:31:47,602 [INFO] 随机等待 1.68 秒
+2023-03-18 11:32:00,328 [INFO] 随机等待 1.01 秒
+2023-03-18 11:32:19,332 [INFO] Launching browser
+2023-03-18 11:33:06,597 [INFO] 随机等待 1.75 秒
+2023-03-18 11:33:06,706 [INFO] 随机等待 2.04 秒
+2023-03-18 11:33:20,678 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:33:20,678 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:33:21,007 [ERROR] 2023-03-21.html: Error - Timeout 60000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1", waiting until "load"
+============================================================
+2023-03-18 11:33:21,008 [INFO] etrip第 1 次等待元素超时！尝试重新加载
+2023-03-18 11:33:41,547 [INFO] 随机等待 1.49 秒
+2023-03-18 11:34:06,341 [INFO] 随机等待 1.96 秒
+2023-03-18 11:34:20,713 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:34:20,713 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']: 爬取成功
+2023-03-18 11:34:20,713 [INFO] 2023-03-21.html: 爬取成功
+2023-03-18 11:34:20,713 [INFO] 随机等待 1.46 秒
+2023-03-18 11:34:20,714 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:20,823 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,045 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,045 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,124 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,124 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,263 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,264 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,406 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,406 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,568 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,569 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,757 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:21,757 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:22,002 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-18&checkOut=2023-03-19&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:22,002 [ERROR] Error while running task: Timeout 60000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-20&checkOut=2023-03-21&rooms=2&homeSearch=1&userSearch=1"
+============================================================
+2023-03-18 11:34:59,890 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:104> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:34:59,890 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-6' coro=<get_data() running at C:\Users\produ\Documents\GitHub\playwright-agoda\mixdata2.py:104> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168, <2 more>, ProtocolCallback.__init__.<locals>.cb() at C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:168]>
+2023-03-18 11:35:01,004 [INFO] Launching browser
+2023-03-18 11:35:50,388 [INFO] 随机等待 1.72 秒
+2023-03-18 11:36:11,106 [INFO] 随机等待 2.62 秒
+2023-03-18 11:36:11,754 [INFO] 随机等待 1.54 秒
+2023-03-18 11:36:13,441 [INFO] 随机等待 2.61 秒
+2023-03-18 11:36:50,249 [INFO] 随机等待 1.74 秒
+2023-03-18 11:36:50,632 [INFO] 随机等待 1.53 秒
+2023-03-18 11:37:06,066 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:37:06,067 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']: 爬取成功
+2023-03-18 11:37:06,067 [INFO] 2023-03-21.html: 爬取成功
+2023-03-18 11:37:06,067 [INFO] 随机等待 1.86 秒
+2023-03-18 11:37:07,715 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']
+2023-03-18 11:37:07,715 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html']: 爬取成功
+2023-03-18 11:37:07,715 [INFO] 2023-03-21.html: 爬取成功
+2023-03-18 11:37:07,715 [INFO] 随机等待 1.88 秒
+2023-03-18 11:37:42,414 [INFO] 随机等待 2.44 秒
+2023-03-18 11:37:44,164 [INFO] 随机等待 1.70 秒
+2023-03-18 11:37:45,764 [INFO] 随机等待 2.25 秒
+2023-03-18 11:37:57,206 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']
+2023-03-18 11:37:57,207 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html']: 爬取成功
+2023-03-18 11:37:57,207 [INFO] 2023-03-23.html: 爬取成功
+2023-03-18 11:37:57,207 [INFO] 随机等待 1.74 秒
+2023-03-18 11:38:11,250 [INFO] 随机等待 1.59 秒
+2023-03-18 11:38:11,758 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']
+2023-03-18 11:38:11,759 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html']: 爬取成功
+2023-03-18 11:38:11,759 [INFO] 2023-03-24.html: 爬取成功
+2023-03-18 11:38:11,759 [INFO] 随机等待 2.21 秒
+2023-03-18 11:38:34,991 [INFO] 随机等待 1.94 秒
+2023-03-18 11:38:36,427 [INFO] 随机等待 2.67 秒
+2023-03-18 11:38:39,016 [INFO] 随机等待 1.06 秒
+2023-03-18 11:38:44,737 [INFO] 随机等待 2.23 秒
+2023-03-18 11:38:55,558 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-18 11:38:55,558 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']: 爬取成功
+2023-03-18 11:38:55,558 [INFO] 2023-03-25.html: 爬取成功
+2023-03-18 11:38:55,559 [INFO] 随机等待 1.33 秒
+2023-03-18 11:38:56,164 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']
+2023-03-18 11:38:56,165 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html']: 爬取成功
+2023-03-18 11:38:56,165 [INFO] 2023-03-25.html: 爬取成功
+2023-03-18 11:38:56,165 [INFO] 随机等待 1.15 秒
+2023-03-18 11:39:03,517 [INFO] 随机等待 2.37 秒
+2023-03-18 11:39:09,197 [INFO] 随机等待 1.96 秒
+2023-03-18 11:39:11,545 [INFO] 随机等待 1.32 秒
+2023-03-18 11:39:17,009 [INFO] 随机等待 1.56 秒
+2023-03-18 11:39:23,942 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']
+2023-03-18 11:39:23,942 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html']: 爬取成功
+2023-03-18 11:39:23,942 [INFO] 2023-03-27.html: 爬取成功
+2023-03-18 11:39:23,942 [INFO] 随机等待 1.64 秒
+2023-03-18 11:39:35,854 [INFO] 随机等待 1.52 秒
+2023-03-18 11:39:38,319 [INFO] 随机等待 2.25 秒
+2023-03-18 11:39:39,520 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']
+2023-03-18 11:39:39,521 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html']: 爬取成功
+2023-03-18 11:39:39,521 [INFO] 2023-03-28.html: 爬取成功
+2023-03-18 11:39:39,522 [INFO] 随机等待 2.04 秒
+2023-03-18 11:39:39,719 [INFO] 随机等待 1.12 秒
+2023-03-18 11:39:53,122 [INFO] 随机等待 2.26 秒
+2023-03-18 11:40:00,618 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-18 11:40:00,618 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']: 爬取成功
+2023-03-18 11:40:00,618 [INFO] 2023-03-29.html: 爬取成功
+2023-03-18 11:40:00,618 [INFO] 随机等待 2.07 秒
+2023-03-18 11:40:00,928 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']
+2023-03-18 11:40:00,928 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html']: 爬取成功
+2023-03-18 11:40:00,929 [INFO] 2023-03-29.html: 爬取成功
+2023-03-18 11:40:00,929 [INFO] 随机等待 1.50 秒
+2023-03-18 11:40:01,501 [INFO] 随机等待 2.89 秒
+2023-03-18 11:40:13,082 [INFO] 随机等待 2.31 秒
+2023-03-18 11:40:17,121 [INFO] 随机等待 2.78 秒
+2023-03-18 11:40:19,938 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:40:19,939 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']: 爬取成功
+2023-03-18 11:40:19,939 [INFO] 2023-03-30.html: 爬取成功
+2023-03-18 11:40:19,939 [INFO] 随机等待 2.18 秒
+2023-03-18 11:40:31,590 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:40:31,591 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']: 爬取成功
+2023-03-18 11:40:31,591 [INFO] 2023-03-30.html: 爬取成功
+2023-03-18 11:40:31,591 [INFO] 随机等待 1.55 秒
+2023-03-18 11:40:35,407 [INFO] 随机等待 2.12 秒
+2023-03-18 11:40:47,535 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']
+2023-03-18 11:40:47,535 [INFO] ['2023-03-18.html', '2023-03-19.html', '2023-03-20.html', '2023-03-21.html', '2023-03-22.html', '2023-03-23.html', '2023-03-24.html', '2023-03-25.html', '2023-03-26.html', '2023-03-27.html', '2023-03-28.html', '2023-03-29.html', '2023-03-30.html']: 爬取成功
+2023-03-18 11:40:47,535 [INFO] 2023-03-30.html: 爬取成功
+2023-03-18 11:40:47,535 [INFO] 随机等待 2.47 秒
