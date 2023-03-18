@@ -38,6 +38,9 @@ def save_data():
     ws.cell(row=1, column=3, value="Price")
     ws.cell(row=1, column=4, value="Status")
 
+    # 为第一行添加筛选功能
+    ws.auto_filter.ref = "A1:D1"
+
     # 解析数据，并按 Check-in 列排序
     new_data = []
     for filename in os.listdir("."):

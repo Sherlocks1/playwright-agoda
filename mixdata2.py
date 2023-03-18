@@ -1,4 +1,3 @@
-import os
 import re
 import logging
 import asyncio
@@ -23,16 +22,14 @@ def clean_filename(url: str) -> str:
 
 async def random_wait(min_time=1.0, max_time=3.0):
     seconds = random.uniform(min_time, max_time)
-    logging.info(f"随机等待 {seconds:.2f} 秒")
+    # logging.info(f"{task_name}{filename}随机等待 {seconds:.2f} 秒")
     await asyncio.sleep(seconds)
 
 
-async def get_data(page, url, filenames, max_retries=4):
+async def get_data(page, url, filename, max_retries, task_name=None):
+    logging.info(f"{task_name} 开始爬取：{filename}")
     page1 = None
     retries = 0
-
-    filename = clean_filename(url)
-    filenames.append(filename)  # 将文件名添加到列表中
 
     while True:
         try:
@@ -48,15 +45,18 @@ async def get_data(page, url, filenames, max_retries=4):
             await agd_logo.click()
 
             # 等待新窗口打开
-            async with page.expect_popup() as page1_info:
+            async with page.expect_popup(timeout=180000) as page1_info:
                 page1 = await page1_info.value
                 await page.close()
                 break
 
         except Exception as e:
-            logging.error(f"{filenames[-1]}: Error - {e}")
-            logging.info(f"etrip第 {retries + 1} 次等待元素超时！尝试重新加载")
+
+            logging.error(f"{task_name} - {filename}: Error - {e}")
+            logging.info(f"{task_name} - {filename}: Etrip页第 {retries + 1} 次等待元素超时！尝试重新加载")
             if retries == max_retries:
+                logging.info(f"{task_name} - {filename}: Etrip页达到最大重试次数,爬取失败")
+                await page.close()
                 return  # 达到最大重试次数，退出程序
             else:
                 # 刷新页面，并递增计数器
@@ -69,7 +69,7 @@ async def get_data(page, url, filenames, max_retries=4):
         page2 = None
         retries = 0
 
-        async with page1.expect_popup(timeout=60000) as page2_info:
+        async with page1.expect_popup(timeout=180000) as page2_info:
             while True:
                 try:
 
@@ -92,9 +92,11 @@ async def get_data(page, url, filenames, max_retries=4):
 
                     break
                 except Exception as e:
-                    logging.error(f"{filenames[-1]}: Error - {e}")
-                    logging.info(f"agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                    logging.error(f"{task_name} - {filename}: Error - {e}")
+                    logging.info(f"{task_name} - {filename}Agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
+                        logging.info(f"{task_name} - {filename}: Agoda列表页达到最大重试次数,爬取失败")
+                        await page1.close()
                         return  # 达到最大重试次数，退出程序
                     else:
                         # 刷新页面，并递增计数器
@@ -116,9 +118,8 @@ async def get_data(page, url, filenames, max_retries=4):
                     with open(filename, "w", encoding="utf-8") as f:
                         f.write(html)
 
-                    logging.info(filenames)
-                    logging.info(f"{filenames}: 爬取成功")
-                    logging.info(f"{filenames[-1]}: 爬取成功")
+                    logging.info(f"{task_name} - {filename}: 爬取成功")
+
                     # 随机等待一段时间
                     await random_wait()
 
@@ -127,8 +128,9 @@ async def get_data(page, url, filenames, max_retries=4):
 
                 except Exception as e:
                     logging.error(f"Error: {e}")
+                    logging.info(f"{task_name} - {filename}酒店页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
-                        logging.info(f"酒店页面第 {retries + 1} 次等待元素超时！尝试重新加载")
+                        logging.info(f"{task_name} - {filename}酒店页达到最大重试次数,爬取失败")
                         return  # 达到最大重试次数，退出程序
 
 
@@ -148,10 +150,11 @@ async def main():
         context.set_default_timeout(timeout)
 
         tasks = []
-        filenames = []
 
-        MAX_CONCURRENT_TASKS = 4  # 控制同时执行的任务数量
+        MAX_CONCURRENT_TASKS = int(input("请设置最大运行任务数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
         current_task_count = 0  # 当前正在执行的任务数
+
+        max_retries = int(input("请设置最大重试次数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
 
         for i in range(len(urls)):
             if current_task_count >= MAX_CONCURRENT_TASKS:
@@ -166,7 +169,14 @@ async def main():
 
             page = await context.new_page()
             page.set_default_timeout(timeout)
-            task = asyncio.create_task(get_data(page, urls[i], filenames))  # 传递 filenames 参数
+
+            task_name = f"Task {i + 1}"
+
+            filename = clean_filename(urls[i])
+
+            task = asyncio.create_task(
+                get_data(page, urls[i], filename,max_retries=max_retries,task_name=task_name))  # 传递 filenames 和 task_name 参数
+
             tasks.append(task)
             current_task_count += 1
 

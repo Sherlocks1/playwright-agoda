@@ -5,9 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
+      <change afterPath="$PROJECT_DIR$/2023-03-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-03-31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-07.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-08.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023-04-20.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mixdata2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixdata2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
