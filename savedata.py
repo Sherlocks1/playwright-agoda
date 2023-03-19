@@ -1,9 +1,7 @@
 import os
 from datetime import datetime
-from openpyxl import load_workbook
-from openpyxl import Workbook
+from openpyxl import Workbook, load_workbook
 from explaindata2 import explain_data
-from openpyxl.styles import PatternFill
 
 delete_html_files_input = input("是否删除所有 HTML 文件？输入 1 表示是，输入 0 表示否：")
 
@@ -20,23 +18,24 @@ def save_data():
     desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
     xls_path = os.path.join(desktop_path, filename)
 
-    # 如果文件已存在，则加载它
-    wb = None
-    if os.path.exists(xls_path) and os.path.isfile(xls_path):
-        wb = load_workbook(xls_path)
-
-    # 创建新的 Excel 文件
-    if not wb:
+    # 创建或打开Excel文件
+    try:
+        wb = load_workbook(filename=xls_path)
+    except FileNotFoundError:
         wb = Workbook()
-    current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    ws = wb.active
-    ws.title = f"Sheet1_{current_time}"
 
-    # 写入表头
-    ws.cell(row=1, column=1, value="Check-in")
-    ws.cell(row=1, column=2, value="Room Name")
-    ws.cell(row=1, column=3, value="Price")
-    ws.cell(row=1, column=4, value="Status")
+    current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    ws_title = f"Sheet1_{current_time}"
+
+    # 判断是否已存在该表名，如果已存在，则添加数字后缀直至不存在为止
+    suffix = 1
+    while ws_title in wb.sheetnames:
+        ws_title = f"Sheet{suffix}_{current_time}"
+        suffix += 1
+
+    # 创建新的工作表并写入数据
+    ws = wb.create_sheet(title=ws_title)
+    ws.append(["Check-in", "Room Name", "Price", "Status"])
 
     # 为第一行添加筛选功能
     ws.auto_filter.ref = "A1:D1"
@@ -58,64 +57,15 @@ def save_data():
 
     new_data = sorted(new_data, key=lambda row: row[0])
 
-    # 如果文件已存在，则读取数据以供比较
-    old_data = []
-    if wb:
-        sheet = wb.active
-        for row in sorted(sheet.iter_rows(min_row=2, values_only=True), key=lambda x: x[0]):
-            old_row = list(row)
-            # 将列表类型转换为字符串类型
-            old_row[1] = str(old_row[1])
-            old_data.append(old_row)
-
-    for new_row_num, new_row in enumerate(new_data, start=len(old_data) + 2):
-
+    for new_row_num, new_row in enumerate(new_data, start=2):
         # 将日期格式化为字符串
         new_row[0] = new_row[0].strftime('%Y-%m-%d')
 
         # 将包含房间名称的列表转换为字符串
         new_room_names = ", ".join(map(str, new_row[1]))
 
-        # 查找旧数据是否包含相同的行，并将新数据覆盖旧数据
-        old_row_nums = [i + 1 for i, old_row in enumerate(old_data)
-                        if old_row[0] == new_row[0]
-                        and ", ".join(map(str, old_row[1])) == new_room_names]
-
-        if old_row_nums:
-            # 遍历每个匹配的旧行，并更新单元格值
-            for old_row_num in old_row_nums:
-                for col_num, col_value in enumerate(new_row, start=1):
-                    cell = ws.cell(row=old_row_num, column=col_num)
-                    try:
-                        cell.value = col_value
-                    except ValueError:
-                        # 当值无法转换为 Excel 格式时，将其转换为字符串格式
-                        if col_num == 2:
-                            col_value = ", ".join(map(str, col_value))
-                            cell.value = col_value
-                        else:
-                            print(f"ERROR: row {old_row_num}, column {col_num}, data: {col_value}")
-
-                # 如果新数据的房态与旧行房态不完全匹配，则需要标记单元格
-                old_status = ws.cell(row=old_row_num, column=4).value
-                new_status = new_row[3]
-                if old_status != new_status:
-                    cell = ws.cell(row=old_row_num, column=4)
-                    cell.fill = PatternFill("solid", fgColor="FFFF00")
-                    cell.value = f"{old_status} -> {new_status}"
-        else:
-            # 如果未找到匹配的旧行，则将新数据添加到末尾
-            for col_num, col_value in enumerate(new_row, start=1):
-                cell = ws.cell(row=new_row_num, column=col_num)
-                try:
-                    cell.value = col_value
-                except ValueError:
-                    # 当值无法转换为 Excel 格式时，将其转换为字符串格式
-                    if col_num == 2:
-                        col_value = ", ".join(map(str, col_value))
-                        cell.value = col_value
-                    else:
-                        print(f"ERROR: row {new_row_num}, column {col_num}, data: {col_value}")
+        # 写入新行数据
+        ws.append([new_row[0], new_room_names, new_row[2], new_row[3]])
 
     # 自动调整列宽
     for col in ws.columns:
@@ -136,6 +86,7 @@ def save_data():
     # 保存 Excel 文件
     wb.save(filename=xls_path)
 
+    # 根据需要删除 HTML 文件
     while True:
         if delete_html_files_input == "1":
             delete_html_files()

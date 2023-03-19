@@ -5,11 +5,15 @@ import random
 
 from playwright.async_api import async_playwright
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', handlers=[
-    logging.FileHandler("my_log_file.log"),
-    logging.StreamHandler()
-])
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("my_log_file.log"),
+        logging.StreamHandler(),
+    ],
+)
 
 def clean_filename(url: str) -> str:
     match = re.search(r'checkIn=(\d{4}-\d{2}-\d{1,2})', url)
