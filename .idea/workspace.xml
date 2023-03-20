@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/playwright-agoda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/playwright-agoda.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explaindata2.py" beforeDir="false" afterPath="$PROJECT_DIR$/explaindata2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mixdata3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixdata3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urlgen.py" beforeDir="false" afterPath="$PROJECT_DIR$/urlgen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>

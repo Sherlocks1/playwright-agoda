@@ -132,7 +132,6 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                               "Chrome/90.0.4430.212 Safari/537.36",
                 "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
                 "Accept-Encoding": "gzip, deflate, br",
-                "Connection": "keep-alive",
             }
 
             await page2.set_extra_http_headers(Agodahotel_headers)
