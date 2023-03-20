@@ -5,7 +5,6 @@ import random
 import aiofiles
 from playwright.async_api import async_playwright
 
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -14,6 +13,7 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
+
 
 def clean_filename(url: str) -> str:
     match = re.search(r'checkIn=(\d{4}-\d{2}-\d{1,2})', url)
@@ -35,8 +35,17 @@ async def get_data(page, url, filename, max_retries, task_name=None):
     page1 = None
     retries = 0
 
+    Etrip_headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41",
+        "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+    }
+
     while True:
         try:
+            await page.set_extra_http_headers(Etrip_headers)
+
             await page.goto(url)
 
             # 等待 AGD-logo 出现
@@ -49,7 +58,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
             await agd_logo.click()
 
             # 等待新窗口打开
-            async with page.expect_popup(timeout=180000) as page1_info:
+            async with page.expect_popup(timeout=120000) as page1_info:
                 page1 = await page1_info.value
                 await page.close()
                 break
@@ -68,12 +77,21 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                 retries += 1
 
     async with page1:
+
+        Agodalist_headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                          "Chrome/90.0.4430.212 Safari/537.36",
+            "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+            "Accept-Encoding": "gzip, deflate, br",
+        }
+
+        await page1.set_extra_http_headers(Agodalist_headers)
         await page1.goto(page1.url)
 
         page2 = None
         retries = 0
 
-        async with page1.expect_popup(timeout=180000) as page2_info:
+        async with page1.expect_popup(timeout=120000) as page2_info:
             while True:
                 try:
 
@@ -108,6 +126,16 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                         retries += 1
 
         async with page2:
+
+            Agodahotel_headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/90.0.4430.212 Safari/537.36",
+                "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Connection": "keep-alive",
+            }
+
+            await page2.set_extra_http_headers(Agodahotel_headers)
             await page2.goto(page2.url)
 
             retries = 0
@@ -137,6 +165,10 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                     if retries == max_retries:
                         logging.warning(f"{task_name} - {filename}酒店页达到最大重试次数,爬取失败")
                         return  # 达到最大重试次数，退出程序
+                    else:
+                        # 刷新页面，并递增计数器
+                        await page2.reload()
+                        retries += 1
 
 
 async def main():
@@ -145,9 +177,14 @@ async def main():
         urls = f.read().splitlines()
 
     async with async_playwright() as p:
-        logging.info('Launching browser')
 
-        browser = await p.chromium.launch(headless=False)
+        headless = int(input("任务是否在后台运行："))  # 请求用户输入并将其转换为整数
+        if headless == 1:
+            headless = True
+        else:
+            headless = False
+
+        browser = await p.chromium.launch(headless=headless)
         context = await browser.new_context()
 
         # 设置页面默认超时时间为60秒
@@ -159,7 +196,7 @@ async def main():
         MAX_CONCURRENT_TASKS = int(input("请设置最大运行任务数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
         current_task_count = 0  # 当前正在执行的任务数
 
-        max_retries = int(input("请设置最大重试次数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
+        max_retries = int(input("请设置最大重试次数："))  # 请求用户输入并将其转换为整数 # 控制最大重试次数
 
         for i in range(len(urls)):
             if current_task_count >= MAX_CONCURRENT_TASKS:
@@ -180,7 +217,8 @@ async def main():
             filename = clean_filename(urls[i])
 
             task = asyncio.create_task(
-                get_data(page, urls[i], filename,max_retries=max_retries,task_name=task_name))  # 传递 filenames 和 task_name 参数
+                get_data(page, urls[i], filename, max_retries=max_retries,
+                         task_name=task_name))  # 传递 filenames 和 task_name 参数
 
             tasks.append(task)
             current_task_count += 1
@@ -201,6 +239,21 @@ if __name__ == '__main__':
     try:
         logging.info("程序开始运行")
         asyncio.run(main())
-        logging.info("程序结束运行")
+
+        # 统计爬取状态并输出
+        success_files = []
+        fail_files = []
+        with open("urls.txt", "r") as f:
+            urls = f.read().splitlines()
+        for url in urls:
+            filename = clean_filename(url)
+            try:
+                with open(filename, 'r', encoding='utf-8') as f:
+                    success_files.append(filename)
+            except FileNotFoundError:
+                fail_files.append(filename)
+
+        logging.info(f"程序运行完毕 - 爬取成功：{', '.join(success_files)}, 爬取失败：{', '.join(fail_files)}")
+
     except Exception as e:
         logging.error(f"Error: {e}")
