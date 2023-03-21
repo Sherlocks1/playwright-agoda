@@ -170,7 +170,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                         retries += 1
 
 
-async def main():
+async def clawer():
     # 打开存储 URL 的文件
     with open("urls.txt", "r") as f:
         urls = f.read().splitlines()
@@ -237,7 +237,7 @@ async def main():
 if __name__ == '__main__':
     try:
         logging.info("程序开始运行")
-        asyncio.run(main())
+        asyncio.run(clawer())
 
         # 统计爬取状态并输出
         success_files = []
