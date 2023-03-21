@@ -8,7 +8,9 @@ if hotel_choice == "1":
         "王子宫殿酒店": "1043047",
         "艾里四分之一UHG酒店": "4387380",
         "江陵Hi Ocean镜浦酒店": "5272524",
-        "镜浦天空酒店": "3579492"
+        "镜浦天空酒店": "3579492",
+        "芽庄皇宫酒店": "5010957"
+
     }  # 这里是示例酒店列表，您需要替换成您实际可选酒店名和对应ID
     print("可选酒店列表：")
     for index, hotel in enumerate(hotels):
@@ -21,7 +23,7 @@ else:
     hotel_id = input("请输入酒店ID：")
 
 base_url = f"https://search.etrip.net/Hotel/Search?hotelId={hotel_id}&checkIn={{check_in_date}}&checkOut={{" \
-           f"check_out_date}}&rooms=2%7C1&homeSearch=1&userSearch=1"
+           f"check_out_date}}&rooms=2&userSearch=1"
 
 check_in_date_str = input("请输入入住日期（格式为MM-DD）：")
 check_out_date_str = input("请输入离店日期（格式为MM-DD）：")

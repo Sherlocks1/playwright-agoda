@@ -21,7 +21,8 @@ def save_data():
             "王子宫殿酒店": "1043047",
             "艾里四分之一UHG酒店": "4387380",
             "江陵Hi Ocean镜浦酒店": "5272524",
-            "镜浦天空酒店": "3579492"
+            "镜浦天空酒店": "3579492",
+            "芽庄皇宫酒店": "5010957"
         }  # 这里是示例酒店列表，您需要替换成您实际可选酒店名和对应ID
         print("可选酒店列表：")
         for index, hotel in enumerate(hotels):
@@ -30,7 +31,7 @@ def save_data():
         selected_hotel_name = list(hotels.keys())[selected_hotel_index]
         file_name = f"{selected_hotel_name}.xlsx"
     else:
-        file_name = input("请指定文件名（不需要加后缀）：").xlsx
+        file_name = input("请指定文件名（不需要加后缀）：") + ".xlsx"
 
     # 指定保存 Excel 文件的路径
     desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')

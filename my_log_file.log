@@ -12345,3 +12345,355 @@ waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to
 2023-03-20 17:18:12,538 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-20 17:18:13,980 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-20 17:18:17,895 [INFO] 程序运行完毕 - 爬取成功：2023-03-20.html, 2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-21 09:18:03,772 [INFO] 程序开始运行
+2023-03-21 09:18:20,341 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 09:18:20,456 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 09:18:20,628 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 09:18:20,762 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 09:18:20,889 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 09:18:48,044 [ERROR] Task 1 - 2023-03-21.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-03-21 09:18:48,045 [INFO] Task 1 - 2023-03-21.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 09:18:48,084 [ERROR] Task 3 - 2023-03-23.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-21 09:18:48,084 [INFO] Task 3 - 2023-03-23.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 09:18:48,389 [ERROR] Task 4 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-03-21 09:18:48,390 [INFO] Task 4 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 09:20:01,772 [INFO] Task 2 - 2023-03-22.html: 爬取成功
+2023-03-21 09:20:03,362 [INFO] Task 5 - 2023-03-25.html: 爬取成功
+2023-03-21 09:20:08,460 [INFO] Task 6 开始爬取：2023-03-26.html
+2023-03-21 09:20:09,002 [INFO] Task 7 开始爬取：2023-03-27.html
+2023-03-21 09:20:17,562 [INFO] Task 4 - 2023-03-24.html: 爬取成功
+2023-03-21 09:20:20,942 [INFO] Task 8 开始爬取：2023-03-28.html
+2023-03-21 09:20:36,972 [INFO] Task 1 - 2023-03-21.html: 爬取成功
+2023-03-21 09:20:40,198 [INFO] Task 9 开始爬取：2023-03-29.html
+2023-03-21 09:20:50,038 [INFO] Task 3 - 2023-03-23.html: 爬取成功
+2023-03-21 09:20:52,799 [INFO] Task 10 开始爬取：2023-03-30.html
+2023-03-21 09:21:15,744 [INFO] Task 6 - 2023-03-26.html: 爬取成功
+2023-03-21 09:21:18,767 [INFO] Task 11 开始爬取：2023-03-31.html
+2023-03-21 09:21:19,696 [INFO] Task 8 - 2023-03-28.html: 爬取成功
+2023-03-21 09:21:20,926 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:21:29,318 [INFO] Task 9 - 2023-03-29.html: 爬取成功
+2023-03-21 09:21:32,182 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:21:38,783 [INFO] Task 10 - 2023-03-30.html: 爬取成功
+2023-03-21 09:21:40,067 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:22:18,967 [INFO] Task 11 - 2023-03-31.html: 爬取成功
+2023-03-21 09:22:21,937 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:22:27,546 [ERROR] Task 7 - 2023-03-27.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-21 09:22:27,546 [INFO] Task 7 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 09:23:20,240 [INFO] Task 7 - 2023-03-27.html: 爬取成功
+2023-03-21 09:23:21,308 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:23:22,414 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-21 09:27:58,249 [INFO] 程序开始运行
+2023-03-21 09:28:05,192 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 09:28:05,322 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 09:28:05,517 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 09:28:05,603 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 09:28:05,774 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 09:30:15,603 [INFO] Task 3 - 2023-03-23.html: 爬取成功
+2023-03-21 09:30:16,251 [INFO] Task 4 - 2023-03-24.html: 爬取成功
+2023-03-21 09:30:17,927 [INFO] Task 6 开始爬取：2023-03-26.html
+2023-03-21 09:30:18,194 [INFO] Task 7 开始爬取：2023-03-27.html
+2023-03-21 09:31:02,456 [INFO] Task 2 - 2023-03-22.html: 爬取成功
+2023-03-21 09:31:04,511 [INFO] Task 8 开始爬取：2023-03-28.html
+2023-03-21 09:31:05,032 [INFO] Task 5 - 2023-03-25.html: 爬取成功
+2023-03-21 09:31:06,792 [INFO] Task 9 开始爬取：2023-03-29.html
+2023-03-21 09:31:16,797 [INFO] Task 1 - 2023-03-21.html: 爬取成功
+2023-03-21 09:31:19,259 [INFO] Task 10 开始爬取：2023-03-30.html
+2023-03-21 09:31:54,892 [INFO] Task 6 - 2023-03-26.html: 爬取成功
+2023-03-21 09:31:57,865 [INFO] Task 11 开始爬取：2023-03-31.html
+2023-03-21 09:32:24,322 [INFO] Task 7 - 2023-03-27.html: 爬取成功
+2023-03-21 09:32:27,352 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:32:55,128 [INFO] Task 9 - 2023-03-29.html: 爬取成功
+2023-03-21 09:32:56,442 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:33:15,810 [INFO] Task 8 - 2023-03-28.html: 爬取成功
+2023-03-21 09:33:16,970 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:33:42,564 [INFO] Task 10 - 2023-03-30.html: 爬取成功
+2023-03-21 09:33:44,988 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:33:48,119 [INFO] Task 11 - 2023-03-31.html: 爬取成功
+2023-03-21 09:33:49,752 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:33:53,217 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-21 09:44:51,320 [INFO] 程序开始运行
+2023-03-21 09:45:06,303 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 09:45:06,433 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 09:45:06,564 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 09:45:06,648 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 09:45:06,799 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 09:47:16,065 [INFO] Task 3 - 2023-03-23.html: 爬取成功
+2023-03-21 09:47:18,211 [INFO] Task 6 开始爬取：2023-03-26.html
+2023-03-21 09:47:18,549 [INFO] Task 1 - 2023-03-21.html: 爬取成功
+2023-03-21 09:47:20,539 [INFO] Task 7 开始爬取：2023-03-27.html
+2023-03-21 09:48:14,534 [INFO] Task 2 - 2023-03-22.html: 爬取成功
+2023-03-21 09:48:14,647 [INFO] Task 4 - 2023-03-24.html: 爬取成功
+2023-03-21 09:48:16,449 [INFO] Task 8 开始爬取：2023-03-28.html
+2023-03-21 09:48:17,384 [INFO] Task 9 开始爬取：2023-03-29.html
+2023-03-21 09:48:26,540 [INFO] Task 5 - 2023-03-25.html: 爬取成功
+2023-03-21 09:48:27,791 [INFO] Task 10 开始爬取：2023-03-30.html
+2023-03-21 09:48:54,936 [INFO] Task 6 - 2023-03-26.html: 爬取成功
+2023-03-21 09:48:56,239 [INFO] Task 11 开始爬取：2023-03-31.html
+2023-03-21 09:49:34,505 [INFO] Task 7 - 2023-03-27.html: 爬取成功
+2023-03-21 09:49:36,775 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:49:54,264 [INFO] Task 8 - 2023-03-28.html: 爬取成功
+2023-03-21 09:49:56,333 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:50:30,817 [INFO] Task 11 - 2023-03-31.html: 爬取成功
+2023-03-21 09:50:33,412 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:50:34,594 [INFO] Task 9 - 2023-03-29.html: 爬取成功
+2023-03-21 09:50:37,328 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:50:51,034 [INFO] Task 10 - 2023-03-30.html: 爬取成功
+2023-03-21 09:50:52,610 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 09:50:56,066 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-21 10:01:19,284 [INFO] 程序开始运行
+2023-03-21 10:01:30,855 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 10:01:30,982 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 10:01:31,067 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 10:01:31,205 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 10:01:31,329 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 10:03:34,000 [INFO] Task 1 - 2023-03-21.html: 爬取成功
+2023-03-21 10:03:36,706 [INFO] Task 6 开始爬取：2023-03-26.html
+2023-03-21 10:04:21,280 [INFO] Task 2 - 2023-03-22.html: 爬取成功
+2023-03-21 10:04:24,783 [INFO] Task 7 开始爬取：2023-03-27.html
+2023-03-21 10:04:25,872 [INFO] Task 4 - 2023-03-24.html: 爬取成功
+2023-03-21 10:04:27,728 [INFO] Task 8 开始爬取：2023-03-28.html
+2023-03-21 10:04:39,560 [INFO] Task 5 - 2023-03-25.html: 爬取成功
+2023-03-21 10:04:42,485 [INFO] Task 9 开始爬取：2023-03-29.html
+2023-03-21 10:04:48,131 [ERROR] Task 3 - 2023-03-23.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-21 10:04:48,131 [INFO] Task 3 - 2023-03-23.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:05:00,719 [INFO] Task 6 - 2023-03-26.html: 爬取成功
+2023-03-21 10:05:02,437 [INFO] Task 10 开始爬取：2023-03-30.html
+2023-03-21 10:06:26,193 [INFO] Task 7 - 2023-03-27.html: 爬取成功
+2023-03-21 10:06:31,188 [INFO] Task 11 开始爬取：2023-03-31.html
+2023-03-21 10:06:50,962 [INFO] Task 8 - 2023-03-28.html: 爬取成功
+2023-03-21 10:06:57,215 [INFO] Task 9 - 2023-03-29.html: 爬取成功
+2023-03-21 10:06:57,548 [INFO] Task 12 开始爬取：2023-04-01.html
+2023-03-21 10:06:59,201 [INFO] Task 13 开始爬取：2023-04-02.html
+2023-03-21 10:07:14,904 [INFO] Task 3 - 2023-03-23.html: 爬取成功
+2023-03-21 10:07:20,325 [INFO] Task 14 开始爬取：2023-04-03.html
+2023-03-21 10:07:23,451 [INFO] Task 10 - 2023-03-30.html: 爬取成功
+2023-03-21 10:07:26,575 [INFO] Task 15 开始爬取：2023-04-04.html
+2023-03-21 10:08:05,530 [INFO] Task 11 - 2023-03-31.html: 爬取成功
+2023-03-21 10:08:07,472 [INFO] Task 16 开始爬取：2023-04-05.html
+2023-03-21 10:08:25,081 [INFO] Task 12 - 2023-04-01.html: 爬取成功
+2023-03-21 10:08:26,706 [INFO] Task 17 开始爬取：2023-04-06.html
+2023-03-21 10:08:49,837 [INFO] Task 13 - 2023-04-02.html: 爬取成功
+2023-03-21 10:08:52,008 [INFO] Task 18 开始爬取：2023-04-07.html
+2023-03-21 10:09:11,627 [INFO] Task 14 - 2023-04-03.html: 爬取成功
+2023-03-21 10:09:12,837 [INFO] Task 19 开始爬取：2023-04-08.html
+2023-03-21 10:09:46,841 [INFO] Task 15 - 2023-04-04.html: 爬取成功
+2023-03-21 10:09:55,905 [INFO] Task 20 开始爬取：2023-04-09.html
+2023-03-21 10:10:01,504 [INFO] Task 16 - 2023-04-05.html: 爬取成功
+2023-03-21 10:10:03,042 [ERROR] Task 17 - 2023-04-06.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-21 10:10:03,043 [INFO] Task 17 - 2023-04-06.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:10:06,028 [INFO] Task 21 开始爬取：2023-04-10.html
+2023-03-21 10:10:32,138 [INFO] Task 17 - 2023-04-06.html: 爬取成功
+2023-03-21 10:10:33,555 [INFO] Task 22 开始爬取：2023-04-11.html
+2023-03-21 10:10:38,491 [INFO] Task 19 - 2023-04-08.html: 爬取成功
+2023-03-21 10:10:50,541 [INFO] Task 23 开始爬取：2023-04-12.html
+2023-03-21 10:11:19,289 [INFO] Task 18 - 2023-04-07.html: 爬取成功
+2023-03-21 10:11:23,023 [INFO] Task 20 - 2023-04-09.html: 爬取成功
+2023-03-21 10:11:23,909 [INFO] Task 24 开始爬取：2023-04-13.html
+2023-03-21 10:11:25,808 [INFO] Task 25 开始爬取：2023-04-14.html
+2023-03-21 10:11:55,257 [INFO] Task 21 - 2023-04-10.html: 爬取成功
+2023-03-21 10:11:56,912 [INFO] Task 26 开始爬取：2023-04-15.html
+2023-03-21 10:12:01,277 [INFO] Task 22 - 2023-04-11.html: 爬取成功
+2023-03-21 10:12:05,472 [INFO] Task 27 开始爬取：2023-04-16.html
+2023-03-21 10:12:19,880 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-21 10:12:19,880 [INFO] Task 23 - 2023-04-12.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:12:47,507 [INFO] Task 23 - 2023-04-12.html: 爬取成功
+2023-03-21 10:12:58,598 [INFO] Task 24 - 2023-04-13.html: 爬取成功
+2023-03-21 10:13:02,413 [INFO] Task 25 - 2023-04-14.html: 爬取成功
+2023-03-21 10:13:08,910 [INFO] Task 28 开始爬取：2023-04-17.html
+2023-03-21 10:13:09,721 [INFO] Task 29 开始爬取：2023-04-18.html
+2023-03-21 10:13:10,262 [INFO] Task 30 开始爬取：2023-04-19.html
+2023-03-21 10:13:45,075 [INFO] Task 27 - 2023-04-16.html: 爬取成功
+2023-03-21 10:13:48,929 [INFO] Task 31 开始爬取：2023-04-20.html
+2023-03-21 10:14:22,062 [ERROR] Task 26 - 2023-04-15.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-21 10:14:22,062 [INFO] Task 26 - 2023-04-15.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:14:45,077 [INFO] Task 28 - 2023-04-17.html: 爬取成功
+2023-03-21 10:14:47,200 [INFO] Task 32 开始爬取：2023-04-21.html
+2023-03-21 10:14:54,257 [INFO] Task 29 - 2023-04-18.html: 爬取成功
+2023-03-21 10:14:56,214 [INFO] Task 33 开始爬取：2023-04-22.html
+2023-03-21 10:15:42,563 [INFO] Task 30 - 2023-04-19.html: 爬取成功
+2023-03-21 10:15:45,226 [INFO] Task 34 开始爬取：2023-04-23.html
+2023-03-21 10:16:04,596 [INFO] Task 31 - 2023-04-20.html: 爬取成功
+2023-03-21 10:16:09,919 [INFO] Task 35 开始爬取：2023-04-24.html
+2023-03-21 10:17:14,443 [INFO] Task 32 - 2023-04-21.html: 爬取成功
+2023-03-21 10:17:16,468 [INFO] Task 36 开始爬取：2023-04-25.html
+2023-03-21 10:17:28,442 [INFO] Task 33 - 2023-04-22.html: 爬取成功
+2023-03-21 10:17:30,952 [INFO] Task 37 开始爬取：2023-04-26.html
+2023-03-21 10:17:48,657 [INFO] Task 26 - 2023-04-15.html: 爬取成功
+2023-03-21 10:17:56,767 [INFO] Task 38 开始爬取：2023-04-27.html
+2023-03-21 10:17:59,677 [INFO] Task 34 - 2023-04-23.html: 爬取成功
+2023-03-21 10:18:01,317 [INFO] Task 39 开始爬取：2023-04-28.html
+2023-03-21 10:18:05,245 [INFO] Task 35 - 2023-04-24.html: 爬取成功
+2023-03-21 10:18:11,324 [INFO] Task 40 开始爬取：2023-04-29.html
+2023-03-21 10:18:27,401 [INFO] Task 36 - 2023-04-25.html: 爬取成功
+2023-03-21 10:18:29,833 [INFO] Task 41 开始爬取：2023-04-30.html
+2023-03-21 10:19:31,823 [INFO] Task 37 - 2023-04-26.html: 爬取成功
+2023-03-21 10:19:38,890 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:19:57,414 [INFO] Task 38 - 2023-04-27.html: 爬取成功
+2023-03-21 10:19:59,370 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:20:01,212 [INFO] Task 39 - 2023-04-28.html: 爬取成功
+2023-03-21 10:20:02,457 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:20:14,680 [INFO] Task 40 - 2023-04-29.html: 爬取成功
+2023-03-21 10:20:19,024 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:20:20,578 [INFO] Task 41 - 2023-04-30.html: 爬取成功
+2023-03-21 10:20:23,431 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:20:29,049 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 2023-04-01.html, 2023-04-02.html, 2023-04-03.html, 2023-04-04.html, 2023-04-05.html, 2023-04-06.html, 2023-04-07.html, 2023-04-08.html, 2023-04-09.html, 2023-04-10.html, 2023-04-11.html, 2023-04-12.html, 2023-04-13.html, 2023-04-14.html, 2023-04-15.html, 2023-04-16.html, 2023-04-17.html, 2023-04-18.html, 2023-04-19.html, 2023-04-20.html, 2023-04-21.html, 2023-04-22.html, 2023-04-23.html, 2023-04-24.html, 2023-04-25.html, 2023-04-26.html, 2023-04-27.html, 2023-04-28.html, 2023-04-29.html, 2023-04-30.html, 爬取失败：
+2023-03-21 10:49:47,081 [INFO] 程序开始运行
+2023-03-21 10:49:56,869 [INFO] Task 1 开始爬取：2023-04-15.html
+2023-03-21 10:49:56,990 [INFO] Task 2 开始爬取：2023-04-16.html
+2023-03-21 10:49:57,195 [INFO] Task 3 开始爬取：2023-04-17.html
+2023-03-21 10:49:57,279 [INFO] Task 4 开始爬取：2023-04-18.html
+2023-03-21 10:49:57,414 [INFO] Task 5 开始爬取：2023-04-19.html
+2023-03-21 10:50:31,015 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-21 10:50:31,022 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,073 [INFO] Task 6 开始爬取：2023-04-20.html
+2023-03-21 10:50:32,076 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,076 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,076 [ERROR] Error while running task: net::ERR_ABORTED at https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-21 10:50:32,076 [ERROR] Error while running task: Target closed
+2023-03-21 10:50:32,076 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,219 [INFO] Task 7 开始爬取：2023-04-21.html
+2023-03-21 10:50:32,224 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,224 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,224 [ERROR] Error while running task: net::ERR_ABORTED at https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-21 10:50:32,224 [ERROR] Error while running task: Target closed
+2023-03-21 10:50:32,225 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,424 [INFO] Task 8 开始爬取：2023-04-22.html
+2023-03-21 10:50:32,427 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,427 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:32,427 [ERROR] Error while running task: net::ERR_ABORTED at https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=399.28&curr=HKD&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODE2MjUlMjUyNmN1cnJlbmN5JTI1M0RIS0QlMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMTclMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTE4JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b1hTUEcyVDFmN193JnBpZD1hZ2Qmc2lkPTIxNTk0MWU4LWMzYjAtNGJkMC1iNDdhLTE0ZmY4NzA3YmQ5ZiZzaWc9MjFhMmQ2MTgzMzhiMTUzYmRmN2UzZDUxNmE2Nzc4OWQ1Y2UyMjFkYzhmYjg1MjExZGQ3YjhjZmI1MmEzOTNmMDMxMzkzMjMwMzEzMzM4MzAzOTM3JmFpZD05OWJkOWY2MC01YzA3LTQxNTItOTViMS02MTdmM2U0ZWVmNzI%3D&totalPrice=230.63&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-21 10:50:32,428 [ERROR] Error while running task: Target closed
+2023-03-21 10:50:32,428 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-21 10:50:33,317 [ERROR] Error: Target closed
+2023-03-21 10:50:39,903 [INFO] 程序开始运行
+2023-03-21 10:50:48,654 [INFO] Task 1 开始爬取：2023-04-15.html
+2023-03-21 10:50:48,772 [INFO] Task 2 开始爬取：2023-04-16.html
+2023-03-21 10:50:48,934 [INFO] Task 3 开始爬取：2023-04-17.html
+2023-03-21 10:50:49,028 [INFO] Task 4 开始爬取：2023-04-18.html
+2023-03-21 10:50:49,163 [INFO] Task 5 开始爬取：2023-04-19.html
+2023-03-21 10:52:58,964 [INFO] Task 4 - 2023-04-18.html: 爬取成功
+2023-03-21 10:52:59,152 [INFO] Task 2 - 2023-04-16.html: 爬取成功
+2023-03-21 10:53:00,245 [INFO] Task 6 开始爬取：2023-04-20.html
+2023-03-21 10:53:01,365 [INFO] Task 7 开始爬取：2023-04-21.html
+2023-03-21 10:53:56,162 [INFO] Task 1 - 2023-04-15.html: 爬取成功
+2023-03-21 10:54:02,102 [INFO] Task 8 开始爬取：2023-04-22.html
+2023-03-21 10:54:33,757 [INFO] Task 3 - 2023-04-17.html: 爬取成功
+2023-03-21 10:54:34,240 [INFO] Task 5 - 2023-04-19.html: 爬取成功
+2023-03-21 10:54:35,640 [INFO] Task 9 开始爬取：2023-04-23.html
+2023-03-21 10:54:37,422 [INFO] Task 10 开始爬取：2023-04-24.html
+2023-03-21 10:55:01,911 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-03-21 10:55:01,912 [INFO] Task 6 - 2023-04-20.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:55:18,189 [ERROR] Task 9 - 2023-04-23.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+============================================================
+2023-03-21 10:55:18,190 [INFO] Task 9 - 2023-04-23.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-21 10:55:34,352 [INFO] Task 7 - 2023-04-21.html: 爬取成功
+2023-03-21 10:55:38,096 [INFO] Task 6 - 2023-04-20.html: 爬取成功
+2023-03-21 10:55:41,654 [INFO] Task 11 开始爬取：2023-04-25.html
+2023-03-21 10:55:41,998 [INFO] Task 12 开始爬取：2023-04-26.html
+2023-03-21 10:55:45,205 [INFO] Task 8 - 2023-04-22.html: 爬取成功
+2023-03-21 10:55:48,520 [INFO] Task 13 开始爬取：2023-04-27.html
+2023-03-21 10:56:07,853 [INFO] Task 10 - 2023-04-24.html: 爬取成功
+2023-03-21 10:56:09,531 [INFO] Task 14 开始爬取：2023-04-28.html
+2023-03-21 10:57:07,117 [INFO] Task 9 - 2023-04-23.html: 爬取成功
+2023-03-21 10:57:08,981 [INFO] Task 15 开始爬取：2023-04-29.html
+2023-03-21 10:57:58,542 [INFO] Task 11 - 2023-04-25.html: 爬取成功
+2023-03-21 10:57:59,021 [INFO] Task 14 - 2023-04-28.html: 爬取成功
+2023-03-21 10:58:01,006 [INFO] Task 16 开始爬取：2023-04-30.html
+2023-03-21 10:58:01,010 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:58:02,083 [INFO] Task 12 - 2023-04-26.html: 爬取成功
+2023-03-21 10:58:03,116 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:58:14,707 [INFO] Task 13 - 2023-04-27.html: 爬取成功
+2023-03-21 10:58:16,934 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:59:15,430 [INFO] Task 15 - 2023-04-29.html: 爬取成功
+2023-03-21 10:59:18,371 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:59:29,028 [INFO] Task 16 - 2023-04-30.html: 爬取成功
+2023-03-21 10:59:31,824 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 10:59:34,689 [INFO] 程序运行完毕 - 爬取成功：2023-04-15.html, 2023-04-16.html, 2023-04-17.html, 2023-04-18.html, 2023-04-19.html, 2023-04-20.html, 2023-04-21.html, 2023-04-22.html, 2023-04-23.html, 2023-04-24.html, 2023-04-25.html, 2023-04-26.html, 2023-04-27.html, 2023-04-28.html, 2023-04-29.html, 2023-04-30.html, 爬取失败：
+2023-03-21 11:44:38,400 [INFO] 程序开始运行
+2023-03-21 11:44:48,391 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 11:44:48,524 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 11:44:48,702 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 11:44:48,793 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 11:44:48,944 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 11:46:07,371 [INFO] 程序开始运行
+2023-03-21 11:46:13,153 [INFO] Task 1 开始爬取：2023-03-21.html
+2023-03-21 11:46:13,255 [INFO] Task 2 开始爬取：2023-03-22.html
+2023-03-21 11:46:13,419 [INFO] Task 3 开始爬取：2023-03-23.html
+2023-03-21 11:46:13,521 [INFO] Task 4 开始爬取：2023-03-24.html
+2023-03-21 11:46:13,633 [INFO] Task 5 开始爬取：2023-03-25.html
+2023-03-21 11:48:30,843 [INFO] Task 3 - 2023-03-23.html: 爬取成功
+2023-03-21 11:48:30,962 [INFO] Task 4 - 2023-03-24.html: 爬取成功
+2023-03-21 11:48:33,598 [INFO] Task 6 开始爬取：2023-03-26.html
+2023-03-21 11:48:33,993 [INFO] Task 7 开始爬取：2023-03-27.html
+2023-03-21 11:49:16,603 [INFO] Task 1 - 2023-03-21.html: 爬取成功
+2023-03-21 11:49:18,915 [INFO] Task 2 - 2023-03-22.html: 爬取成功
+2023-03-21 11:49:19,592 [INFO] Task 8 开始爬取：2023-03-28.html
+2023-03-21 11:49:24,640 [INFO] Task 9 开始爬取：2023-03-29.html
+2023-03-21 11:49:42,204 [INFO] Task 5 - 2023-03-25.html: 爬取成功
+2023-03-21 11:49:43,440 [INFO] Task 10 开始爬取：2023-03-30.html
+2023-03-21 11:50:21,071 [INFO] Task 7 - 2023-03-27.html: 爬取成功
+2023-03-21 11:50:22,501 [INFO] Task 11 开始爬取：2023-03-31.html
+2023-03-21 11:51:03,793 [INFO] Task 6 - 2023-03-26.html: 爬取成功
+2023-03-21 11:51:07,302 [INFO] Task 12 开始爬取：2023-04-01.html
+2023-03-21 11:51:46,001 [INFO] Task 8 - 2023-03-28.html: 爬取成功
+2023-03-21 11:51:47,715 [INFO] Task 13 开始爬取：2023-04-02.html
+2023-03-21 11:51:51,388 [INFO] Task 9 - 2023-03-29.html: 爬取成功
+2023-03-21 11:51:53,843 [INFO] Task 14 开始爬取：2023-04-03.html
+2023-03-21 11:52:03,842 [INFO] Task 10 - 2023-03-30.html: 爬取成功
+2023-03-21 11:52:06,247 [INFO] Task 15 开始爬取：2023-04-04.html
+2023-03-21 11:53:12,762 [INFO] Task 11 - 2023-03-31.html: 爬取成功
+2023-03-21 11:53:14,810 [INFO] Task 16 开始爬取：2023-04-05.html
+2023-03-21 11:53:23,503 [INFO] Task 12 - 2023-04-01.html: 爬取成功
+2023-03-21 11:53:26,514 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 11:53:57,158 [INFO] Task 13 - 2023-04-02.html: 爬取成功
+2023-03-21 11:54:00,056 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 11:54:31,182 [INFO] Task 14 - 2023-04-03.html: 爬取成功
+2023-03-21 11:54:32,599 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 11:54:34,538 [INFO] Task 15 - 2023-04-04.html: 爬取成功
+2023-03-21 11:54:37,417 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 11:55:22,612 [INFO] Task 16 - 2023-04-05.html: 爬取成功
+2023-03-21 11:55:24,785 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-21 11:55:26,950 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 2023-04-01.html, 2023-04-02.html, 2023-04-03.html, 2023-04-04.html, 2023-04-05.html, 爬取失败：
