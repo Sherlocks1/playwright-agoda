@@ -1,9 +1,9 @@
-import re
 import logging
 import asyncio
-import random
 import aiofiles
 from playwright.async_api import async_playwright
+from tools import clean_filename
+from tools import random_wait
 
 logging.basicConfig(
     level=logging.INFO,
@@ -13,21 +13,6 @@ logging.basicConfig(
         logging.StreamHandler(),
     ],
 )
-
-
-def clean_filename(url: str) -> str:
-    match = re.search(r'checkIn=(\d{4}-\d{2}-\d{1,2})', url)
-    if match:
-        filename = match.group(1) + ".html"
-    else:
-        filename = "unknown.html"
-    return filename
-
-
-async def random_wait(min_time=1.0, max_time=3.0):
-    seconds = random.uniform(min_time, max_time)
-    # logging.info(f"{task_name}{filename}随机等待 {seconds:.2f} 秒")
-    await asyncio.sleep(seconds)
 
 
 async def get_data(page, url, filename, max_retries, task_name=None):
@@ -170,7 +155,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                         retries += 1
 
 
-async def clawer():
+async def crawler():
     # 打开存储 URL 的文件
     with open("urls.txt", "r") as f:
         urls = f.read().splitlines()
@@ -237,7 +222,7 @@ async def clawer():
 if __name__ == '__main__':
     try:
         logging.info("程序开始运行")
-        asyncio.run(clawer())
+        asyncio.run(crawler())
 
         # 统计爬取状态并输出
         success_files = []

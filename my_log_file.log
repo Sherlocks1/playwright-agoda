@@ -12734,3 +12734,73 @@ waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to
 2023-03-21 16:38:28,914 [INFO] Task 15 - 2023-04-04.html: 爬取成功
 2023-03-21 16:38:31,618 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-21 16:38:38,853 [INFO] 程序运行完毕 - 爬取成功：2023-03-21.html, 2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 2023-04-01.html, 2023-04-02.html, 2023-04-03.html, 2023-04-04.html, 爬取失败：
+2023-03-22 11:48:37,464 [INFO] 程序开始运行
+2023-03-22 15:33:32,764 [INFO] 程序开始运行
+2023-03-22 15:33:44,454 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 15:33:44,567 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 15:34:33,356 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 15:34:33,372 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 15:34:37,434 [ERROR] Error: name 'clean_filename' is not defined
+2023-03-22 15:38:06,579 [INFO] 程序开始运行
+2023-03-22 15:38:19,786 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 15:38:19,910 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 15:38:20,107 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 15:39:21,383 [ERROR] Task 1 - 2023-03-22.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-22 15:39:21,384 [INFO] Task 1 - 2023-03-22.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-22 15:39:22,908 [ERROR] Task 2 - 2023-03-23.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-22 15:39:22,908 [INFO] Task 2 - 2023-03-23.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-22 15:39:26,199 [ERROR] Task 3 - 2023-03-24.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-22 15:39:26,199 [INFO] Task 3 - 2023-03-24.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-22 15:40:02,365 [ERROR] Task 2 - 2023-03-23.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-22 15:40:02,365 [INFO] Task 2 - 2023-03-23.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-22 15:40:02,398 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-22 15:40:02,482 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-22 15:40:02,483 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-22 15:40:03,499 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-22.html, 2023-03-23.html, 2023-03-24.html
+2023-03-22 15:40:03,510 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-22 15:40:03,510 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-22 15:40:03,511 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-22 15:40:25,372 [INFO] 程序开始运行
+2023-03-22 15:40:31,357 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 15:40:31,493 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 15:40:31,600 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 15:42:31,626 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 15:42:33,918 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 15:42:38,565 [INFO] Task 1 - 2023-03-22.html: 爬取成功
+2023-03-22 15:42:40,978 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 15:42:42,337 [INFO] Task 3 - 2023-03-24.html: 爬取成功
+2023-03-22 15:42:44,295 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 15:42:54,990 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 爬取失败：
