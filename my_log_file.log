@@ -12804,3 +12804,234 @@ playwright._impl._api_types.Error: Target page, context or browser has been clos
 2023-03-22 15:42:42,337 [INFO] Task 3 - 2023-03-24.html: 爬取成功
 2023-03-22 15:42:44,295 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-22 15:42:54,990 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 爬取失败：
+2023-03-22 16:59:02,915 [INFO] 程序开始运行
+2023-03-22 16:59:24,914 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 16:59:25,523 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 16:59:25,618 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 16:59:25,787 [INFO] Task 4 开始爬取：2023-03-25.html
+2023-03-22 16:59:25,899 [INFO] Task 5 开始爬取：2023-03-26.html
+2023-03-22 17:01:09,696 [INFO] Task 1 - 2023-03-22.html: 爬取成功
+2023-03-22 17:01:11,196 [INFO] Task 6 开始爬取：2023-03-27.html
+2023-03-22 17:02:04,032 [INFO] Task 4 - 2023-03-25.html: 爬取成功
+2023-03-22 17:02:04,650 [INFO] Task 3 - 2023-03-24.html: 爬取成功
+2023-03-22 17:02:07,435 [INFO] Task 7 开始爬取：2023-03-28.html
+2023-03-22 17:02:07,895 [INFO] Task 8 开始爬取：2023-03-29.html
+2023-03-22 17:02:17,163 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-22 17:02:17,163 [INFO] Task 2 - 2023-03-23.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:02:28,413 [INFO] Task 5 - 2023-03-26.html: 爬取成功
+2023-03-22 17:02:29,350 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 17:02:30,639 [INFO] Task 9 开始爬取：2023-03-30.html
+2023-03-22 17:02:31,244 [INFO] Task 10 开始爬取：2023-03-31.html
+2023-03-22 17:03:03,163 [INFO] Task 6 - 2023-03-27.html: 爬取成功
+2023-03-22 17:03:05,708 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:04:08,343 [INFO] Task 9 - 2023-03-30.html: 爬取成功
+2023-03-22 17:04:10,145 [INFO] Task 8 - 2023-03-29.html: 爬取成功
+2023-03-22 17:04:10,481 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:04:11,377 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:04:22,304 [INFO] Task 10 - 2023-03-31.html: 爬取成功
+2023-03-22 17:04:25,107 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:04:25,434 [INFO] Task 7 - 2023-03-28.html: 爬取成功
+2023-03-22 17:04:26,524 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:04:29,849 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-22 17:08:06,962 [INFO] 程序开始运行
+2023-03-22 17:08:20,407 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 17:08:20,504 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 17:08:20,593 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 17:08:20,697 [INFO] Task 4 开始爬取：2023-03-25.html
+2023-03-22 17:08:20,788 [INFO] Task 5 开始爬取：2023-03-26.html
+2023-03-22 17:10:29,260 [INFO] Task 5 - 2023-03-26.html: 爬取成功
+2023-03-22 17:10:30,591 [INFO] Task 6 开始爬取：2023-03-27.html
+2023-03-22 17:11:21,536 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 17:11:26,249 [INFO] Task 7 开始爬取：2023-03-28.html
+2023-03-22 17:11:36,666 [INFO] Task 1 - 2023-03-22.html: 爬取成功
+2023-03-22 17:11:38,422 [INFO] Task 8 开始爬取：2023-03-29.html
+2023-03-22 17:11:40,406 [INFO] Task 4 - 2023-03-25.html: 爬取成功
+2023-03-22 17:11:42,937 [INFO] Task 9 开始爬取：2023-03-30.html
+2023-03-22 17:11:49,152 [ERROR] Task 3 - 2023-03-24.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-22 17:11:49,152 [INFO] Task 3 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:12:26,845 [INFO] Task 6 - 2023-03-27.html: 爬取成功
+2023-03-22 17:12:29,131 [INFO] Task 10 开始爬取：2023-03-31.html
+2023-03-22 17:14:07,394 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-22 17:14:07,395 [INFO] Task 7 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:14:53,699 [INFO] Task 7 - 2023-03-28.html: 爬取成功
+2023-03-22 17:14:56,400 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:15:04,525 [INFO] Task 10 - 2023-03-31.html: 爬取成功
+2023-03-22 17:15:04,703 [INFO] Task 8 - 2023-03-29.html: 爬取成功
+2023-03-22 17:15:05,797 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:15:06,478 [INFO] Task 9 - 2023-03-30.html: 爬取成功
+2023-03-22 17:15:07,245 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:15:09,136 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:15:10,037 [INFO] Task 3 - 2023-03-24.html: 爬取成功
+2023-03-22 17:15:12,592 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:15:19,746 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-22 17:29:16,395 [INFO] 程序开始运行
+2023-03-22 17:29:25,744 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 17:29:25,836 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 17:29:25,981 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 17:29:26,146 [INFO] Task 4 开始爬取：2023-03-25.html
+2023-03-22 17:29:26,309 [INFO] Task 5 开始爬取：2023-03-26.html
+2023-03-22 17:30:49,287 [ERROR] Task 5 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-22 17:30:49,287 [INFO] Task 5 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:30:59,447 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:30:59,596 [INFO] Task 6 开始爬取：2023-03-27.html
+2023-03-22 17:30:59,602 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:30:59,785 [INFO] Task 7 开始爬取：2023-03-28.html
+2023-03-22 17:30:59,788 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:30:59,996 [INFO] Task 8 开始爬取：2023-03-29.html
+2023-03-22 17:31:00,002 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:31:00,150 [ERROR] Task 6 - 2023-03-27.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-27&checkOut=2023-03-28&rooms=2&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-27&checkOut=2023-03-28&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-22 17:31:00,151 [INFO] Task 6 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:31:00,178 [ERROR] Task 7 - 2023-03-28.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-28&checkOut=2023-03-29&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-22 17:31:00,178 [INFO] Task 7 - 2023-03-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:31:00,185 [ERROR] Task 8 - 2023-03-29.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-29&checkOut=2023-03-30&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-22 17:31:00,185 [INFO] Task 8 - 2023-03-29.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:31:00,632 [INFO] Task 9 开始爬取：2023-03-30.html
+2023-03-22 17:31:00,638 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,638 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,638 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:31:00,639 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,639 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,945 [INFO] Task 10 开始爬取：2023-03-31.html
+2023-03-22 17:31:00,951 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,952 [ERROR] Error while running task: net::ERR_TIMED_OUT
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,952 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,952 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:31:00,952 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:00,952 [ERROR] Error while running task: net::ERR_ABORTED at chrome-error://chromewebdata/
+=========================== logs ===========================
+navigating to "chrome-error://chromewebdata/", waiting until "load"
+============================================================
+2023-03-22 17:31:01,813 [ERROR] Task 4 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-22 17:31:01,813 [INFO] Task 4 - 2023-03-25.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:31:29,230 [ERROR] Task 9 - 2023-03-30.html: Error - net::ERR_TIMED_OUT at https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-30&checkOut=2023-03-31&rooms=2&userSearch=1
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-03-30&checkOut=2023-03-31&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-22 17:31:29,231 [INFO] Task 9 - 2023-03-30.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:31:29,253 [ERROR] Error while running task: Protocol error (Page.reload): Not attached to an active page
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+2023-03-22 17:31:38,302 [ERROR] Task 2 - 2023-03-23.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-22 17:31:38,302 [INFO] Task 2 - 2023-03-23.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:32:01,338 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 17:32:03,783 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:32:44,954 [INFO] 程序开始运行
+2023-03-22 17:32:52,754 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 17:32:52,857 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 17:32:53,002 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 17:32:53,132 [INFO] Task 4 开始爬取：2023-03-25.html
+2023-03-22 17:32:53,266 [INFO] Task 5 开始爬取：2023-03-26.html
+2023-03-22 17:34:58,572 [INFO] Task 5 - 2023-03-26.html: 爬取成功
+2023-03-22 17:34:59,798 [INFO] Task 6 开始爬取：2023-03-27.html
+2023-03-22 17:35:11,698 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-03-22 17:35:11,699 [INFO] Task 2 - 2023-03-23.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-22 17:35:33,457 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 17:35:38,674 [INFO] Task 7 开始爬取：2023-03-28.html
+2023-03-22 17:36:02,978 [INFO] Task 3 - 2023-03-24.html: 爬取成功
+2023-03-22 17:36:06,222 [INFO] Task 8 开始爬取：2023-03-29.html
+2023-03-22 17:36:06,729 [INFO] Task 4 - 2023-03-25.html: 爬取成功
+2023-03-22 17:36:09,157 [INFO] Task 9 开始爬取：2023-03-30.html
+2023-03-22 17:36:15,920 [INFO] Task 1 - 2023-03-22.html: 爬取成功
+2023-03-22 17:36:17,367 [INFO] Task 10 开始爬取：2023-03-31.html
+2023-03-22 17:37:04,617 [INFO] Task 7 - 2023-03-28.html: 爬取成功
+2023-03-22 17:37:07,088 [INFO] Task 6 - 2023-03-27.html: 爬取成功
+2023-03-22 17:37:07,609 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:37:09,559 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:37:39,973 [INFO] Task 8 - 2023-03-29.html: 爬取成功
+2023-03-22 17:37:41,229 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:38:15,988 [INFO] Task 9 - 2023-03-30.html: 爬取成功
+2023-03-22 17:38:18,079 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:38:23,076 [INFO] Task 10 - 2023-03-31.html: 爬取成功
+2023-03-22 17:38:24,388 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:38:27,635 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-22 17:42:19,049 [INFO] 程序开始运行
+2023-03-22 17:42:28,037 [INFO] Task 1 开始爬取：2023-03-22.html
+2023-03-22 17:42:28,194 [INFO] Task 2 开始爬取：2023-03-23.html
+2023-03-22 17:42:28,378 [INFO] Task 3 开始爬取：2023-03-24.html
+2023-03-22 17:42:28,473 [INFO] Task 4 开始爬取：2023-03-25.html
+2023-03-22 17:42:28,686 [INFO] Task 5 开始爬取：2023-03-26.html
+2023-03-22 17:45:01,653 [INFO] Task 4 - 2023-03-25.html: 爬取成功
+2023-03-22 17:45:02,106 [INFO] Task 2 - 2023-03-23.html: 爬取成功
+2023-03-22 17:45:03,704 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:45:04,805 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:45:49,379 [INFO] Task 1 - 2023-03-22.html: 爬取成功
+2023-03-22 17:45:50,970 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:45:53,219 [INFO] Task 3 - 2023-03-24.html: 爬取成功
+2023-03-22 17:45:55,108 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:46:11,015 [INFO] Task 5 - 2023-03-26.html: 爬取成功
+2023-03-22 17:46:12,303 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-22 17:46:14,846 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 爬取失败：

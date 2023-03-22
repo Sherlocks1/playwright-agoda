@@ -6,33 +6,8 @@ from explaindata2 import explain_data
 delete_html_files_input = input("是否删除所有 HTML 文件？输入 1 表示是，输入 0 表示否：")
 
 
-def delete_html_files():
-    for filename in os.listdir("."):
-        if filename.endswith(".html"):
-            os.remove(filename)
-
-
-def save_data():
-    # 根据用户选择生成文件名
-    file_choice = input("请输入1选择现有酒店名作为文件名，输入0输入自定义文件名：")
-    if file_choice == "1":
-        hotels = {
-            "曼谷卡塞特纳瓦敏里沃泰尔酒店": "2918402",
-            "王子宫殿酒店": "1043047",
-            "艾里四分之一UHG酒店": "4387380",
-            "江陵Hi Ocean镜浦酒店": "5272524",
-            "镜浦天空酒店": "3579492",
-            "芽庄皇宫酒店": "5010957",
-            "芽庄槟榔酒店": "4817166",
-        }  # 这里是示例酒店列表，您需要替换成您实际可选酒店名和对应ID
-        print("可选酒店列表：")
-        for index, hotel in enumerate(hotels):
-            print(f"{index + 1}. {hotel}")
-        selected_hotel_index = int(input("请选择对应数字：")) - 1
-        selected_hotel_name = list(hotels.keys())[selected_hotel_index]
-        file_name = f"{selected_hotel_name}.xlsx"
-    else:
-        file_name = input("请指定文件名（不需要加后缀）：") + ".xlsx"
+def save_data(hotel_name):
+    file_name = f"{hotel_name}.xlsx"
 
     # 指定保存 Excel 文件的路径
     desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
@@ -107,14 +82,14 @@ def save_data():
     wb.save(filename=xls_path)
 
     # 根据需要删除 HTML 文件
-    while True:
-        if delete_html_files_input == "1":
-            delete_html_files()
-            break
-        elif delete_html_files_input == "0":
-            break
-        else:
-            print("输入无效，请重新输入。")
+    # while True:
+    #     if delete_html_files_input == "1":
+    #         delete_html_files()
+    #         break
+    #     elif delete_html_files_input == "0":
+    #         break
+    #     else:
+    #         print("输入无效，请重新输入。")
 
     # 保存成功的消息
     print(f"Excel file saved successfully to {xls_path}.")
