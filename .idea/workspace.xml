@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-23.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-24.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explaindata.py" beforeDir="false" afterPath="$PROJECT_DIR$/explaindata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixdata3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixdata3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +60,27 @@
   }
 }</component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="explaindata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playwright-agoda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/explaindata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,28 +148,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="savesql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playwright-agoda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\czy51\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/savesql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="urlgen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,19 +172,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.explaindata" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.mixdata3" />
-      <item itemvalue="Python.savesql" />
       <item itemvalue="Python.savedata" />
       <item itemvalue="Python.urlgen" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.explaindata" />
+        <item itemvalue="Python.savedata" />
         <item itemvalue="Python.urlgen" />
         <item itemvalue="Python.mixdata3" />
-        <item itemvalue="Python.savedata" />
-        <item itemvalue="Python.savesql" />
       </list>
     </recent_temporary>
   </component>

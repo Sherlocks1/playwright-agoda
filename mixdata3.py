@@ -4,6 +4,7 @@ import aiofiles
 from playwright.async_api import async_playwright
 from tools import clean_filename
 from tools import random_wait
+import xml.etree.ElementTree as ET
 
 logging.basicConfig(
     level=logging.INFO,

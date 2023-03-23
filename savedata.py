@@ -3,7 +3,7 @@ from datetime import datetime
 from openpyxl import Workbook, load_workbook
 from explaindata2 import explain_data
 
-delete_html_files_input = input("是否删除所有 HTML 文件？输入 1 表示是，输入 0 表示否：")
+#delete_html_files_input = input("是否删除所有 HTML 文件？输入 1 表示是，输入 0 表示否：")
 
 
 def save_data(hotel_name):

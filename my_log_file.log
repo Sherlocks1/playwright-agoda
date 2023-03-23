@@ -13035,3 +13035,249 @@ waiting for locator("xpath=//*[@id='roomGrid']") to be visible
 2023-03-22 17:46:11,015 [INFO] Task 5 - 2023-03-26.html: 爬取成功
 2023-03-22 17:46:12,303 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-22 17:46:14,846 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 爬取失败：
+2023-03-23 09:04:13,147 [INFO] 程序开始运行
+2023-03-23 09:04:24,237 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 09:04:24,414 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 09:04:24,554 [INFO] Task 3 开始爬取：2023-03-25.html
+2023-03-23 09:04:24,648 [INFO] Task 4 开始爬取：2023-03-26.html
+2023-03-23 09:04:24,792 [INFO] Task 5 开始爬取：2023-03-27.html
+2023-03-23 09:06:18,810 [INFO] Task 3 - 2023-03-25.html: 爬取成功
+2023-03-23 09:06:20,487 [INFO] Task 6 开始爬取：2023-03-28.html
+2023-03-23 09:06:22,631 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 09:06:25,631 [INFO] Task 7 开始爬取：2023-03-29.html
+2023-03-23 09:07:02,942 [INFO] Task 5 - 2023-03-27.html: 爬取成功
+2023-03-23 09:07:09,986 [INFO] Task 8 开始爬取：2023-03-30.html
+2023-03-23 09:07:24,085 [INFO] Task 4 - 2023-03-26.html: 爬取成功
+2023-03-23 09:07:26,140 [INFO] Task 9 开始爬取：2023-03-31.html
+2023-03-23 09:07:27,074 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 09:07:28,292 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:07:42,912 [INFO] Task 6 - 2023-03-28.html: 爬取成功
+2023-03-23 09:07:44,260 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:08:10,929 [INFO] Task 7 - 2023-03-29.html: 爬取成功
+2023-03-23 09:08:13,101 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:08:43,005 [INFO] Task 8 - 2023-03-30.html: 爬取成功
+2023-03-23 09:08:45,183 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:08:55,809 [INFO] Task 9 - 2023-03-31.html: 爬取成功
+2023-03-23 09:08:57,737 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:09:00,215 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-23 09:23:49,226 [INFO] 程序开始运行
+2023-03-23 09:23:56,868 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 09:23:56,983 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 09:23:57,119 [INFO] Task 3 开始爬取：2023-03-25.html
+2023-03-23 09:23:57,234 [INFO] Task 4 开始爬取：2023-03-26.html
+2023-03-23 09:23:57,461 [INFO] Task 5 开始爬取：2023-03-27.html
+2023-03-23 09:26:03,130 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 09:26:06,203 [INFO] Task 6 开始爬取：2023-03-28.html
+2023-03-23 09:26:07,563 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 09:26:10,001 [INFO] Task 7 开始爬取：2023-03-29.html
+2023-03-23 09:26:29,918 [INFO] Task 4 - 2023-03-26.html: 爬取成功
+2023-03-23 09:26:33,182 [INFO] Task 8 开始爬取：2023-03-30.html
+2023-03-23 09:26:37,685 [INFO] Task 5 - 2023-03-27.html: 爬取成功
+2023-03-23 09:26:40,083 [INFO] Task 9 开始爬取：2023-03-31.html
+2023-03-23 09:26:46,219 [INFO] Task 3 - 2023-03-25.html: 爬取成功
+2023-03-23 09:26:47,971 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:27:41,251 [INFO] Task 8 - 2023-03-30.html: 爬取成功
+2023-03-23 09:27:42,648 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:27:55,241 [INFO] Task 9 - 2023-03-31.html: 爬取成功
+2023-03-23 09:27:57,482 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:27:59,883 [INFO] Task 6 - 2023-03-28.html: 爬取成功
+2023-03-23 09:27:59,931 [INFO] Task 7 - 2023-03-29.html: 爬取成功
+2023-03-23 09:28:02,315 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:28:02,494 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:28:05,008 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-23 09:32:49,199 [INFO] 程序开始运行
+2023-03-23 09:32:56,778 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 09:32:57,202 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 09:32:57,418 [INFO] Task 3 开始爬取：2023-03-25.html
+2023-03-23 09:32:57,969 [INFO] Task 4 开始爬取：2023-03-26.html
+2023-03-23 09:32:58,039 [INFO] Task 5 开始爬取：2023-03-27.html
+2023-03-23 09:34:49,667 [INFO] Task 3 - 2023-03-25.html: 爬取成功
+2023-03-23 09:34:52,520 [INFO] Task 6 开始爬取：2023-03-28.html
+2023-03-23 09:34:55,542 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 09:34:58,556 [INFO] Task 7 开始爬取：2023-03-29.html
+2023-03-23 09:35:41,173 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 09:35:43,244 [INFO] Task 4 - 2023-03-26.html: 爬取成功
+2023-03-23 09:35:45,219 [INFO] Task 8 开始爬取：2023-03-30.html
+2023-03-23 09:35:47,282 [INFO] Task 9 开始爬取：2023-03-31.html
+2023-03-23 09:35:54,915 [INFO] Task 5 - 2023-03-27.html: 爬取成功
+2023-03-23 09:35:57,013 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:36:27,398 [INFO] Task 6 - 2023-03-28.html: 爬取成功
+2023-03-23 09:36:30,191 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:36:45,865 [INFO] Task 7 - 2023-03-29.html: 爬取成功
+2023-03-23 09:36:48,753 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:36:56,512 [INFO] Task 8 - 2023-03-30.html: 爬取成功
+2023-03-23 09:36:58,556 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:37:03,488 [INFO] Task 9 - 2023-03-31.html: 爬取成功
+2023-03-23 09:37:05,292 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 09:37:08,579 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-23 11:49:19,429 [INFO] 程序开始运行
+2023-03-23 11:49:32,727 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 11:49:32,826 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 11:50:37,826 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 11:50:39,211 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 11:51:49,151 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 11:51:51,848 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 11:51:54,327 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 爬取失败：
+2023-03-23 14:25:42,996 [INFO] 程序开始运行
+2023-03-23 14:25:50,531 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 14:25:50,646 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 14:26:44,481 [ERROR] Error: 'str' object has no attribute 'fromstring'
+2023-03-23 14:26:44,481 [INFO] Task 1 - 2023-03-23.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-23 14:26:52,252 [ERROR] Error: 'str' object has no attribute 'fromstring'
+2023-03-23 14:26:52,252 [INFO] Task 1 - 2023-03-23.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-23 14:26:57,854 [ERROR] Error: 'str' object has no attribute 'fromstring'
+2023-03-23 14:26:57,854 [INFO] Task 1 - 2023-03-23.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-23 14:27:04,048 [ERROR] Error: 'str' object has no attribute 'fromstring'
+2023-03-23 14:27:04,048 [INFO] Task 1 - 2023-03-23.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-23 14:27:04,048 [WARNING] Task 1 - 2023-03-23.html酒店页达到最大重试次数,爬取失败
+2023-03-23 14:27:04,119 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 14:28:09,135 [ERROR] Task 2 - 2023-03-24.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-23 14:28:09,136 [INFO] Task 2 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 14:32:56,980 [INFO] 程序开始运行
+2023-03-23 14:33:04,962 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 14:33:05,086 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 14:34:04,388 [ERROR] Task 2 - 2023-03-24.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-23 14:34:04,389 [INFO] Task 2 - 2023-03-24.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-23 14:34:06,545 [ERROR] Task 1 - 2023-03-23.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-23 14:34:06,545 [INFO] Task 1 - 2023-03-23.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-23 14:34:31,170 [ERROR] Error: not well-formed (invalid token): line 4, column 85
+2023-03-23 14:34:31,171 [INFO] Task 1 - 2023-03-23.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-23 14:34:38,756 [ERROR] Error: not well-formed (invalid token): line 4, column 85
+2023-03-23 14:34:38,756 [INFO] Task 1 - 2023-03-23.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-23 14:34:44,446 [ERROR] Error: not well-formed (invalid token): line 4, column 85
+2023-03-23 14:34:44,446 [INFO] Task 1 - 2023-03-23.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-23 14:34:56,611 [ERROR] Error: not well-formed (invalid token): line 4, column 85
+2023-03-23 14:34:56,612 [INFO] Task 1 - 2023-03-23.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-23 14:34:56,612 [WARNING] Task 1 - 2023-03-23.html酒店页达到最大重试次数,爬取失败
+2023-03-23 14:34:56,744 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:20:57,426 [INFO] 程序开始运行
+2023-03-23 16:21:06,052 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 16:21:06,143 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 16:21:06,365 [INFO] Task 3 开始爬取：2023-03-25.html
+2023-03-23 16:21:06,456 [INFO] Task 4 开始爬取：2023-03-26.html
+2023-03-23 16:21:06,631 [INFO] Task 5 开始爬取：2023-03-27.html
+2023-03-23 16:21:30,358 [ERROR] Task 4 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+  locator resolved to visible <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+============================================================
+2023-03-23 16:21:30,359 [INFO] Task 4 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:21:30,422 [ERROR] Task 2 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+  locator resolved to visible <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+============================================================
+2023-03-23 16:21:30,423 [INFO] Task 2 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:21:30,625 [ERROR] Task 5 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+  locator resolved to visible <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+============================================================
+2023-03-23 16:21:30,626 [INFO] Task 5 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:21:30,722 [ERROR] Task 1 - 2023-03-23.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+  locator resolved to hidden <img alt="AGD-logo" class="css-gulka9 e1ib1dr20" src=…/>
+============================================================
+2023-03-23 16:21:30,723 [INFO] Task 1 - 2023-03-23.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:21:37,943 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-27&checkOut=2023-03-28&rooms=2&userSearch=1"
+============================================================
+2023-03-23 16:21:37,949 [ERROR] Task 4 - 2023-03-26.html: Error - net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-26&checkOut=2023-03-27&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-23 16:21:37,949 [INFO] Task 4 - 2023-03-26.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-23 16:21:38,759 [INFO] Task 6 开始爬取：2023-03-28.html
+2023-03-23 16:21:38,768 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-23 16:21:38,769 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-24&checkOut=2023-03-25&rooms=2&userSearch=1"
+============================================================
+2023-03-23 16:21:38,769 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-23&checkOut=2023-03-24&rooms=2&userSearch=1"
+============================================================
+2023-03-23 16:21:38,769 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-03-27&checkOut=2023-03-28&rooms=2&userSearch=1"
+============================================================
+2023-03-23 16:22:01,952 [INFO] 程序开始运行
+2023-03-23 16:22:08,443 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 16:22:08,549 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 16:22:08,735 [INFO] Task 3 开始爬取：2023-03-25.html
+2023-03-23 16:22:08,832 [INFO] Task 4 开始爬取：2023-03-26.html
+2023-03-23 16:22:08,977 [INFO] Task 5 开始爬取：2023-03-27.html
+2023-03-23 16:22:41,426 [ERROR] Task 4 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-23 16:22:41,426 [INFO] Task 4 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:22:45,988 [ERROR] Task 5 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-23 16:22:45,989 [INFO] Task 5 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:22:47,146 [ERROR] Task 1 - 2023-03-23.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-23 16:22:47,147 [INFO] Task 1 - 2023-03-23.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:23:43,632 [INFO] Task 3 - 2023-03-25.html: 爬取成功
+2023-03-23 16:23:45,362 [INFO] Task 6 开始爬取：2023-03-28.html
+2023-03-23 16:24:16,571 [INFO] Task 4 - 2023-03-26.html: 爬取成功
+2023-03-23 16:24:18,494 [INFO] Task 5 - 2023-03-27.html: 爬取成功
+2023-03-23 16:24:19,468 [INFO] Task 7 开始爬取：2023-03-29.html
+2023-03-23 16:24:20,691 [INFO] Task 8 开始爬取：2023-03-30.html
+2023-03-23 16:24:36,611 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 16:24:41,986 [ERROR] Task 2 - 2023-03-24.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-23 16:24:41,986 [INFO] Task 2 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-23 16:24:42,777 [INFO] Task 9 开始爬取：2023-03-31.html
+2023-03-23 16:25:06,811 [INFO] Task 6 - 2023-03-28.html: 爬取成功
+2023-03-23 16:25:07,934 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:25:47,226 [INFO] Task 7 - 2023-03-29.html: 爬取成功
+2023-03-23 16:25:49,571 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:25:51,515 [INFO] Task 8 - 2023-03-30.html: 爬取成功
+2023-03-23 16:25:52,624 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:25:55,783 [INFO] Task 9 - 2023-03-31.html: 爬取成功
+2023-03-23 16:25:56,887 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:26:08,012 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 16:26:09,352 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:26:15,500 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 爬取失败：
+2023-03-23 16:41:27,736 [INFO] 程序开始运行
+2023-03-23 16:41:44,959 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 16:41:45,054 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 16:42:51,531 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 16:42:51,904 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 16:42:53,980 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:42:54,020 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:42:56,065 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 爬取失败：
+2023-03-23 16:44:06,738 [INFO] 程序开始运行
+2023-03-23 16:44:13,106 [INFO] Task 1 开始爬取：2023-03-23.html
+2023-03-23 16:44:13,220 [INFO] Task 2 开始爬取：2023-03-24.html
+2023-03-23 16:46:34,666 [INFO] Task 2 - 2023-03-24.html: 爬取成功
+2023-03-23 16:46:36,741 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:46:43,279 [INFO] Task 1 - 2023-03-23.html: 爬取成功
+2023-03-23 16:46:44,593 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-23 16:46:48,773 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 爬取失败：
