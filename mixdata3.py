@@ -6,6 +6,7 @@ from tools import clean_filename
 from tools import random_wait
 import xml.etree.ElementTree as ET
 
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",

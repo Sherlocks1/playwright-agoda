@@ -13035,6 +13035,7 @@ waiting for locator("xpath=//*[@id='roomGrid']") to be visible
 2023-03-22 17:46:11,015 [INFO] Task 5 - 2023-03-26.html: 爬取成功
 2023-03-22 17:46:12,303 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-22 17:46:14,846 [INFO] 程序运行完毕 - 爬取成功：2023-03-22.html, 2023-03-23.html, 2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 爬取失败：
+<<<<<<< Updated upstream
 2023-03-23 09:04:13,147 [INFO] 程序开始运行
 2023-03-23 09:04:24,237 [INFO] Task 1 开始爬取：2023-03-23.html
 2023-03-23 09:04:24,414 [INFO] Task 2 开始爬取：2023-03-24.html
@@ -13281,3 +13282,821 @@ waiting for event "popup"
 2023-03-23 16:46:43,279 [INFO] Task 1 - 2023-03-23.html: 爬取成功
 2023-03-23 16:46:44,593 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-23 16:46:48,773 [INFO] 程序运行完毕 - 爬取成功：2023-03-23.html, 2023-03-24.html, 爬取失败：
+=======
+2023-03-24 23:24:35,929 [INFO] 程序开始运行
+2023-03-24 23:24:48,232 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:24:48,272 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:24:48,317 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:24:48,350 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:24:48,387 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:25:13,569 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:25:13,569 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:25:36,444 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:25:36,444 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:25:37,962 [INFO] Task 3 - 2023-03-26.html: 爬取成功
+2023-03-24 23:25:38,394 [INFO] Task 5 - 2023-03-28.html: 爬取成功
+2023-03-24 23:25:39,282 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:25:40,680 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:25:40,867 [INFO] Task 4 - 2023-03-27.html: 爬取成功
+2023-03-24 23:25:41,790 [INFO] Task 2 - 2023-03-25.html: 爬取成功
+2023-03-24 23:25:43,772 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:25:43,786 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:26:00,577 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:26:00,577 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:26:07,850 [INFO] Task 7 - 2023-03-30.html: 爬取成功
+2023-03-24 23:26:09,466 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:26:17,284 [INFO] Task 6 - 2023-03-29.html: 爬取成功
+2023-03-24 23:26:20,088 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:26:22,376 [INFO] Task 8 - 2023-03-31.html: 爬取成功
+2023-03-24 23:26:24,730 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:26:27,472 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:26:27,473 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:26:27,473 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-24 23:26:27,512 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:26:27,845 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-24 23:33:32,956 [INFO] 程序开始运行
+2023-03-24 23:33:38,882 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:33:38,915 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:33:38,955 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:33:38,988 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:33:39,021 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:34:02,328 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:34:02,328 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:10,882 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:10,882 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:14,294 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:14,294 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:34:14,536 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:14,536 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:15,233 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:15,233 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:15,755 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:15,755 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:18,181 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:18,181 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:34:18,423 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:18,423 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:34:18,955 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:18,955 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:34:19,715 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:19,715 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:34:21,313 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:21,313 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:34:22,469 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:22,470 [INFO] Task 4 - 2023-03-27.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:34:22,470 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:34:22,773 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:22,773 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:34:22,778 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:34:23,667 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:23,667 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:34:24,846 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:24,846 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:34:24,846 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:34:24,895 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:34:26,256 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:34:26,257 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:34:26,507 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:26,507 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:34:26,507 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:34:26,552 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:34:27,480 [ERROR] Error: 'ObjectIdentifier' object has no attribute 'append'
+2023-03-24 23:34:27,480 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:34:27,480 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:34:27,495 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:34:32,508 [ERROR] Task 1 - 2023-03-24.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:34:32,508 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:34:32,512 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-24 23:34:32,525 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-24 23:34:33,096 [ERROR] Task 7 - 2023-03-30.html: Error - Target page, context or browser has been closed
+2023-03-24 23:34:33,096 [INFO] Task 7 - 2023-03-30.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:33,098 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-24 23:34:33,906 [ERROR] Task 8 - 2023-03-31.html: Error - Target page, context or browser has been closed
+2023-03-24 23:34:33,906 [INFO] Task 8 - 2023-03-31.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:34:33,908 [ERROR] Error while running task: Target page, context or browser has been closed
+2023-03-24 23:34:34,170 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-24 23:37:17,898 [INFO] 程序开始运行
+2023-03-24 23:37:23,999 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:37:24,031 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:37:24,076 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:37:24,105 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:37:24,143 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:38:20,370 [INFO] Task 2 - 2023-03-25.html: 爬取成功
+2023-03-24 23:38:20,879 [INFO] Task 4 - 2023-03-27.html: 爬取成功
+2023-03-24 23:38:22,790 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:38:23,051 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:38:41,036 [INFO] Task 5 - 2023-03-28.html: 爬取成功
+2023-03-24 23:38:41,755 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:38:41,755 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:38:42,833 [INFO] Task 3 - 2023-03-26.html: 爬取成功
+2023-03-24 23:38:43,802 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:38:44,792 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:38:50,660 [INFO] Task 6 - 2023-03-29.html: 爬取成功
+2023-03-24 23:38:52,077 [INFO] Task 7 - 2023-03-30.html: 爬取成功
+2023-03-24 23:38:53,171 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:38:54,227 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:39:05,943 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:39:05,944 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:39:11,398 [INFO] Task 8 - 2023-03-31.html: 爬取成功
+2023-03-24 23:39:12,847 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:39:30,118 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:39:30,119 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:39:53,671 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:39:53,672 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:39:53,672 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-24 23:39:53,706 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:39:53,915 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-24 23:43:18,457 [INFO] 程序开始运行
+2023-03-24 23:43:23,827 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:43:23,863 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:43:23,914 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:43:23,944 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:43:23,983 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:43:48,430 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:43:48,430 [INFO] Task 2 - 2023-03-25.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:43:48,512 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:43:48,513 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:43:48,689 [ERROR] Task 4 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+  locator resolved to visible <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-03-24 23:43:48,704 [INFO] Task 4 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:43:48,873 [ERROR] Task 5 - 2023-03-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-03-24 23:43:48,873 [INFO] Task 5 - 2023-03-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:43:49,053 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:43:49,053 [INFO] Task 3 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:44:12,639 [ERROR] Task 5 - 2023-03-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:12,639 [INFO] Task 5 - 2023-03-28.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:12,817 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:12,817 [INFO] Task 2 - 2023-03-25.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:13,820 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:13,820 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:14,806 [ERROR] Task 4 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:14,806 [INFO] Task 4 - 2023-03-27.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:15,818 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:15,818 [INFO] Task 3 - 2023-03-26.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:39,390 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:44:39,390 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:44:41,651 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:41,651 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:44:44,680 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:44,680 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:44:46,164 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:46,164 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:48,440 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:48,440 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:44:49,245 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:49,245 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:50,403 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:50,403 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:44:52,568 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:52,568 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:44:53,406 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:53,408 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:44:54,630 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:54,630 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:44:54,630 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:44:54,685 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:44:56,528 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:56,528 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:44:57,411 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:44:57,411 [INFO] Task 4 - 2023-03-27.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:44:57,411 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:44:57,478 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:45:00,697 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:00,697 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:45:00,698 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:45:00,746 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:45:03,805 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:45:03,805 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:45:03,805 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-24 23:45:03,826 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:45:22,983 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:22,983 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:45:23,919 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:23,920 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:45:27,208 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:27,208 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:45:27,783 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:27,784 [INFO] Task 7 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:45:29,362 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:29,362 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:45:31,342 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:31,342 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:45:32,098 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:32,098 [INFO] Task 7 - 2023-03-30.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:45:32,892 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:32,892 [INFO] Task 8 - 2023-03-31.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:45:35,598 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:35,599 [INFO] Task 6 - 2023-03-29.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:45:35,599 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:45:35,610 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:45:36,233 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:36,233 [INFO] Task 7 - 2023-03-30.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:45:36,233 [WARNING] Task 7 - 2023-03-30.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:45:36,243 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:45:36,524 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:36,524 [INFO] Task 8 - 2023-03-31.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:45:40,143 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:45:40,143 [INFO] Task 8 - 2023-03-31.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:45:40,143 [WARNING] Task 8 - 2023-03-31.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:45:40,160 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:46:24,509 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-24 23:46:24,509 [INFO] Task 2 - 2023-03-25.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:46:50,851 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:46:50,851 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:46:53,596 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:46:53,596 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:46:56,397 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:46:56,397 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:46:59,055 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:46:59,055 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:46:59,055 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:46:59,071 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:46:59,325 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-24 23:51:48,020 [INFO] 程序开始运行
+2023-03-24 23:51:53,409 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:51:53,441 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:51:53,488 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:51:53,515 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:51:53,559 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:52:19,141 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:52:19,141 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:52:20,169 [ERROR] Task 5 - 2023-03-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:52:20,169 [INFO] Task 5 - 2023-03-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:52:20,333 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:52:20,333 [INFO] Task 3 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:52:44,928 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:52:44,929 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:52:50,076 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:50,076 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:52:51,842 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:51,842 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:52:53,775 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:53,776 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:52:55,518 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:55,518 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:52:57,262 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:57,262 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:52:58,937 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:52:58,938 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:53:01,228 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:01,228 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:01,228 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:53:01,280 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:53:03,085 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:03,085 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:03,085 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:53:03,133 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:53:07,680 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:53:07,680 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:53:10,458 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:10,458 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:53:13,288 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:13,288 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:53:16,122 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:16,122 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:53:19,047 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:19,047 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:19,047 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:53:19,087 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:53:30,389 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:30,389 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:53:33,758 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:33,759 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:53:33,862 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:53:33,863 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:33,863 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-24 23:53:33,881 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:53:37,607 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:37,607 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:53:41,292 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:41,293 [INFO] Task 6 - 2023-03-29.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:41,293 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:53:41,302 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:53:42,140 [ERROR] Task 4 - 2023-03-27.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-24 23:53:42,141 [INFO] Task 4 - 2023-03-27.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:53:44,447 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:44,448 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:53:48,382 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:48,382 [INFO] Task 7 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:53:52,012 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:52,013 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:53:52,331 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:52,331 [INFO] Task 7 - 2023-03-30.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:53:55,756 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:55,757 [INFO] Task 8 - 2023-03-31.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:53:56,080 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:56,080 [INFO] Task 7 - 2023-03-30.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:53:56,081 [WARNING] Task 7 - 2023-03-30.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:53:56,093 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:53:58,989 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:53:58,990 [INFO] Task 8 - 2023-03-31.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:54:02,283 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:54:02,284 [INFO] Task 8 - 2023-03-31.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:54:02,284 [WARNING] Task 8 - 2023-03-31.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:54:02,322 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:55:02,147 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-24 23:55:02,348 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-24 23:55:36,130 [INFO] 程序开始运行
+2023-03-24 23:55:42,196 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:55:42,226 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:55:42,271 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:55:42,300 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:55:42,340 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:56:06,716 [ERROR] Task 4 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:56:06,716 [INFO] Task 4 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:07,401 [ERROR] Task 5 - 2023-03-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:56:07,401 [INFO] Task 5 - 2023-03-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:07,591 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:56:07,591 [INFO] Task 3 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:07,761 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:56:07,761 [INFO] Task 2 - 2023-03-25.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:46,137 [ERROR] Error: invalid literal for int() with base 10: 'room-price">139<'
+2023-03-24 23:56:46,137 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:48,140 [ERROR] Error: invalid literal for int() with base 10: 'room-price">302<'
+2023-03-24 23:56:48,140 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:49,546 [ERROR] Error: invalid literal for int() with base 10: 'room-price">139<'
+2023-03-24 23:56:49,546 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:56:50,148 [ERROR] Error: invalid literal for int() with base 10: 'room-price">160<'
+2023-03-24 23:56:50,148 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:50,431 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:56:50,431 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:56:51,259 [ERROR] Error: invalid literal for int() with base 10: 'room-price">302<'
+2023-03-24 23:56:51,259 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:56:53,487 [ERROR] Error: invalid literal for int() with base 10: 'room-price">139<'
+2023-03-24 23:56:53,487 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:56:53,980 [ERROR] Error: invalid literal for int() with base 10: 'room-price">302<'
+2023-03-24 23:56:53,980 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:56:54,230 [ERROR] Error: invalid literal for int() with base 10: 'room-price">160<'
+2023-03-24 23:56:54,230 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:56:54,557 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:56:54,557 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:56:56,861 [ERROR] Error: invalid literal for int() with base 10: 'room-price">302<'
+2023-03-24 23:56:56,862 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:56:56,862 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:56:56,934 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:56:57,343 [ERROR] Error: invalid literal for int() with base 10: 'room-price">139<'
+2023-03-24 23:56:57,343 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:56:57,343 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:56:57,391 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:56:58,267 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:56:58,267 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:56:59,017 [ERROR] Error: invalid literal for int() with base 10: 'room-price">160<'
+2023-03-24 23:56:59,017 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:57:01,988 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:01,988 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:57:01,988 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:57:02,193 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:57:03,560 [ERROR] Error: invalid literal for int() with base 10: 'room-price">160<'
+2023-03-24 23:57:03,560 [INFO] Task 4 - 2023-03-27.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:57:03,560 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:57:03,570 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:57:10,641 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:57:10,641 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:57:25,020 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:25,021 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:57:25,336 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:25,336 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:57:28,836 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:28,836 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:57:29,355 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:29,357 [INFO] Task 7 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:57:32,395 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:32,395 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:57:32,785 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:32,785 [INFO] Task 7 - 2023-03-30.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:57:34,466 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:57:34,466 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:57:34,913 [ERROR] Error: invalid literal for int() with base 10: 'room-price">183<'
+2023-03-24 23:57:34,914 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:57:36,312 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:36,312 [INFO] Task 6 - 2023-03-29.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:57:36,312 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:57:36,322 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:57:36,824 [ERROR] Error: invalid literal for int() with base 10: 'room-price">141<'
+2023-03-24 23:57:36,825 [INFO] Task 7 - 2023-03-30.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:57:36,825 [WARNING] Task 7 - 2023-03-30.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:57:36,848 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:57:38,810 [ERROR] Error: invalid literal for int() with base 10: 'room-price">183<'
+2023-03-24 23:57:38,810 [INFO] Task 8 - 2023-03-31.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:57:42,554 [ERROR] Error: invalid literal for int() with base 10: 'room-price">183<'
+2023-03-24 23:57:42,555 [INFO] Task 8 - 2023-03-31.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:57:45,986 [ERROR] Error: invalid literal for int() with base 10: 'room-price">183<'
+2023-03-24 23:57:45,986 [INFO] Task 8 - 2023-03-31.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:57:45,987 [WARNING] Task 8 - 2023-03-31.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:57:46,002 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:57:51,617 [INFO] 程序开始运行
+2023-03-24 23:57:56,500 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-24 23:57:56,531 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-24 23:57:56,570 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-24 23:57:56,600 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-24 23:57:56,638 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-24 23:58:20,143 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:58:20,143 [INFO] Task 3 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:58:20,533 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:58:20,533 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:58:20,705 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:58:20,705 [INFO] Task 2 - 2023-03-25.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:58:20,845 [ERROR] Task 5 - 2023-03-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:58:20,845 [INFO] Task 5 - 2023-03-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:58:21,002 [ERROR] Task 4 - 2023-03-27.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:58:21,002 [INFO] Task 4 - 2023-03-27.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:13,703 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:59:13,703 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:17,908 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:17,908 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:20,601 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:20,601 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:21,671 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:21,672 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:23,129 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:23,129 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:59:25,091 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:25,091 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:25,956 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:25,957 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:59:25,957 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:59:26,013 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-24 23:59:28,461 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:28,461 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:59:32,919 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:32,920 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:59:32,920 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:59:32,987 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-24 23:59:35,429 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:35,429 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:36,230 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-24 23:59:36,230 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:59:39,058 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:39,058 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:43,145 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:43,146 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:43,738 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:43,738 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:59:46,666 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:46,667 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:47,655 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:47,655 [INFO] Task 4 - 2023-03-27.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:59:47,655 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:59:47,709 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-24 23:59:50,487 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:50,487 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-24 23:59:51,672 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:51,672 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-24 23:59:54,721 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:54,721 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-24 23:59:54,721 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-24 23:59:54,732 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-24 23:59:55,483 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:55,483 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-24 23:59:58,995 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-24 23:59:58,995 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:00:00,383 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:00,384 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:00:00,390 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:00:00,391 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:00:00,391 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-25 00:00:00,410 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:00:02,659 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:02,660 [INFO] Task 6 - 2023-03-29.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:00:02,660 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:00:02,669 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:00:03,906 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:03,906 [INFO] Task 7 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:00:07,547 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:07,547 [INFO] Task 7 - 2023-03-30.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:00:10,968 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:10,968 [INFO] Task 7 - 2023-03-30.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:00:10,968 [WARNING] Task 7 - 2023-03-30.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:00:10,988 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:00:13,845 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:13,846 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:00:17,215 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:17,216 [INFO] Task 8 - 2023-03-31.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:00:20,463 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:20,463 [INFO] Task 8 - 2023-03-31.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:00:23,827 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:00:23,827 [INFO] Task 8 - 2023-03-31.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:00:23,827 [WARNING] Task 8 - 2023-03-31.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:00:23,838 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:00:24,060 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+2023-03-25 00:03:44,456 [INFO] 程序开始运行
+2023-03-25 00:03:50,433 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-25 00:03:50,466 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-25 00:03:50,507 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-25 00:03:50,538 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-25 00:03:50,572 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-25 00:04:14,403 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:04:14,403 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:04:37,844 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:04:37,844 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:04:55,143 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:04:55,144 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:04:56,266 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:04:56,266 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:04:57,373 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:04:57,373 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:04:57,702 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:04:57,702 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:05:00,212 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:05:00,212 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:05:01,275 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:01,275 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:05:05,257 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:05,257 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:05:07,709 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:07,709 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:05:09,453 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:09,453 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:05:09,717 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:09,717 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:05:14,801 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:14,801 [INFO] Task 2 - 2023-03-25.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:05:14,801 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:05:15,155 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-25 00:05:16,548 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:16,548 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:05:18,072 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:18,073 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:05:19,278 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:19,278 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:05:22,384 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:22,384 [INFO] Task 3 - 2023-03-26.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:05:22,384 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:05:22,813 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-25 00:05:22,896 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:05:22,897 [INFO] Task 1 - 2023-03-24.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:05:22,897 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-25 00:05:22,985 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-25 00:05:24,219 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:24,219 [INFO] Task 5 - 2023-03-28.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:05:24,219 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:05:24,233 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:05:24,688 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:05:24,688 [INFO] Task 4 - 2023-03-27.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:05:24,688 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:05:24,698 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:05:45,315 [ERROR] Task 8 - 2023-03-31.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:05:45,315 [INFO] Task 8 - 2023-03-31.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:05:45,501 [ERROR] Task 7 - 2023-03-30.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:05:45,502 [INFO] Task 7 - 2023-03-30.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:02,829 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:02,830 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:07,047 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:07,047 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:06:12,871 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:12,871 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:06:19,325 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:19,325 [INFO] Task 6 - 2023-03-29.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-25 00:06:19,325 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:06:19,336 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:06:19,844 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:19,844 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:22,429 [ERROR] Error: dictionary update sequence element #0 has length 4; 2 is required
+2023-03-25 00:06:22,429 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:27,847 [INFO] 程序开始运行
+2023-03-25 00:06:33,084 [INFO] Task 1 开始爬取：2023-03-24.html
+2023-03-25 00:06:33,115 [INFO] Task 2 开始爬取：2023-03-25.html
+2023-03-25 00:06:33,153 [INFO] Task 3 开始爬取：2023-03-26.html
+2023-03-25 00:06:57,049 [ERROR] Task 3 - 2023-03-26.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:06:57,049 [INFO] Task 3 - 2023-03-26.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:57,128 [ERROR] Task 2 - 2023-03-25.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:06:57,128 [INFO] Task 2 - 2023-03-25.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:06:57,490 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:06:57,490 [INFO] Task 1 - 2023-03-24.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:07:18,820 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:07:18,820 [INFO] Task 1 - 2023-03-24.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:07:34,545 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:34,545 [INFO] Task 2 - 2023-03-25.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:07:40,338 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:40,339 [INFO] Task 3 - 2023-03-26.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:07:40,903 [ERROR] Task 1 - 2023-03-24.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-25 00:07:40,903 [INFO] Task 1 - 2023-03-24.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:07:40,904 [WARNING] Task 1 - 2023-03-24.html: Etrip页达到最大重试次数,爬取失败
+2023-03-25 00:07:40,971 [INFO] Task 4 开始爬取：2023-03-27.html
+2023-03-25 00:07:43,040 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:43,040 [INFO] Task 2 - 2023-03-25.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:07:46,776 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:46,776 [INFO] Task 3 - 2023-03-26.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:07:49,391 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:49,391 [INFO] Task 2 - 2023-03-25.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:07:49,391 [WARNING] Task 2 - 2023-03-25.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:07:49,430 [INFO] Task 5 开始爬取：2023-03-28.html
+2023-03-25 00:07:55,733 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:07:55,734 [INFO] Task 3 - 2023-03-26.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:07:55,734 [WARNING] Task 3 - 2023-03-26.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:07:55,784 [INFO] Task 6 开始爬取：2023-03-29.html
+2023-03-25 00:08:28,563 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:28,563 [INFO] Task 4 - 2023-03-27.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:08:30,028 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:30,028 [INFO] Task 5 - 2023-03-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:08:34,854 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:34,854 [INFO] Task 4 - 2023-03-27.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:08:35,797 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:35,797 [INFO] Task 6 - 2023-03-29.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:08:37,247 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:37,247 [INFO] Task 5 - 2023-03-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:08:41,938 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:41,938 [INFO] Task 4 - 2023-03-27.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:08:41,938 [WARNING] Task 4 - 2023-03-27.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:08:41,981 [INFO] Task 7 开始爬取：2023-03-30.html
+2023-03-25 00:08:44,784 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:44,784 [INFO] Task 6 - 2023-03-29.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:08:46,056 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:46,056 [INFO] Task 5 - 2023-03-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:08:46,056 [WARNING] Task 5 - 2023-03-28.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:08:46,115 [INFO] Task 8 开始爬取：2023-03-31.html
+2023-03-25 00:08:53,058 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:08:53,059 [INFO] Task 6 - 2023-03-29.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:08:53,059 [WARNING] Task 6 - 2023-03-29.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:08:53,069 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:09:38,558 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:09:38,558 [INFO] Task 7 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:09:44,972 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:09:44,973 [INFO] Task 7 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:09:48,578 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:09:48,578 [INFO] Task 7 - 2023-03-30.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:09:48,578 [WARNING] Task 7 - 2023-03-30.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:09:48,588 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:10:01,283 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:10:01,283 [INFO] Task 8 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-25 00:10:06,943 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:10:06,943 [INFO] Task 8 - 2023-03-31.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-25 00:10:10,630 [ERROR] Error: document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+2023-03-25 00:10:10,630 [INFO] Task 8 - 2023-03-31.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-25 00:10:10,630 [WARNING] Task 8 - 2023-03-31.html酒店页达到最大重试次数,爬取失败
+2023-03-25 00:10:11,032 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-25 00:10:11,253 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-24.html, 2023-03-25.html, 2023-03-26.html, 2023-03-27.html, 2023-03-28.html, 2023-03-29.html, 2023-03-30.html, 2023-03-31.html
+>>>>>>> Stashed changes
