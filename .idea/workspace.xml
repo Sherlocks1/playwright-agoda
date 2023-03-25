@@ -5,11 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/explaindata3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb_svae.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explaindata.py" beforeDir="false" afterPath="$PROJECT_DIR$/explaindata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mixdata3.py" beforeDir="false" afterPath="$PROJECT_DIR$/mixdata3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-26.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-26.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-27.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-27.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-28.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-28.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-29.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-29.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-30.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023-03-30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-03-31.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-05.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-06.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-07.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-08.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-27.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023-04-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/getdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savedata.py" beforeDir="false" afterPath="$PROJECT_DIR$/savedata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +100,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="explaindata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.getdata">
+    <configuration name="database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +113,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/explaindata.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="explaindata3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playwright-agoda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/explaindata3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getdata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playwright-agoda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,52 +185,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mixdata3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playwright-agoda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\produ\AppData\Local\Programs\Python\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mixdata3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="savedata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playwright-agoda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\produ\AppData\Local\Programs\Python\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/savedata.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="urlgen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,13 +192,11 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\produ\AppData\Local\Programs\Python\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urlgen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -172,19 +207,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.explaindata" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.mixdata3" />
-      <item itemvalue="Python.savedata" />
+      <item itemvalue="Python.database" />
       <item itemvalue="Python.urlgen" />
+      <item itemvalue="Python.explaindata3" />
+      <item itemvalue="Python.getdata" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getdata" />
+        <item itemvalue="Python.database" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.explaindata" />
-        <item itemvalue="Python.savedata" />
         <item itemvalue="Python.urlgen" />
-        <item itemvalue="Python.mixdata3" />
+        <item itemvalue="Python.explaindata3" />
       </list>
     </recent_temporary>
   </component>

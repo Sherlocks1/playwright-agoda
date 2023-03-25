@@ -5,7 +5,7 @@ import re
 import pymongo
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
-
+from datetime import datetime
 from tools import clean_filename
 from tools import random_wait
 
@@ -26,9 +26,11 @@ logging.basicConfig(
 
 def explain_data(html):
     soup = BeautifulSoup(html, "html.parser")
+    hotel_name = soup.select_one('p.HeaderCerebrum__AdaName').text
     check_in = soup.select_one('#check-in-box > div > div > div > div:nth-child(1)').get_text(strip=True)
     rooms = soup.select('div.MasterRoom, div.Box-sc-kv6pi1-0.iClxWR')
     data = []
+    parse_time = datetime.utcnow()  # 获取当前时间
     for eachroom in rooms:
         if 'MasterRoom' in eachroom['class']:
             # 解析规则 1
@@ -40,10 +42,12 @@ def explain_data(html):
             room_status_match = re.findall(find_room_status, str(eachroom))
             room_status = room_status_match[0] if room_status_match else None
             data.append({
+                'hotel_name': hotel_name,
                 'check_in': check_in,
                 'room_name': room_name[0] if room_name else None,
                 'room_price': room_price,
-                'room_status': room_status
+                'room_status': room_status,
+                'parse_time': parse_time  # 添加解析时间
             })
         elif 'Box-sc-kv6pi1-0' in eachroom['class']:
             # 解析规则 2
@@ -51,12 +55,14 @@ def explain_data(html):
             room_price = None
             room_status = "已订完"
             data.append({
+                'hotel_name': hotel_name,
                 'check_in': check_in,
                 'room_name': room_name[0] if room_name else None,
                 'room_price': room_price,
-                'room_status': room_status
+                'room_status': room_status,
+                'parse_time': parse_time  # 添加解析时间
             })
-    yield data
+    return data
 
 
 async def get_data(page, url, filename, max_retries, task_name=None):
@@ -175,28 +181,50 @@ async def get_data(page, url, filename, max_retries, task_name=None):
 
                     html = await page2.content()
 
-                    data = []
-                    for d in explain_data(html):
-                        data.append(d)
-                        print(d)
+                    data = explain_data(html)
 
-                    # 将数据存入 MongoDB 数据库
+                    # 连接 MongoDB 数据库
                     client = pymongo.MongoClient('mongodb://localhost:27017/')
-                    db = client['agoda']
-                    collection = db['agoda1']
+                    db = client['hotel']
+                    collection = db['booking']
 
-                    # 检查每个字典的格式是否正确
+                    # 对数据进行转换和格式化
                     for doc in data:
-                        if not isinstance(doc, dict):
-                            print('Error: document must be a dictionary')
-                        elif len(doc) != 4:
-                            print(f'Error: dictionary should have 4 elements, but has {len(doc)}')
-                        elif not all(key in doc for key in ['check_in', 'room_name', 'room_price', 'room_status']):
-                            print('Error: dictionary is missing one or more required keys')
-                        else:
-                            print('Dictionary format is correct')
+                        # 将日期字符串转换为 datetime 对象
+                        iso_date = datetime.strptime(doc['check_in'], '%Y年%m月%d日')
+                        # 更新 doc 中的 check_in 字段值
+                        doc['check_in'] = iso_date
 
-                    collection.insert_many(data)
+                        # 对价格进行格式化
+                        if doc['room_price'] is not None:
+                            doc['room_price'] = int(doc['room_price'])
+
+                        # 根据酒店名称、入住日期和房型进行匹配
+                        query = {"hotel_name": doc["hotel_name"],
+                                 "check_in": doc["check_in"],
+                                 "room_name": doc["room_name"]}
+
+                        # 查找已有文档
+                        existing_doc = collection.find_one(query)
+
+                        if existing_doc is None:
+                            # 如果没有匹配到文档，则插入一条新的文档
+                            result = collection.insert_one(doc)
+                            print('新增:', result.inserted_id)
+                        else:
+                            # 如果已经匹配到文档，则进行更新操作
+                            # 检查价格和房态是否有变化，如果有变化则进行更新
+                            new_price = doc['room_price']
+                            new_status = doc['room_status']
+
+                            if existing_doc['room_price'] != new_price or existing_doc['room_status'] != new_status:
+                                # 更新数据，并标记为已修改
+                                doc['is_modified'] = True
+                                result = collection.update_one(query, {"$set": doc})
+                                print('修改:', result.modified_count, result.upserted_id)
+                            else:
+                                # 如果价格和房态没有变化，则不进行任何操作
+                                print('无变化')
 
                     logging.info(f"{task_name} - {filename}: 爬取成功")
 
