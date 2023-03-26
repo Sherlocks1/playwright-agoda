@@ -165,8 +165,6 @@ async def get_data(page, url, filename, max_retries, task_name=None):
             Agodahotel_headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                               "Chrome/90.0.4430.212 Safari/537.36",
-                "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
-                "Accept-Encoding": "gzip, deflate, br",
             }
 
             await page2.set_extra_http_headers(Agodahotel_headers)
@@ -213,15 +211,33 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                             print('新增:', result.inserted_id)
                         else:
                             # 如果已经匹配到文档，则进行更新操作
-                            # 检查价格和房态是否有变化，如果有变化则进行更新
                             new_price = doc['room_price']
                             new_status = doc['room_status']
 
-                            if existing_doc['room_price'] != new_price or existing_doc['room_status'] != new_status:
-                                # 更新数据，并标记为已修改
-                                doc['is_modified'] = True
-                                result = collection.update_one(query, {"$set": doc})
-                                print('修改:', result.modified_count, result.upserted_id)
+                            room_price_is_modified = False
+                            room_status_is_modified = False
+                            doc['room_price_is_modified'] = False
+                            doc['room_status_is_modified'] = False
+
+                            if existing_doc['room_price'] != new_price:
+                                # 价格发生变化，更新数据，并标记为已修改
+                                doc['room_price_is_modified'] = True
+                                room_price_is_modified = True
+
+                            if existing_doc['room_status'] != new_status:
+                                # 房态发生变化，更新数据，并标记为已修改
+                                doc['room_status_is_modified'] = True
+                                room_status_is_modified = True
+
+                            if room_price_is_modified or room_status_is_modified:
+
+                                # 输出变化信息
+                                if room_price_is_modified:
+                                    print(
+                                        f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间价格从{existing_doc['room_price']}元变为{new_price}元")
+                                if room_status_is_modified:
+                                    print(
+                                        f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间房态从{existing_doc['room_status']}变为{new_status}")
                             else:
                                 # 如果价格和房态没有变化，则不进行任何操作
                                 print('无变化')
