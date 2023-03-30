@@ -8,6 +8,7 @@ from playwright.async_api import async_playwright
 from datetime import datetime
 from tools import clean_filename
 from tools import random_wait
+from fake_useragent import UserAgent
 
 find_room_name = re.compile(r'<span class="MasterRoom__HotelName" data-selenium="masterroom-title-name">(.*?)</span>')
 find_room_price = re.compile(r'<strong data-ppapi="(.*?)/strong>')
@@ -23,6 +24,8 @@ logging.basicConfig(
     ],
 )
 
+ua = UserAgent()
+headers = {'User-Agent': ua.random}
 
 def explain_data(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -70,12 +73,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
     page1 = None
     retries = 0
 
-    Etrip_headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41",
-        "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
-        "Accept-Encoding": "gzip, deflate, br",
-    }
+    Etrip_headers = headers
 
     while True:
         try:
@@ -113,12 +111,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
 
     async with page1:
 
-        Agodalist_headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                          "Chrome/90.0.4430.212 Safari/537.36",
-            "Accept-Language": "zh-HK,zh;q=0.9,en;q=0.8,zh-CN;q=0.7,en-GB;q=0.6,en-US;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br",
-        }
+        Agodalist_headers = headers
 
         await page1.set_extra_http_headers(Agodalist_headers)
         await page1.goto(page1.url)
@@ -162,10 +155,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
 
         async with page2:
 
-            Agodahotel_headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                              "Chrome/90.0.4430.212 Safari/537.36",
-            }
+            Agodahotel_headers = headers
 
             await page2.set_extra_http_headers(Agodahotel_headers)
             await page2.goto(page2.url)
