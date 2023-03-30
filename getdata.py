@@ -216,8 +216,6 @@ async def get_data(page, url, filename, max_retries, task_name=None):
 
                             room_price_is_modified = False
                             room_status_is_modified = False
-                            doc['room_price_is_modified'] = False
-                            doc['room_status_is_modified'] = False
 
                             if existing_doc['room_price'] != new_price:
                                 # 价格发生变化，更新数据，并标记为已修改
@@ -229,18 +227,27 @@ async def get_data(page, url, filename, max_retries, task_name=None):
                                 doc['room_status_is_modified'] = True
                                 room_status_is_modified = True
 
-                            if room_price_is_modified or room_status_is_modified:
+                            if not room_price_is_modified and not room_status_is_modified:
+                                # 如果价格和房态没有变化，则将相应的标志设置为 False
+                                doc['room_price_is_modified'] = False
+                                doc['room_status_is_modified'] = False
+                                doc['parse_time'] = datetime.now()  # 更新解析时间
+                                print('无变化')
+                            else:
+                                # 如果价格或房态发生了变化，则将这些变化信息输出到控制台，并更新 MongoDB 中的文档，同时标记相关字段为已修改
+                                update_result = collection.update_one(query, {"$set": doc})
+                                if update_result.modified_count == 1:
+                                    print(f'更新: {existing_doc["_id"]}')
+                                    doc['_id'] = existing_doc['_id']
+                                else:
+                                    print('更新失败')
 
-                                # 输出变化信息
                                 if room_price_is_modified:
                                     print(
                                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间价格从{existing_doc['room_price']}元变为{new_price}元")
                                 if room_status_is_modified:
                                     print(
                                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间房态从{existing_doc['room_status']}变为{new_status}")
-                            else:
-                                # 如果价格和房态没有变化，则不进行任何操作
-                                print('无变化')
 
                     logging.info(f"{task_name} - {filename}: 爬取成功")
 
