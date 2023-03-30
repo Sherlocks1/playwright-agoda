@@ -1,19 +1,13 @@
 import asyncio
 import logging
-import re
 
-import pymongo
-from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
-from datetime import datetime
+
 from tools import clean_filename
 from tools import random_wait
+from explain_data import explain_data
+from save_data import save_data
 from fake_useragent import UserAgent
-
-find_room_name = re.compile(r'<span class="MasterRoom__HotelName" data-selenium="masterroom-title-name">(.*?)</span>')
-find_room_price = re.compile(r'<strong data-ppapi="(.*?)/strong>')
-find_room_status = re.compile(r'<strong class=".*font-size-12">(.*?)</strong>')
-find_soldoutroom_name = re.compile(r'<h5\s+class="[^"]*Headingstyled[^"]*">(.*?)<\/h5>')
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,57 +18,17 @@ logging.basicConfig(
     ],
 )
 
-ua = UserAgent()
-headers = {'User-Agent': ua.random}
-
-def explain_data(html):
-    soup = BeautifulSoup(html, "html.parser")
-    hotel_name = soup.select_one('p.HeaderCerebrum__AdaName').text
-    check_in = soup.select_one('#check-in-box > div > div > div > div:nth-child(1)').get_text(strip=True)
-    rooms = soup.select('div.MasterRoom, div.Box-sc-kv6pi1-0.iClxWR')
-    data = []
-    parse_time = datetime.utcnow()  # 获取当前时间
-    for eachroom in rooms:
-        if 'MasterRoom' in eachroom['class']:
-            # 解析规则 1
-            room_name = re.findall(find_room_name, str(eachroom))
-            room_price_match = re.search(find_room_price, str(eachroom))
-            room_price_str = room_price_match.group(1) if room_price_match else ""
-            room_price_cleaned = "".join(c for c in room_price_str if c.isdigit())
-            room_price = int(room_price_cleaned) if room_price_cleaned else None
-            room_status_match = re.findall(find_room_status, str(eachroom))
-            room_status = room_status_match[0] if room_status_match else None
-            data.append({
-                'hotel_name': hotel_name,
-                'check_in': check_in,
-                'room_name': room_name[0] if room_name else None,
-                'room_price': room_price,
-                'room_status': room_status,
-                'parse_time': parse_time  # 添加解析时间
-            })
-        elif 'Box-sc-kv6pi1-0' in eachroom['class']:
-            # 解析规则 2
-            room_name = re.findall(find_soldoutroom_name, str(eachroom))
-            room_price = None
-            room_status = "已订完"
-            data.append({
-                'hotel_name': hotel_name,
-                'check_in': check_in,
-                'room_name': room_name[0] if room_name else None,
-                'room_price': room_price,
-                'room_status': room_status,
-                'parse_time': parse_time  # 添加解析时间
-            })
-    return data
-
 
 async def get_data(page, url, filename, max_retries, task_name=None):
     logging.info(f"{task_name} 开始爬取：{filename}")
-    page1 = None
+
     retries = 0
 
-    Etrip_headers = headers
+    ua = UserAgent()
+    headers = {'User-Agent': ua.random}
 
+    Etrip_headers = headers
+    print(Etrip_headers)
     while True:
         try:
             await page.set_extra_http_headers(Etrip_headers)
@@ -112,11 +66,10 @@ async def get_data(page, url, filename, max_retries, task_name=None):
     async with page1:
 
         Agodalist_headers = headers
-
+        print(Agodalist_headers)
         await page1.set_extra_http_headers(Agodalist_headers)
         await page1.goto(page1.url)
 
-        page2 = None
         retries = 0
 
         async with page1.expect_popup(timeout=120000) as page2_info:
@@ -171,73 +124,7 @@ async def get_data(page, url, filename, max_retries, task_name=None):
 
                     data = explain_data(html)
 
-                    # 连接 MongoDB 数据库
-                    client = pymongo.MongoClient('mongodb://localhost:27017/')
-                    db = client['hotel']
-                    collection = db['booking']
-
-                    # 对数据进行转换和格式化
-                    for doc in data:
-                        # 将日期字符串转换为 datetime 对象
-                        iso_date = datetime.strptime(doc['check_in'], '%Y年%m月%d日')
-                        # 更新 doc 中的 check_in 字段值
-                        doc['check_in'] = iso_date
-
-                        # 对价格进行格式化
-                        if doc['room_price'] is not None:
-                            doc['room_price'] = int(doc['room_price'])
-
-                        # 根据酒店名称、入住日期和房型进行匹配
-                        query = {"hotel_name": doc["hotel_name"],
-                                 "check_in": doc["check_in"],
-                                 "room_name": doc["room_name"]}
-
-                        # 查找已有文档
-                        existing_doc = collection.find_one(query)
-
-                        if existing_doc is None:
-                            # 如果没有匹配到文档，则插入一条新的文档
-                            result = collection.insert_one(doc)
-                            print('新增:', result.inserted_id)
-                        else:
-                            # 如果已经匹配到文档，则进行更新操作
-                            new_price = doc['room_price']
-                            new_status = doc['room_status']
-
-                            room_price_is_modified = False
-                            room_status_is_modified = False
-
-                            if existing_doc['room_price'] != new_price:
-                                # 价格发生变化，更新数据，并标记为已修改
-                                doc['room_price_is_modified'] = True
-                                room_price_is_modified = True
-
-                            if existing_doc['room_status'] != new_status:
-                                # 房态发生变化，更新数据，并标记为已修改
-                                doc['room_status_is_modified'] = True
-                                room_status_is_modified = True
-
-                            if not room_price_is_modified and not room_status_is_modified:
-                                # 如果价格和房态没有变化，则将相应的标志设置为 False
-                                doc['room_price_is_modified'] = False
-                                doc['room_status_is_modified'] = False
-                                doc['parse_time'] = datetime.now()  # 更新解析时间
-                                print('无变化')
-                            else:
-                                # 如果价格或房态发生了变化，则将这些变化信息输出到控制台，并更新 MongoDB 中的文档，同时标记相关字段为已修改
-                                update_result = collection.update_one(query, {"$set": doc})
-                                if update_result.modified_count == 1:
-                                    print(f'更新: {existing_doc["_id"]}')
-                                    doc['_id'] = existing_doc['_id']
-                                else:
-                                    print('更新失败')
-
-                                if room_price_is_modified:
-                                    print(
-                                        f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间价格从{existing_doc['room_price']}元变为{new_price}元")
-                                if room_status_is_modified:
-                                    print(
-                                        f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间房态从{existing_doc['room_status']}变为{new_status}")
+                    save_data(data)
 
                     logging.info(f"{task_name} - {filename}: 爬取成功")
 
@@ -281,13 +168,13 @@ async def crawler():
 
         tasks = []
 
-        MAX_CONCURRENT_TASKS = int(input("请设置最大运行任务数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
+        max_concurrent_tasks = int(input("请设置最大运行任务数："))  # 请求用户输入并将其转换为整数 # 控制同时执行的任务数量
         current_task_count = 0  # 当前正在执行的任务数
 
         max_retries = int(input("请设置最大重试次数："))  # 请求用户输入并将其转换为整数 # 控制最大重试次数
 
         for i in range(len(urls)):
-            if current_task_count >= MAX_CONCURRENT_TASKS:
+            if current_task_count >= max_concurrent_tasks:
                 done, _ = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
                 for completed_task in done:
                     try:
@@ -308,6 +195,8 @@ async def crawler():
                 get_data(page, urls[i], filename, max_retries=max_retries,
                          task_name=task_name))  # 传递 filenames 和 task_name 参数
 
+            await random_wait()
+
             tasks.append(task)
             current_task_count += 1
 
@@ -327,21 +216,6 @@ if __name__ == '__main__':
     try:
         logging.info("程序开始运行")
         asyncio.run(crawler())
-
-        # 统计爬取状态并输出
-        success_files = []
-        fail_files = []
-        with open("urls.txt", "r") as f:
-            urls = f.read().splitlines()
-        for url in urls:
-            filename = clean_filename(url)
-            try:
-                with open(filename, 'r', encoding='utf-8') as f:
-                    success_files.append(filename)
-            except FileNotFoundError:
-                fail_files.append(filename)
-
-        logging.info(f"程序运行完毕 - 爬取成功：{', '.join(success_files)}, 爬取失败：{', '.join(fail_files)}")
 
     except Exception as e:
         logging.error(f"Error: {e}")

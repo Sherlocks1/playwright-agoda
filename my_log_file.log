@@ -17243,3 +17243,1661 @@ waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to
 2023-03-30 15:03:10,908 [INFO] Task 13 - 2023-04-10.html: 爬取成功
 2023-03-30 15:03:12,535 [ERROR] Error while running task: list.remove(x): x not in list
 2023-03-30 15:03:13,573 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-29.html, 2023-03-30.html, 2023-03-31.html, 2023-04-01.html, 2023-04-02.html, 2023-04-03.html, 2023-04-04.html, 2023-04-05.html, 2023-04-06.html, 2023-04-07.html, 2023-04-08.html, 2023-04-09.html, 2023-04-10.html
+2023-03-30 22:44:54,619 [INFO] 程序开始运行
+2023-03-30 22:45:04,673 [INFO] Task 1 开始爬取：2023-03-29.html
+2023-03-30 22:45:04,733 [INFO] Task 2 开始爬取：2023-03-30.html
+2023-03-30 22:45:04,794 [INFO] Task 3 开始爬取：2023-03-31.html
+2023-03-30 22:45:04,857 [INFO] Task 4 开始爬取：2023-04-01.html
+2023-03-30 22:45:04,920 [INFO] Task 5 开始爬取：2023-04-02.html
+2023-03-30 22:45:04,981 [INFO] Task 6 开始爬取：2023-04-03.html
+2023-03-30 22:45:05,045 [INFO] Task 7 开始爬取：2023-04-04.html
+2023-03-30 22:45:05,106 [INFO] Task 8 开始爬取：2023-04-05.html
+2023-03-30 22:45:05,168 [INFO] Task 9 开始爬取：2023-04-06.html
+2023-03-30 22:45:05,228 [INFO] Task 10 开始爬取：2023-04-07.html
+2023-03-30 22:46:00,364 [ERROR] Task 5 - 2023-04-02.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:46:00,364 [INFO] Task 5 - 2023-04-02.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:46:03,164 [ERROR] Error: name 'datetime' is not defined
+2023-03-30 22:46:03,164 [INFO] Task 4 - 2023-04-01.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:46:10,293 [ERROR] Error: name 'datetime' is not defined
+2023-03-30 22:46:10,293 [INFO] Task 4 - 2023-04-01.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:46:17,025 [ERROR] Error: name 'datetime' is not defined
+2023-03-30 22:46:17,025 [INFO] Task 4 - 2023-04-01.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-03-30 22:46:20,144 [ERROR] Task 10 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:46:20,144 [INFO] Task 10 - 2023-04-07.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:46:24,006 [ERROR] Error: name 'datetime' is not defined
+2023-03-30 22:46:24,006 [INFO] Task 4 - 2023-04-01.html酒店页第 4 次等待元素超时！尝试重新加载
+2023-03-30 22:46:24,006 [WARNING] Task 4 - 2023-04-01.html酒店页达到最大重试次数,爬取失败
+2023-03-30 22:46:24,327 [INFO] Task 11 开始爬取：2023-04-08.html
+2023-03-30 22:46:26,204 [ERROR] Error: name 'datetime' is not defined
+2023-03-30 22:46:26,204 [INFO] Task 8 - 2023-04-05.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:52:04,820 [INFO] 程序开始运行
+2023-03-30 22:52:09,790 [INFO] Task 1 开始爬取：2023-03-29.html
+2023-03-30 22:52:09,818 [INFO] Task 2 开始爬取：2023-03-30.html
+2023-03-30 22:52:09,864 [INFO] Task 3 开始爬取：2023-03-31.html
+2023-03-30 22:52:09,891 [INFO] Task 4 开始爬取：2023-04-01.html
+2023-03-30 22:52:09,933 [INFO] Task 5 开始爬取：2023-04-02.html
+2023-03-30 22:52:09,961 [INFO] Task 6 开始爬取：2023-04-03.html
+2023-03-30 22:52:09,999 [INFO] Task 7 开始爬取：2023-04-04.html
+2023-03-30 22:52:10,029 [INFO] Task 8 开始爬取：2023-04-05.html
+2023-03-30 22:52:10,068 [INFO] Task 9 开始爬取：2023-04-06.html
+2023-03-30 22:52:10,094 [INFO] Task 10 开始爬取：2023-04-07.html
+2023-03-30 22:52:51,267 [INFO] Task 2 - 2023-03-30.html: 爬取成功
+2023-03-30 22:52:52,517 [INFO] Task 11 开始爬取：2023-04-08.html
+2023-03-30 22:53:09,655 [INFO] Task 3 - 2023-03-31.html: 爬取成功
+2023-03-30 22:53:11,719 [INFO] Task 12 开始爬取：2023-04-09.html
+2023-03-30 22:53:23,369 [INFO] Task 11 - 2023-04-08.html: 爬取成功
+2023-03-30 22:53:24,528 [ERROR] Task 1 - 2023-03-29.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:53:24,528 [INFO] Task 1 - 2023-03-29.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:53:24,905 [INFO] Task 13 开始爬取：2023-04-10.html
+2023-03-30 22:53:32,173 [INFO] Task 8 - 2023-04-05.html: 爬取成功
+2023-03-30 22:53:32,615 [INFO] Task 5 - 2023-04-02.html: 爬取成功
+2023-03-30 22:53:33,917 [INFO] Task 10 - 2023-04-07.html: 爬取成功
+2023-03-30 22:53:34,239 [INFO] Task 6 - 2023-04-03.html: 爬取成功
+2023-03-30 22:53:34,813 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:34,898 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:35,848 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:36,718 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:43,283 [INFO] Task 9 - 2023-04-06.html: 爬取成功
+2023-03-30 22:53:45,291 [INFO] Task 12 - 2023-04-09.html: 爬取成功
+2023-03-30 22:53:45,303 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:47,734 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:53:48,431 [ERROR] Task 1 - 2023-03-29.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:53:48,432 [INFO] Task 1 - 2023-03-29.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:54:09,626 [ERROR] Task 1 - 2023-03-29.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:54:09,626 [INFO] Task 1 - 2023-03-29.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-03-30 22:54:11,026 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-30 22:54:11,027 [INFO] Task 4 - 2023-04-01.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:54:11,572 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-30 22:54:11,572 [INFO] Task 13 - 2023-04-10.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:54:17,920 [INFO] Task 13 - 2023-04-10.html: 爬取成功
+2023-03-30 22:54:19,044 [INFO] Task 4 - 2023-04-01.html: 爬取成功
+2023-03-30 22:54:19,231 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:54:20,523 [INFO] Task 7 - 2023-04-04.html: 爬取成功
+2023-03-30 22:54:20,747 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:54:21,800 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:54:30,786 [ERROR] Task 1 - 2023-03-29.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 22:54:30,786 [INFO] Task 1 - 2023-03-29.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-03-30 22:54:30,786 [WARNING] Task 1 - 2023-03-29.html: Etrip页达到最大重试次数,爬取失败
+2023-03-30 22:54:30,827 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 22:54:31,063 [INFO] 程序运行完毕 - 爬取成功：, 爬取失败：2023-03-30.html, 2023-03-31.html, 2023-04-01.html, 2023-04-02.html, 2023-04-03.html, 2023-04-04.html, 2023-04-05.html, 2023-04-06.html, 2023-04-07.html, 2023-04-08.html, 2023-04-09.html, 2023-04-10.html
+2023-03-30 22:57:26,484 [INFO] 程序开始运行
+2023-03-30 22:57:32,752 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 22:57:32,781 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 22:57:32,821 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 22:57:32,852 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 22:57:32,889 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 22:57:32,923 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 22:57:32,958 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 22:57:32,992 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 22:57:33,030 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 22:57:33,058 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 22:58:16,739 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:16,740 [INFO] Task 5 - 2023-04-03.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:17,380 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:17,380 [INFO] Task 7 - 2023-04-05.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:17,866 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:17,867 [INFO] Task 6 - 2023-04-04.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:18,514 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:18,514 [INFO] Task 1 - 2023-03-30.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:19,011 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:19,011 [INFO] Task 8 - 2023-04-06.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:19,688 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:19,688 [INFO] Task 10 - 2023-04-08.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:20,764 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:20,764 [INFO] Task 3 - 2023-04-01.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:21,536 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:21,536 [INFO] Task 4 - 2023-04-02.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:25,151 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:25,152 [INFO] Task 9 - 2023-04-07.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:25,754 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:25,754 [INFO] Task 5 - 2023-04-03.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:26,303 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:26,303 [INFO] Task 2 - 2023-03-31.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 22:58:27,139 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:27,139 [INFO] Task 1 - 2023-03-30.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:27,643 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:27,643 [INFO] Task 6 - 2023-04-04.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:28,123 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:28,123 [INFO] Task 7 - 2023-04-05.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:28,884 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:28,884 [INFO] Task 8 - 2023-04-06.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:29,623 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:29,623 [INFO] Task 10 - 2023-04-08.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:29,969 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:29,969 [INFO] Task 4 - 2023-04-02.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:30,758 [ERROR] Error: list indices must be integers or slices, not str
+2023-03-30 22:58:30,758 [INFO] Task 3 - 2023-04-01.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-03-30 22:58:33,303 [WARNING] socket.send() raised exception.
+2023-03-30 22:58:33,305 [WARNING] socket.send() raised exception.
+2023-03-30 22:58:33,307 [WARNING] socket.send() raised exception.
+2023-03-30 22:58:33,311 [WARNING] socket.send() raised exception.
+2023-03-30 22:58:33,313 [WARNING] socket.send() raised exception.
+2023-03-30 22:58:33,315 [WARNING] socket.send() raised exception.
+2023-03-30 23:01:46,723 [INFO] 程序开始运行
+2023-03-30 23:01:52,352 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:01:52,383 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:01:52,422 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:01:52,454 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:01:52,487 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:01:52,522 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:01:52,557 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:01:52,592 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:01:52,633 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:01:52,665 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:02:32,042 [INFO] Task 7 - 2023-04-05.html: 爬取成功
+2023-03-30 23:02:33,460 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:02:34,042 [INFO] Task 2 - 2023-03-31.html: 爬取成功
+2023-03-30 23:02:34,644 [INFO] Task 8 - 2023-04-06.html: 爬取成功
+2023-03-30 23:02:34,699 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:02:35,183 [INFO] Task 5 - 2023-04-03.html: 爬取成功
+2023-03-30 23:02:35,636 [INFO] Task 6 - 2023-04-04.html: 爬取成功
+2023-03-30 23:02:35,723 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:02:36,337 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:02:36,373 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:36,757 [INFO] Task 3 - 2023-04-01.html: 爬取成功
+2023-03-30 23:02:37,382 [INFO] Task 9 - 2023-04-07.html: 爬取成功
+2023-03-30 23:02:37,474 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:37,545 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:38,062 [INFO] Task 10 - 2023-04-08.html: 爬取成功
+2023-03-30 23:02:38,324 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:38,496 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:39,266 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:39,309 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:02:40,888 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:03:02,984 [INFO] Task 12 - 2023-04-10.html: 爬取成功
+2023-03-30 23:03:04,536 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:03:06,869 [INFO] Task 11 - 2023-04-09.html: 爬取成功
+2023-03-30 23:03:09,379 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:04:32,244 [INFO] 程序开始运行
+2023-03-30 23:04:37,842 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:04:37,872 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:04:37,912 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:04:37,942 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:04:37,983 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:04:38,014 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:04:38,051 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:04:38,087 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:04:38,126 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:04:38,158 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:05:13,181 [INFO] Task 2 - 2023-03-31.html: 爬取成功
+2023-03-30 23:05:14,407 [INFO] Task 5 - 2023-04-03.html: 爬取成功
+2023-03-30 23:05:14,769 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:05:16,071 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:05:21,200 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:05:22,465 [INFO] Task 7 - 2023-04-05.html: 爬取成功
+2023-03-30 23:05:23,356 [INFO] Task 3 - 2023-04-01.html: 爬取成功
+2023-03-30 23:05:23,874 [INFO] Task 8 - 2023-04-06.html: 爬取成功
+2023-03-30 23:05:24,339 [INFO] Task 10 - 2023-04-08.html: 爬取成功
+2023-03-30 23:05:24,356 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:24,719 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:05:25,141 [INFO] Task 9 - 2023-04-07.html: 爬取成功
+2023-03-30 23:05:25,483 [INFO] Task 6 - 2023-04-04.html: 爬取成功
+2023-03-30 23:05:25,489 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:26,141 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:26,249 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:26,486 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:27,156 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:27,420 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:27,496 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:46,997 [INFO] Task 11 - 2023-04-09.html: 爬取成功
+2023-03-30 23:05:50,023 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:05:50,897 [INFO] Task 12 - 2023-04-10.html: 爬取成功
+2023-03-30 23:05:53,177 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:07:17,885 [INFO] 程序开始运行
+2023-03-30 23:07:25,382 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:07:25,413 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:07:25,451 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:07:25,481 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:07:25,518 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:07:25,552 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:07:25,587 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:07:25,620 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:07:25,661 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:07:25,693 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:08:04,145 [INFO] Task 10 - 2023-04-08.html: 爬取成功
+2023-03-30 23:08:05,073 [INFO] Task 7 - 2023-04-05.html: 爬取成功
+2023-03-30 23:08:06,513 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:08:06,634 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:08:07,368 [INFO] Task 8 - 2023-04-06.html: 爬取成功
+2023-03-30 23:08:07,895 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:08:08,243 [INFO] Task 9 - 2023-04-07.html: 爬取成功
+2023-03-30 23:08:09,785 [INFO] Task 5 - 2023-04-03.html: 爬取成功
+2023-03-30 23:08:10,359 [INFO] Task 3 - 2023-04-01.html: 爬取成功
+2023-03-30 23:08:10,385 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:10,808 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:08:10,825 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:10,830 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:10,898 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:12,283 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:13,213 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:08:37,333 [INFO] Task 12 - 2023-04-10.html: 爬取成功
+2023-03-30 23:08:39,907 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:09:24,867 [INFO] 程序开始运行
+2023-03-30 23:09:29,135 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:09:30,938 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:09:33,683 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:09:35,544 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:09:36,852 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:09:39,254 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:09:40,740 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:09:43,424 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:09:46,384 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:09:47,961 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:10:03,547 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:10:05,159 [INFO] Task 2 - 2023-03-31.html: 爬取成功
+2023-03-30 23:10:06,193 [INFO] Task 5 - 2023-04-03.html: 爬取成功
+2023-03-30 23:10:06,477 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:10:09,510 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:10:21,911 [INFO] Task 7 - 2023-04-05.html: 爬取成功
+2023-03-30 23:10:23,633 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:10:23,911 [INFO] Task 3 - 2023-04-01.html: 爬取成功
+2023-03-30 23:10:24,326 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:25,073 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:26,399 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:32,268 [INFO] Task 10 - 2023-04-08.html: 爬取成功
+2023-03-30 23:10:33,590 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:34,333 [INFO] Task 6 - 2023-04-04.html: 爬取成功
+2023-03-30 23:10:36,026 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:37,444 [INFO] Task 9 - 2023-04-07.html: 爬取成功
+2023-03-30 23:10:38,071 [INFO] Task 8 - 2023-04-06.html: 爬取成功
+2023-03-30 23:10:39,045 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:40,444 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:10:41,320 [INFO] Task 12 - 2023-04-10.html: 爬取成功
+2023-03-30 23:10:43,385 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:12:13,239 [INFO] 程序开始运行
+2023-03-30 23:12:17,868 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:12:20,713 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:12:23,187 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:12:25,309 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:12:26,397 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:12:28,831 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:12:30,703 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:12:33,141 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:12:35,524 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:12:37,283 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:12:54,249 [ERROR] Task 8 - 2023-04-06.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 23:12:54,249 [INFO] Task 8 - 2023-04-06.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:12:57,011 [ERROR] Task 9 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 23:12:57,012 [INFO] Task 9 - 2023-04-07.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:12:59,123 [ERROR] Task 10 - 2023-04-08.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-03-30 23:12:59,124 [INFO] Task 10 - 2023-04-08.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:13,725 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:13:16,649 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:13:38,032 [ERROR] Task 2 - 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:38,033 [INFO] Task 2 - 2023-03-31.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:47,712 [ERROR] Task 1 - 2023-03-30.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:47,713 [INFO] Task 1 - 2023-03-30.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:49,389 [ERROR] Task 10 - 2023-04-08.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:49,390 [INFO] Task 10 - 2023-04-08.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,644 [ERROR] Error while running task: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=259.3968834628&curr=CNY&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODUlMjUyNmN1cnJlbmN5JTI1M0RDTlklMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMDQlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTA1JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b201VE5TUVpydWpFJnBpZD1hZ2Qmc2lkPWExODgxYmJiLTQ5NDktNDdhNi1iODg3LWE4OWE0N2M4OTU5NCZzaWc9NWIxN2Q2YmFkZTMzNTM4Njk5NTQ0ZTVlMmNkZTYwOWVkOGI1NjMyYmQ0ZjQ3ZWMwZjQ1M2M5YjJlMGE0NDQyNzMxMzczMjM0MzMzODM1MzgzMDMwJmFpZD1iYjgyYTg2NS0zNGU3LTQ3MDEtOTY2MC1lNzMyNjI1NDJlZDU%3D&totalPrice=183.64&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-30 23:13:51,654 [ERROR] Task 11 - 2023-04-09.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,655 [INFO] Task 11 - 2023-04-09.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,663 [ERROR] Task 5 - 2023-04-03.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,663 [INFO] Task 5 - 2023-04-03.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,671 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:51,677 [ERROR] Task 3 - 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,678 [INFO] Task 3 - 2023-04-01.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,717 [ERROR] Task 9 - 2023-04-07.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,717 [INFO] Task 9 - 2023-04-07.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,733 [ERROR] Task 8 - 2023-04-06.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,734 [INFO] Task 8 - 2023-04-06.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,746 [ERROR] Task 2 - 2023-03-31.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:13:51,747 [INFO] Task 2 - 2023-03-31.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:13:51,757 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:51,824 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:13:52,686 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,687 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,687 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,687 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,687 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,687 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:13:52,742 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,744 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,748 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,749 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,754 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=331.0386374766&curr=CNY&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODUlMjUyNmN1cnJlbmN5JTI1M0RDTlklMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMDUlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTA2JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b201VE5TUVpydWpFJnBpZD1hZ2Qmc2lkPWVlMmM4NDE1LTRkYTQtNGEyOS05MmVmLWQ5YzFhMTIzZmExYSZzaWc9MjliNGYwYzcyNTk3ZDAwZmQzMzQwOTc4NDFlZWRiY2UwZjFjMWMyZTExNTBmMDQ0MDY0OGU2NjU4YjQ0YzNiZTJkMzgzNzM5MzgzODM4MzkzMjMxJmFpZD1iYjgyYTg2NS0zNGU3LTQ3MDEtOTY2MC1lNzMyNjI1NDJlZDU%3D&totalPrice=183.64&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 71, in get_data
+    await page1.goto(page1.url)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9162, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 494, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Navigation failed because page was closed!
+=========================== logs ===========================
+navigating to "https://search.etrip.net/ProviderRedirect?anchorPrice=331.0386374766&curr=CNY&providerCode=AGD&redirectURI=aHR0cHM6Ly9yLnZpby5jb20%2FbGJsPSZvZmQ9Ym9va191cmklM0RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRnpoLWNuJTI1MkZwYXJ0bmVycyUyNTJGcGFydG5lcnNlYXJjaC5hc3B4JTI1M0ZjaWQlMjUzRDE4MDc3NDclMjUyNmhpZCUyNTNEMTA2ODUlMjUyNmN1cnJlbmN5JTI1M0RDTlklMjUyNmNoZWNraW4lMjUzRDIwMjMtMDQtMDUlMjUyNmNoZWNrb3V0JTI1M0QyMDIzLTA0LTA2JTI1MjZOdW1iZXJvZkFkdWx0cyUyNTNEMiUyNTI2TnVtYmVyb2ZDaGlsZHJlbiUyNTNEMCUyNTI2Um9vbXMlMjUzRDElMjUyNm1jaWQlMjUzRDMzMiZvaWQ9b201VE5TUVpydWpFJnBpZD1hZ2Qmc2lkPWVlMmM4NDE1LTRkYTQtNGEyOS05MmVmLWQ5YzFhMTIzZmExYSZzaWc9MjliNGYwYzcyNTk3ZDAwZmQzMzQwOTc4NDFlZWRiY2UwZjFjMWMyZTExNTBmMDQ0MDY0OGU2NjU4YjQ0YzNiZTJkMzgzNzM5MzgzODM4MzkzMjMxJmFpZD1iYjgyYTg2NS0zNGU3LTQ3MDEtOTY2MC1lNzMyNjI1NDJlZDU%3D&totalPrice=183.64&lang=zh&yourChoice=false&ab_b6db8f29-vio-default-brand=b", waiting until "load"
+============================================================
+2023-03-30 23:13:52,754 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,755 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,757 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:13:52,758 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:25> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+waiting for navigation until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:15:58,221 [INFO] 程序开始运行
+2023-03-30 23:16:02,883 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:16:05,517 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:16:07,686 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:16:09,190 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:16:11,390 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:16:35,676 [INFO] Task 4 - 2023-04-02.html: 爬取成功
+2023-03-30 23:16:37,155 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:16:58,955 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:17:00,607 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:17:02,562 [INFO] Task 6 - 2023-04-04.html: 爬取成功
+2023-03-30 23:17:04,399 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:17:21,986 [INFO] Task 3 - 2023-04-01.html: 爬取成功
+2023-03-30 23:17:23,811 [INFO] Task 5 - 2023-04-03.html: 爬取成功
+2023-03-30 23:17:23,860 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:17:25,753 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:17:26,243 [INFO] Task 2 - 2023-03-31.html: 爬取成功
+2023-03-30 23:17:27,718 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:17:31,397 [INFO] Task 7 - 2023-04-05.html: 爬取成功
+2023-03-30 23:17:33,034 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:17:36,281 [INFO] Task 8 - 2023-04-06.html: 爬取成功
+2023-03-30 23:17:37,924 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:17:50,374 [INFO] Task 9 - 2023-04-07.html: 爬取成功
+2023-03-30 23:17:52,443 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:18:01,481 [INFO] Task 12 - 2023-04-10.html: 爬取成功
+2023-03-30 23:18:03,878 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:18:23,237 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-03-30 23:18:23,237 [INFO] Task 11 - 2023-04-09.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:18:30,473 [INFO] Task 11 - 2023-04-09.html: 爬取成功
+2023-03-30 23:18:32,079 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:19:31,847 [ERROR] Task 10 - 2023-04-08.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:19:31,847 [INFO] Task 10 - 2023-04-08.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:19:59,203 [INFO] Task 10 - 2023-04-08.html: 爬取成功
+2023-03-30 23:20:00,499 [ERROR] Error while running task: list.remove(x): x not in list
+2023-03-30 23:20:52,262 [INFO] 程序开始运行
+2023-03-30 23:20:57,887 [INFO] Task 1 开始爬取：2023-03-30.html
+2023-03-30 23:20:59,429 [INFO] Task 2 开始爬取：2023-03-31.html
+2023-03-30 23:21:01,902 [INFO] Task 3 开始爬取：2023-04-01.html
+2023-03-30 23:21:03,890 [INFO] Task 4 开始爬取：2023-04-02.html
+2023-03-30 23:21:05,724 [INFO] Task 5 开始爬取：2023-04-03.html
+2023-03-30 23:21:07,112 [INFO] Task 6 开始爬取：2023-04-04.html
+2023-03-30 23:21:09,520 [INFO] Task 7 开始爬取：2023-04-05.html
+2023-03-30 23:21:12,025 [INFO] Task 8 开始爬取：2023-04-06.html
+2023-03-30 23:21:13,403 [INFO] Task 9 开始爬取：2023-04-07.html
+2023-03-30 23:21:15,368 [INFO] Task 10 开始爬取：2023-04-08.html
+2023-03-30 23:21:35,309 [INFO] Task 1 - 2023-03-30.html: 爬取成功
+2023-03-30 23:21:36,932 [INFO] Task 11 开始爬取：2023-04-09.html
+2023-03-30 23:21:54,790 [ERROR] Task 2 - 2023-03-31.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:21:54,790 [INFO] Task 2 - 2023-03-31.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:21:58,259 [ERROR] Task 6 - 2023-04-04.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:21:58,259 [INFO] Task 6 - 2023-04-04.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:00,966 [ERROR] Task 7 - 2023-04-05.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:00,966 [INFO] Task 7 - 2023-04-05.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:04,895 [ERROR] Task 8 - 2023-04-06.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:04,895 [INFO] Task 8 - 2023-04-06.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:19,358 [ERROR] Task 3 - 2023-04-01.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:19,358 [INFO] Task 3 - 2023-04-01.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,927 [ERROR] Task 11 - 2023-04-09.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,927 [INFO] Task 11 - 2023-04-09.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,931 [ERROR] Task 10 - 2023-04-08.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,931 [INFO] Task 10 - 2023-04-08.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,941 [ERROR] Task 9 - 2023-04-07.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,941 [INFO] Task 9 - 2023-04-07.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,948 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:23,960 [ERROR] Task 4 - 2023-04-02.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,960 [INFO] Task 4 - 2023-04-02.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,969 [ERROR] Task 5 - 2023-04-03.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,970 [INFO] Task 5 - 2023-04-03.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:23,983 [ERROR] Error while running task: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:23,991 [ERROR] Task 3 - 2023-04-01.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:23,993 [INFO] Task 3 - 2023-04-01.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:22:24,008 [ERROR] Task 8 - 2023-04-06.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:24,008 [INFO] Task 8 - 2023-04-06.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:22:24,021 [ERROR] Task 7 - 2023-04-05.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:24,022 [INFO] Task 7 - 2023-04-05.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:22:24,030 [ERROR] Task 6 - 2023-04-04.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:24,030 [INFO] Task 6 - 2023-04-04.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:22:24,038 [ERROR] Task 2 - 2023-03-31.html: Error - Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-03-30 23:22:24,038 [INFO] Task 2 - 2023-03-31.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-03-30 23:22:24,118 [INFO] Task 12 开始爬取：2023-04-10.html
+2023-03-30 23:22:24,796 [ERROR] Task 12 - 2023-04-10.html: Error - net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1043047&checkIn=2023-04-10&checkOut=2023-04-11&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-03-30 23:22:24,796 [INFO] Task 12 - 2023-04-10.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-03-30 23:22:26,115 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,115 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,116 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Error('Target page, context or browser has been closed')>
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,159 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 36, in get_data
+    await page.goto(url)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9162, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 494, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1043047&checkIn=2023-04-10&checkOut=2023-04-11&rooms=2&userSearch=1", waiting until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 63, in get_data
+    await page.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-03-30 23:22:26,160 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,165 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,166 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,171 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,172 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,177 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,177 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,178 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-03-30 23:22:26,179 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<get_data() done, defined at D:\code\agoda\playwright-agoda\getdata.py:22> exception=Error('Page closed\n=========================== logs ===========================\nwaiting for event "popup"\n============================================================')>
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 80, in get_data
+    link = await page1.wait_for_selector(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8224, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 367, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_frame.py", line 322, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target closed
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 106, in get_data
+    await page1.reload()
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9203, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_page.py", line 502, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\code\agoda\playwright-agoda\getdata.py", line 75, in get_data
+    async with page1.expect_popup(timeout=120000) as page2_info:
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 53, in __aexit__
+    await self._event.value
+  File "C:\Users\czy51\venv\Lib\site-packages\playwright\_impl\_async_base.py", line 34, in value
+    return mapping.from_maybe_impl(await self._future)
+                                   ^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Page closed
+=========================== logs ===========================
+waiting for event "popup"
+============================================================

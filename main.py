@@ -3,9 +3,9 @@ import logging
 
 from setting import hotel_info
 from urlgen import urlgen
-from mixdata3 import crawler
+
 from tools import clean_filename
-from savedata import save_data
+
 from tools import delete_html_files
 
 hotel_name, hotel_id = hotel_info()
