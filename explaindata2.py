@@ -6,6 +6,7 @@ find_room_price = re.compile(r'<strong data-ppapi="(.*?)/strong>')
 find_room_status = re.compile(r'<strong class=".*font-size-12">(.*?)</strong>')
 find_soldoutroom_name = re.compile(r'<h5\s+class="[^"]*Headingstyled[^"]*">(.*?)<\/h5>')
 
+
 def explain_data(html):
     soup = BeautifulSoup(html, "html.parser")
     check_in = soup.select_one('#check-in-box > div > div > div > div:nth-child(1)').get_text(strip=True)
@@ -28,4 +29,3 @@ def explain_data(html):
             data.append([check_in, room_name, room_price, room_status])
 
     return data
-
