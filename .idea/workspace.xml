@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-26.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-27.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-28.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-29.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023-03-30.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/getdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/savesql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -19,13 +19,11 @@ logging.basicConfig(
 )
 
 
-async def get_data(page, url, filename, max_retries, task_name=None):
+
+async def get_data(page, url, filename, max_retries, task_name=None,headers=None):
     logging.info(f"{task_name} 开始爬取：{filename}")
 
     retries = 0
-
-    ua = UserAgent()
-    headers = {'User-Agent': ua.random}
 
     Etrip_headers = headers
     print(Etrip_headers)
@@ -191,9 +189,12 @@ async def crawler():
 
             filename = clean_filename(urls[i])
 
+            ua = UserAgent()
+            headers = {'User-Agent': ua.random}
+
             task = asyncio.create_task(
                 get_data(page, urls[i], filename, max_retries=max_retries,
-                         task_name=task_name))  # 传递 filenames 和 task_name 参数
+                         task_name=task_name,headers=headers))  # 传递 filenames 和 task_name 参数
 
             await random_wait()
 
