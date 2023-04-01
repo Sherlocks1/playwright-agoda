@@ -1,7 +1,7 @@
 import asyncio
 import logging
 
-from setting import hotel_info
+from hotel_choice import hotel_info
 from urlgen import urlgen
 
 from tools import clean_filename
@@ -34,4 +34,4 @@ if __name__ == '__main__':
     # except Exception as e:
     #     logging.error(f"Error: {e}")
     # save_data(hotel_name)
-    #delete_html_files()
+
