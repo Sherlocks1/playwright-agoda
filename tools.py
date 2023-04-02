@@ -1,3 +1,8 @@
+# -*- coding = utf-8 -*-
+# @Time : 2023/4/3 0:14
+# @Author : Sherlock
+# @File : tools.py
+# @Software : PyCharm
 import os
 import random
 import re
@@ -19,7 +24,4 @@ async def random_wait(min_time=2.0, max_time=5.0):
     await asyncio.sleep(seconds)
 
 
-def delete_html_files():
-    for filename in os.listdir("."):
-        if filename.endswith(".html"):
-            os.remove(filename)
+

@@ -1,3 +1,9 @@
+# -*- coding = utf-8 -*-
+# @Time : 2023/4/3 0:13
+# @Author : Sherlock
+# @File : crawler.py
+# @Software : PyCharm
+
 import asyncio
 import logging
 
@@ -7,7 +13,7 @@ from tools import clean_filename
 from tools import random_wait
 from get_data import get_data
 from fake_useragent import UserAgent
-from settings import HEADLESS, MAX_CONCURRENT_TASKS, MAX_RETRIES, timeout
+from settings import HEADLESS, MAX_CONCURRENT_TASKS, MAX_RETRIES, TIMEOUT
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,7 +36,7 @@ async def crawler():
         context = await browser.new_context()
 
         # 设置页面默认超时时间
-        context.set_default_timeout(timeout)
+        context.set_default_timeout(TIMEOUT)
 
         tasks = []
 
@@ -49,7 +55,7 @@ async def crawler():
                         logging.error(f"Error while running task: {error}")
 
             page = await context.new_page()
-            page.set_default_timeout(timeout)
+            page.set_default_timeout(TIMEOUT)
 
             task_name = f"Task {i + 1}"
             filename = clean_filename(urls[i])

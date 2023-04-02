@@ -27863,3 +27863,98 @@ waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to
 ============================================================
 2023-04-01 17:15:38,352 [INFO] Task 1 - 2023-04-01.html: Etrip页第 1 次等待元素超时！尝试重新加载
 2023-04-01 17:29:32,383 [INFO] 程序开始运行
+2023-04-03 00:05:32,626 [INFO] 程序开始运行
+2023-04-03 00:05:35,618 [ERROR] Error: name 'timeout' is not defined
+2023-04-03 00:05:56,344 [INFO] 程序开始运行
+2023-04-03 00:05:57,103 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 00:06:02,115 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 00:06:05,784 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 00:06:09,358 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 00:06:11,497 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 00:06:39,083 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 00:06:39,371 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 00:06:42,446 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 00:06:46,252 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 00:06:46,997 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 00:06:50,418 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 00:07:01,256 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 00:07:03,894 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:07:14,615 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 00:07:18,210 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:07:19,885 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 00:07:20,528 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 00:07:21,299 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 00:07:23,851 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:07:23,854 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:07:25,935 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:07:32,582 [INFO] 程序开始运行
+2023-04-03 00:07:33,298 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 00:07:36,645 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 00:07:41,232 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 00:07:44,899 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 00:07:49,879 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 00:08:10,437 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 00:08:12,986 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 00:08:14,202 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 00:08:18,041 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 00:08:19,725 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 00:08:24,388 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 00:08:36,706 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 00:08:38,939 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:08:40,873 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 00:08:40,874 [INFO] Task 5 - 2023-04-07.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 00:08:43,740 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 00:08:48,058 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:08:53,729 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 00:08:57,118 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:09:11,198 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 00:09:12,862 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 00:09:15,166 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:09:15,678 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:10:56,954 [INFO] 程序开始运行
+2023-04-03 00:10:57,684 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 00:11:02,440 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 00:11:05,660 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 00:11:08,063 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 00:11:11,365 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 00:11:34,441 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 00:11:35,762 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 00:11:38,794 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 00:11:38,853 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 00:11:39,621 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 00:11:43,498 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 00:11:43,540 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 00:11:47,264 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 00:11:49,803 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:11:49,803 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:12:06,334 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 00:12:11,281 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:12:16,328 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 00:12:16,592 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 00:12:19,209 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:12:21,027 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:19:27,564 [INFO] 程序开始运行
+2023-04-03 00:19:28,282 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 00:19:31,007 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 00:19:35,925 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 00:19:40,042 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 00:19:44,269 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 00:20:05,626 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 00:20:06,900 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 00:20:09,178 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 00:20:10,599 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 00:20:13,196 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 00:20:15,786 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 00:20:18,073 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 00:20:21,447 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:20:35,602 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 00:20:38,625 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:20:41,613 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 00:20:43,615 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 00:20:44,866 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:20:47,381 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 00:20:48,658 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 00:20:53,206 [ERROR] Error while running task: list.remove(x): x not in list

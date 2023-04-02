@@ -6,8 +6,6 @@ from urlgen import urlgen
 
 from tools import clean_filename
 
-from tools import delete_html_files
-
 hotel_name, hotel_id = hotel_info()
 
 if __name__ == '__main__':

@@ -1,3 +1,9 @@
+# -*- coding = utf-8 -*-
+# @Time : 2023/4/3 0:13
+# @Author : Sherlock
+# @File : get_data.py
+# @Software : PyCharm
+
 import logging
 
 from tools import random_wait
