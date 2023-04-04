@@ -33,10 +33,6 @@ async def crawler():
     async with async_playwright() as playwright:
 
         browser = await playwright.chromium.launch(headless=HEADLESS)
-        context = await browser.new_context()
-
-        # 设置页面默认超时时间
-        context.set_default_timeout(TIMEOUT)
 
         tasks = []
 
@@ -54,6 +50,11 @@ async def crawler():
                     except Exception as error:
                         logging.error(f"Error while running task: {error}")
 
+            context = await browser.new_context()
+
+            # 设置页面默认超时时间
+            context.set_default_timeout(TIMEOUT)
+
             page = await context.new_page()
             page.set_default_timeout(TIMEOUT)
 
@@ -67,6 +68,9 @@ async def crawler():
             task = asyncio.create_task(
                 get_data(page, urls[i], filename, max_retries=MAX_RETRIES,
                          task_name=task_name, headers=headers))
+
+            cookies = await context.cookies()
+            print(cookies)
 
             await random_wait()
 
@@ -82,8 +86,7 @@ async def crawler():
             except Exception as error:
                 logging.error(f"Error while running task: {error}")
 
-        cookies = await context.cookies()
-        print(cookies)
+
 
         await browser.close()
 

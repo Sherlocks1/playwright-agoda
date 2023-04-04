@@ -27958,3 +27958,725 @@ waiting for locator("xpath=//*[@id='roomGrid']") to be visible
 2023-04-03 00:20:47,381 [ERROR] Error while running task: list.remove(x): x not in list
 2023-04-03 00:20:48,658 [INFO] Task 8 - 2023-04-10.html: 爬取成功
 2023-04-03 00:20:53,206 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 09:17:39,882 [INFO] 程序开始运行
+2023-04-03 09:17:47,604 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 09:17:51,237 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 09:17:53,896 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 09:17:56,150 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 09:18:00,793 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 09:19:57,269 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 09:20:02,197 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 09:20:35,982 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 09:20:51,234 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 09:20:55,866 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 09:21:00,956 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 09:21:09,281 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 09:21:10,799 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 09:21:12,468 [INFO] Task 9 开始爬取：2023-04-11.html
+2023-04-03 09:21:16,591 [INFO] Task 10 开始爬取：2023-04-12.html
+2023-04-03 09:22:34,012 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 09:22:37,850 [INFO] Task 11 开始爬取：2023-04-13.html
+2023-04-03 09:23:03,066 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 09:23:04,908 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 09:23:04,909 [INFO] Task 7 - 2023-04-09.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 09:23:08,065 [INFO] Task 12 开始爬取：2023-04-14.html
+2023-04-03 09:23:28,135 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 09:23:28,136 [INFO] Task 7 - 2023-04-09.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 09:23:39,564 [INFO] Task 10 - 2023-04-12.html: 爬取成功
+2023-04-03 09:23:40,926 [INFO] Task 9 - 2023-04-11.html: 爬取成功
+2023-04-03 09:23:43,080 [INFO] Task 13 开始爬取：2023-04-15.html
+2023-04-03 09:23:46,489 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 09:23:47,125 [INFO] Task 14 开始爬取：2023-04-16.html
+2023-04-03 09:23:51,858 [INFO] Task 15 开始爬取：2023-04-17.html
+2023-04-03 09:24:37,765 [INFO] Task 11 - 2023-04-13.html: 爬取成功
+2023-04-03 09:24:58,344 [INFO] Task 16 开始爬取：2023-04-18.html
+2023-04-03 09:25:13,678 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 09:25:13,678 [INFO] Task 12 - 2023-04-14.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 09:25:17,806 [ERROR] Task 13 - 2023-04-15.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 09:25:17,806 [INFO] Task 13 - 2023-04-15.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 09:25:49,940 [INFO] Task 12 - 2023-04-14.html: 爬取成功
+2023-04-03 09:26:01,114 [INFO] Task 14 - 2023-04-16.html: 爬取成功
+2023-04-03 09:26:02,268 [INFO] Task 17 开始爬取：2023-04-19.html
+2023-04-03 09:26:08,982 [INFO] Task 18 开始爬取：2023-04-20.html
+2023-04-03 09:26:16,377 [INFO] Task 13 - 2023-04-15.html: 爬取成功
+2023-04-03 09:26:19,988 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 09:26:30,869 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 09:26:30,869 [INFO] Task 15 - 2023-04-17.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 09:26:38,982 [INFO] Task 16 - 2023-04-18.html: 爬取成功
+2023-04-03 09:26:42,199 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 09:26:44,146 [INFO] Task 15 - 2023-04-17.html: 爬取成功
+2023-04-03 09:26:48,603 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 09:27:26,430 [INFO] Task 17 - 2023-04-19.html: 爬取成功
+2023-04-03 09:27:29,755 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 09:27:34,019 [INFO] Task 18 - 2023-04-20.html: 爬取成功
+2023-04-03 09:27:37,503 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 11:09:48,477 [INFO] 程序开始运行
+2023-04-03 11:09:59,649 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 11:10:04,673 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 11:10:10,358 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 11:10:14,793 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 11:10:19,848 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 11:12:08,329 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 11:12:13,128 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 11:12:45,695 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 11:12:50,156 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 11:12:50,381 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 11:12:50,382 [INFO] Task 2 - 2023-04-04.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 11:13:13,351 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 11:13:17,608 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 11:13:18,014 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 11:13:20,389 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 11:13:23,262 [INFO] Task 9 开始爬取：2023-04-11.html
+2023-04-03 11:13:28,421 [INFO] Task 10 开始爬取：2023-04-12.html
+2023-04-03 11:14:49,720 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 11:14:54,760 [INFO] Task 11 开始爬取：2023-04-13.html
+2023-04-03 11:15:13,621 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 11:15:18,148 [INFO] Task 12 开始爬取：2023-04-14.html
+2023-04-03 11:15:41,060 [INFO] Task 9 - 2023-04-11.html: 爬取成功
+2023-04-03 11:15:46,156 [INFO] Task 13 开始爬取：2023-04-15.html
+2023-04-03 11:15:57,171 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 11:16:01,315 [INFO] Task 14 开始爬取：2023-04-16.html
+2023-04-03 11:16:13,817 [INFO] Task 10 - 2023-04-12.html: 爬取成功
+2023-04-03 11:16:18,764 [INFO] Task 15 开始爬取：2023-04-17.html
+2023-04-03 11:16:39,090 [INFO] Task 11 - 2023-04-13.html: 爬取成功
+2023-04-03 11:16:42,543 [INFO] Task 16 开始爬取：2023-04-18.html
+2023-04-03 11:17:33,250 [INFO] Task 12 - 2023-04-14.html: 爬取成功
+2023-04-03 11:17:38,253 [INFO] Task 17 开始爬取：2023-04-19.html
+2023-04-03 11:18:05,670 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 11:18:05,671 [INFO] Task 13 - 2023-04-15.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 11:18:14,002 [INFO] Task 14 - 2023-04-16.html: 爬取成功
+2023-04-03 11:18:17,577 [INFO] Task 18 开始爬取：2023-04-20.html
+2023-04-03 11:18:19,171 [INFO] Task 13 - 2023-04-15.html: 爬取成功
+2023-04-03 11:18:23,928 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 11:18:31,740 [INFO] Task 15 - 2023-04-17.html: 爬取成功
+2023-04-03 11:18:36,171 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 11:18:53,959 [INFO] Task 16 - 2023-04-18.html: 爬取成功
+2023-04-03 11:18:57,533 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 11:19:13,538 [INFO] Task 17 - 2023-04-19.html: 爬取成功
+2023-04-03 11:19:17,870 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 11:19:38,746 [INFO] Task 18 - 2023-04-20.html: 爬取成功
+2023-04-03 11:19:41,117 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 12:01:33,181 [INFO] 程序开始运行
+2023-04-03 12:01:36,762 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 12:01:41,426 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 12:01:45,033 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 12:04:22,033 [INFO] 程序开始运行
+2023-04-03 12:04:24,586 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 12:04:25,511 [ERROR] Task 1 - 2023-04-03.html: Error - net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-03&checkOut=2023-04-04&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-04-03 12:04:25,511 [INFO] Task 1 - 2023-04-03.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 12:04:27,654 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<get_data() done, defined at C:\Users\produ\Documents\GitHub\playwright-agoda\get_data.py:14> exception=Error('Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\get_data.py", line 23, in get_data
+    await page.goto(url)
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 9135, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 491, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: net::ERR_ABORTED; maybe frame was detached?
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-03&checkOut=2023-04-04&rooms=2&userSearch=1", waiting until "load"
+============================================================
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\produ\Documents\GitHub\playwright-agoda\get_data.py", line 50, in get_data
+    await page.reload()
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\async_api\_generated.py", line 9176, in reload
+    await self._impl_obj.reload(timeout=timeout, waitUntil=wait_until)
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 499, in reload
+    await self._channel.send("reload", locals_to_params(locals()))
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 44, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 419, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "C:\Users\produ\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 79, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.Error: Target page, context or browser has been closed
+2023-04-03 12:04:42,717 [INFO] 程序开始运行
+2023-04-03 12:04:44,771 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 12:06:28,055 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 12:06:31,244 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 12:07:04,109 [INFO] 程序开始运行
+2023-04-03 12:07:06,226 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 12:08:54,567 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 12:08:56,798 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:00:07,012 [INFO] 程序开始运行
+2023-04-03 15:00:10,817 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:01:03,958 [ERROR] Task 1 - 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:01:03,958 [INFO] Task 1 - 2023-04-03.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:03:35,494 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 15:03:37,809 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:04:29,490 [INFO] 程序开始运行
+2023-04-03 15:04:31,987 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:04:36,671 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 15:04:39,879 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 15:04:42,656 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 15:04:44,950 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 15:05:14,146 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:05:14,146 [INFO] Task 2 - 2023-04-04.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:06:14,937 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 15:06:14,937 [INFO] Task 4 - 2023-04-06.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:06:37,941 [INFO] Task 5 - 2023-04-07.html: 爬取成功
+2023-04-03 15:06:39,630 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 15:06:40,176 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 15:06:42,925 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 15:06:46,542 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 15:07:20,615 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 15:07:21,733 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 15:07:24,652 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:07:25,017 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:07:36,152 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 15:07:37,483 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 15:07:40,644 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:07:41,829 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:23:00,401 [INFO] 程序开始运行
+2023-04-03 15:23:03,606 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:23:09,394 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 15:23:15,017 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 15:23:32,660 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 15:23:48,374 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 15:28:03,517 [INFO] 程序开始运行
+2023-04-03 15:28:07,150 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:28:12,056 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 15:28:16,438 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 15:28:22,738 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 15:28:39,412 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 15:28:40,941 [ERROR] Task 1 - 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+  locator resolved to visible <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-04-03 15:28:40,947 [INFO] Task 1 - 2023-04-03.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:28:54,653 [ERROR] Task 4 - 2023-04-06.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:28:54,653 [INFO] Task 4 - 2023-04-06.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:29:03,903 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:29:03,903 [INFO] Task 5 - 2023-04-07.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:29:14,712 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:29:14,712 [INFO] Task 2 - 2023-04-04.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:29:49,397 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:29:49,398 [INFO] Task 5 - 2023-04-07.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:29:59,660 [ERROR] Task 4 - 2023-04-06.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:29:59,660 [INFO] Task 4 - 2023-04-06.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:31:41,762 [ERROR] Task 4 - 2023-04-06.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:31:41,763 [INFO] Task 4 - 2023-04-06.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:32:15,744 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 15:32:15,745 [INFO] Task 1 - 2023-04-03.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:32:27,978 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:32:27,978 [INFO] Task 5 - 2023-04-07.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:32:54,926 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:32:54,926 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:33:02,901 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:33:33,120 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 15:33:35,617 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:33:45,798 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 15:33:49,176 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:33:49,176 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:33:50,530 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 15:33:50,530 [INFO] Task 3 - 2023-04-05.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:34:04,033 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 15:34:06,449 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:34:13,901 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 15:34:13,901 [INFO] Task 3 - 2023-04-05.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:34:14,883 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:34:14,883 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:34:54,929 [ERROR] Task 6 - 2023-04-08.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:34:54,929 [INFO] Task 6 - 2023-04-08.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:35:35,132 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:35:35,133 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 3 次等待元素超时！尝试重新加载
+2023-04-03 15:35:45,388 [ERROR] Task 7 - 2023-04-09.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+  locator resolved to visible <div class="Box-sc-kv6pi1-0 gDVubK">…</div>
+============================================================
+2023-04-03 15:35:45,480 [INFO] Task 7 - 2023-04-09.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:36:04,285 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 15:36:09,762 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:36:15,465 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 15:36:18,819 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:36:23,199 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:36:23,199 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 4 次等待元素超时！尝试重新加载
+2023-04-03 15:36:23,199 [WARNING] Task 2 - 2023-04-04.html: Agoda列表页达到最大重试次数,爬取失败
+2023-04-03 15:36:23,256 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:37:05,148 [ERROR] Task 7 - 2023-04-09.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:37:05,150 [INFO] Task 7 - 2023-04-09.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:37:16,432 [INFO] 程序开始运行
+2023-04-03 15:37:19,343 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:37:21,956 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 15:37:25,634 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 15:37:30,589 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 15:37:33,466 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 15:38:15,134 [ERROR] Task 1 - 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-04-03 15:38:15,134 [INFO] Task 1 - 2023-04-03.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:38:40,058 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:38:40,058 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:39:41,338 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:39:41,339 [INFO] Task 5 - 2023-04-07.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:39:42,547 [ERROR] Task 1 - 2023-04-03.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:39:42,548 [INFO] Task 1 - 2023-04-03.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:40:00,068 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:40:00,068 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:40:07,762 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 15:40:16,885 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 15:40:16,904 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 15:40:21,651 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 15:41:10,185 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:41:10,185 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 3 次等待元素超时！尝试重新加载
+2023-04-03 15:41:51,897 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:41:51,897 [INFO] Task 2 - 2023-04-04.htmlAgoda列表页第 4 次等待元素超时！尝试重新加载
+2023-04-03 15:41:51,898 [WARNING] Task 2 - 2023-04-04.html: Agoda列表页达到最大重试次数,爬取失败
+2023-04-03 15:41:51,941 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:42:13,672 [ERROR] Task 7 - 2023-04-09.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:42:13,672 [INFO] Task 7 - 2023-04-09.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:42:47,565 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 15:42:47,567 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:42:48,917 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 15:42:52,101 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:42:53,068 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:43:46,697 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 15:43:49,206 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 15:44:35,512 [INFO] 程序开始运行
+2023-04-03 15:44:38,176 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 15:44:43,322 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 15:44:47,063 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 15:44:50,841 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 15:44:56,637 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 15:45:36,885 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+  locator resolved to visible <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-04-03 15:45:36,891 [INFO] Task 2 - 2023-04-04.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:45:42,668 [ERROR] Task 3 - 2023-04-05.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:45:42,669 [INFO] Task 3 - 2023-04-05.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:46:43,803 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:46:43,803 [INFO] Task 5 - 2023-04-07.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:47:02,921 [ERROR] Task 1 - 2023-04-03.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:47:02,922 [INFO] Task 1 - 2023-04-03.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:47:03,550 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-04-03 15:47:03,550 [INFO] Task 2 - 2023-04-04.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:47:10,966 [ERROR] Task 3 - 2023-04-05.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:47:10,966 [INFO] Task 3 - 2023-04-05.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:47:20,935 [ERROR] Task 4 - 2023-04-06.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:47:20,941 [INFO] Task 4 - 2023-04-06.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:48:24,134 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:48:26,876 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 15:48:32,176 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:48:34,417 [ERROR] Task 2 - 2023-04-04.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:48:34,417 [INFO] Task 2 - 2023-04-04.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-04-03 15:48:36,505 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 15:48:39,603 [ERROR] Error while running task: Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:48:42,196 [ERROR] Task 3 - 2023-04-05.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+  locator resolved to hidden <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+  locator resolved to visible <img title="Agoda" alt="AGD-logo" src="https://i.fih.…/>
+============================================================
+2023-04-03 15:48:42,196 [INFO] Task 3 - 2023-04-05.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-04-03 15:48:44,236 [ERROR] Task 4 - 2023-04-06.html: Error - Timeout 120000ms exceeded while waiting for event "popup"
+=========================== logs ===========================
+waiting for event "popup"
+============================================================
+2023-04-03 15:48:44,237 [INFO] Task 4 - 2023-04-06.htmlAgoda列表页第 2 次等待元素超时！尝试重新加载
+2023-04-03 15:49:07,459 [ERROR] Task 7 - 2023-04-09.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:49:07,459 [INFO] Task 7 - 2023-04-09.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:49:17,489 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 15:49:17,489 [INFO] Task 5 - 2023-04-07.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 15:49:27,325 [ERROR] Task 6 - 2023-04-08.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 15:49:27,326 [INFO] Task 6 - 2023-04-08.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:36:14,209 [INFO] 程序开始运行
+2023-04-03 16:36:31,247 [INFO] Task 1 开始爬取：2023-04-28.html
+2023-04-03 16:36:36,118 [INFO] Task 2 开始爬取：2023-04-28.html
+2023-04-03 16:36:40,068 [INFO] Task 3 开始爬取：2023-04-28.html
+2023-04-03 16:36:45,068 [INFO] Task 4 开始爬取：2023-04-28.html
+2023-04-03 16:36:49,804 [INFO] Task 5 开始爬取：2023-04-28.html
+2023-04-03 16:38:12,613 [INFO] Task 3 - 2023-04-28.html: 爬取成功
+2023-04-03 16:38:14,222 [INFO] Task 1 - 2023-04-28.html: 爬取成功
+2023-04-03 16:38:16,154 [INFO] Task 5 - 2023-04-28.html: 爬取成功
+2023-04-03 16:38:19,523 [INFO] Task 2 - 2023-04-28.html: 爬取成功
+2023-04-03 16:38:20,835 [INFO] Task 4 - 2023-04-28.html: 爬取成功
+2023-04-03 16:38:20,850 [INFO] Task 6 开始爬取：2023-04-28.html
+2023-04-03 16:38:25,219 [INFO] Task 7 开始爬取：2023-04-28.html
+2023-04-03 16:38:29,308 [INFO] Task 8 开始爬取：2023-04-28.html
+2023-04-03 16:38:32,663 [INFO] Task 9 开始爬取：2023-04-28.html
+2023-04-03 16:38:36,601 [INFO] Task 10 开始爬取：2023-04-28.html
+2023-04-03 16:39:32,446 [INFO] Task 6 - 2023-04-28.html: 爬取成功
+2023-04-03 16:39:36,318 [INFO] Task 11 开始爬取：2023-04-28.html
+2023-04-03 16:40:19,711 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-04-03 16:40:19,712 [INFO] Task 7 - 2023-04-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:40:35,312 [INFO] Task 9 - 2023-04-28.html: 爬取成功
+2023-04-03 16:40:38,314 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-04-03 16:40:38,315 [INFO] Task 8 - 2023-04-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:40:40,293 [INFO] Task 12 开始爬取：2023-04-28.html
+2023-04-03 16:40:42,267 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 16:40:42,268 [INFO] Task 7 - 2023-04-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 16:41:04,194 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 16:41:04,194 [INFO] Task 10 - 2023-04-28.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:41:05,376 [INFO] Task 11 - 2023-04-28.html: 爬取成功
+2023-04-03 16:41:08,217 [INFO] Task 13 开始爬取：2023-04-28.html
+2023-04-03 16:41:14,426 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 16:41:14,426 [INFO] Task 7 - 2023-04-28.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-04-03 16:41:16,748 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 16:41:16,748 [INFO] Task 8 - 2023-04-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 16:41:29,806 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-04-03 16:41:29,806 [INFO] Task 10 - 2023-04-28.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 16:41:47,963 [INFO] Task 8 - 2023-04-28.html: 爬取成功
+2023-04-03 16:41:50,537 [INFO] Task 7 - 2023-04-28.html: 爬取成功
+2023-04-03 16:42:00,579 [INFO] Task 10 - 2023-04-28.html: 爬取成功
+2023-04-03 16:42:01,741 [INFO] Task 14 开始爬取：2023-04-28.html
+2023-04-03 16:42:04,909 [INFO] Task 15 开始爬取：2023-04-28.html
+2023-04-03 16:42:07,879 [INFO] Task 16 开始爬取：2023-04-28.html
+2023-04-03 16:42:23,355 [INFO] Task 12 - 2023-04-28.html: 爬取成功
+2023-04-03 16:42:25,884 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 16:42:40,532 [INFO] Task 13 - 2023-04-28.html: 爬取成功
+2023-04-03 16:42:43,522 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 16:43:33,533 [INFO] Task 14 - 2023-04-28.html: 爬取成功
+2023-04-03 16:43:34,905 [INFO] Task 15 - 2023-04-28.html: 爬取成功
+2023-04-03 16:43:36,136 [INFO] Task 16 - 2023-04-28.html: 爬取成功
+2023-04-03 16:43:36,394 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 16:43:37,283 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 16:43:39,432 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 16:51:54,961 [INFO] 程序开始运行
+2023-04-03 16:51:58,338 [INFO] Task 1 开始爬取：2023-04-28.html
+2023-04-03 16:52:02,707 [INFO] Task 2 开始爬取：2023-04-28.html
+2023-04-03 16:52:07,680 [INFO] Task 3 开始爬取：2023-04-28.html
+2023-04-03 16:52:10,445 [INFO] Task 4 开始爬取：2023-04-28.html
+2023-04-03 16:52:14,224 [INFO] Task 5 开始爬取：2023-04-28.html
+2023-04-03 16:53:25,184 [ERROR] Task 4 - 2023-04-28.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+  locator resolved to hidden <div class="Box-sc-kv6pi1-0 gDVubK">…</div>
+  locator resolved to visible <div class="Box-sc-kv6pi1-0 gDVubK">…</div>
+============================================================
+2023-04-03 16:53:25,406 [INFO] Task 4 - 2023-04-28.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:53:46,441 [INFO] Task 1 - 2023-04-28.html: 爬取成功
+2023-04-03 16:53:49,700 [INFO] Task 2 - 2023-04-28.html: 爬取成功
+2023-04-03 16:53:51,422 [INFO] Task 3 - 2023-04-28.html: 爬取成功
+2023-04-03 16:53:51,817 [INFO] Task 6 开始爬取：2023-04-28.html
+2023-04-03 16:53:55,051 [INFO] Task 7 开始爬取：2023-04-28.html
+2023-04-03 16:54:00,806 [INFO] Task 8 开始爬取：2023-04-28.html
+2023-04-03 16:54:16,672 [INFO] Task 5 - 2023-04-28.html: 爬取成功
+2023-04-03 16:54:21,547 [INFO] Task 9 开始爬取：2023-04-28.html
+2023-04-03 16:54:36,033 [INFO] Task 4 - 2023-04-28.html: 爬取成功
+2023-04-03 16:54:40,554 [INFO] Task 10 开始爬取：2023-04-28.html
+2023-04-03 16:55:38,770 [INFO] Task 7 - 2023-04-28.html: 爬取成功
+2023-04-03 16:55:42,309 [INFO] Task 6 - 2023-04-28.html: 爬取成功
+2023-04-03 16:55:45,330 [INFO] Task 11 开始爬取：2023-04-28.html
+2023-04-03 16:55:48,347 [INFO] Task 12 开始爬取：2023-04-28.html
+2023-04-03 16:55:53,242 [INFO] Task 8 - 2023-04-28.html: 爬取成功
+2023-04-03 16:55:55,446 [INFO] Task 13 开始爬取：2023-04-28.html
+2023-04-03 16:56:04,364 [INFO] Task 9 - 2023-04-28.html: 爬取成功
+2023-04-03 16:56:08,114 [INFO] Task 14 开始爬取：2023-04-28.html
+2023-04-03 16:56:15,534 [INFO] Task 10 - 2023-04-28.html: 爬取成功
+2023-04-03 16:56:20,079 [INFO] Task 15 开始爬取：2023-04-28.html
+2023-04-03 16:58:37,655 [ERROR] Task 11 - 2023-04-28.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 16:58:37,656 [INFO] Task 11 - 2023-04-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 16:58:48,368 [ERROR] Task 12 - 2023-04-28.html: Error - Timeout 180000ms exceeded.
+=========================== logs ===========================
+navigating to "https://search.etrip.net/Hotel/Search?hotelId=1599297&checkIn=2023-04-28&checkOut=2023-04-30&rooms=2&userSearch=1", waiting until "load"
+============================================================
+2023-04-03 16:58:48,368 [INFO] Task 12 - 2023-04-28.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:28:28,962 [INFO] 程序开始运行
+2023-04-03 17:28:32,453 [INFO] Task 1 开始爬取：2023-04-03.html
+2023-04-03 17:28:36,842 [INFO] Task 2 开始爬取：2023-04-04.html
+2023-04-03 17:28:41,480 [INFO] Task 3 开始爬取：2023-04-05.html
+2023-04-03 17:28:47,000 [INFO] Task 4 开始爬取：2023-04-06.html
+2023-04-03 17:28:51,769 [INFO] Task 5 开始爬取：2023-04-07.html
+2023-04-03 17:29:57,605 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 17:29:57,605 [INFO] Task 5 - 2023-04-07.html: Etrip页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:30:07,276 [INFO] Task 1 - 2023-04-03.html: 爬取成功
+2023-04-03 17:30:14,244 [INFO] Task 6 开始爬取：2023-04-08.html
+2023-04-03 17:30:22,230 [INFO] Task 4 - 2023-04-06.html: 爬取成功
+2023-04-03 17:30:26,864 [INFO] Task 7 开始爬取：2023-04-09.html
+2023-04-03 17:30:37,614 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 17:30:37,615 [INFO] Task 5 - 2023-04-07.html: Etrip页第 2 次等待元素超时！尝试重新加载
+2023-04-03 17:30:46,937 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 17:30:46,938 [INFO] Task 3 - 2023-04-05.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:30:54,390 [INFO] Task 2 - 2023-04-04.html: 爬取成功
+2023-04-03 17:31:18,529 [ERROR] Task 6 - 2023-04-08.html: Error - Timeout 40000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=/html[1]/body[1]/div[11]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[3]/ol[1]/li[1]/div[2]/a[1]/div[1]/div[3]/div[1]") to be visible
+============================================================
+2023-04-03 17:31:18,529 [INFO] Task 6 - 2023-04-08.htmlAgoda列表页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:31:20,920 [INFO] Task 8 开始爬取：2023-04-10.html
+2023-04-03 17:31:23,135 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 17:31:23,136 [INFO] Task 5 - 2023-04-07.html: Etrip页第 3 次等待元素超时！尝试重新加载
+2023-04-03 17:31:47,608 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-04-03 17:31:47,663 [INFO] Task 3 - 2023-04-05.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 17:32:07,327 [INFO] Task 3 - 2023-04-05.html: 爬取成功
+2023-04-03 17:32:12,839 [INFO] Task 9 开始爬取：2023-04-11.html
+2023-04-03 17:32:18,540 [ERROR] Task 5 - 2023-04-07.html: Error - Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to be visible
+============================================================
+2023-04-03 17:32:18,540 [INFO] Task 5 - 2023-04-07.html: Etrip页第 4 次等待元素超时！尝试重新加载
+2023-04-03 17:32:18,540 [WARNING] Task 5 - 2023-04-07.html: Etrip页达到最大重试次数,爬取失败
+2023-04-03 17:32:19,160 [INFO] Task 10 开始爬取：2023-04-12.html
+2023-04-03 17:32:35,838 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 17:32:35,839 [INFO] Task 6 - 2023-04-08.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:32:49,074 [INFO] Task 7 - 2023-04-09.html: 爬取成功
+2023-04-03 17:32:53,529 [INFO] Task 11 开始爬取：2023-04-13.html
+2023-04-03 17:33:06,127 [INFO] Task 6 - 2023-04-08.html: 爬取成功
+2023-04-03 17:33:06,748 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 17:33:06,748 [INFO] Task 8 - 2023-04-10.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:33:11,478 [INFO] Task 12 开始爬取：2023-04-14.html
+2023-04-03 17:33:38,939 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+  locator resolved to visible <div id="roomGrid" class="RoomGrid false" data-elemen…>…</div>
+============================================================
+2023-04-03 17:33:38,939 [INFO] Task 9 - 2023-04-11.html酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-03 17:33:45,539 [INFO] Task 10 - 2023-04-12.html: 爬取成功
+2023-04-03 17:33:47,401 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 17:33:47,402 [INFO] Task 8 - 2023-04-10.html酒店页第 2 次等待元素超时！尝试重新加载
+2023-04-03 17:33:48,824 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 17:34:02,265 [INFO] Task 9 - 2023-04-11.html: 爬取成功
+2023-04-03 17:34:05,295 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 17:34:15,416 [INFO] Task 11 - 2023-04-13.html: 爬取成功
+2023-04-03 17:34:19,597 [INFO] Task 12 - 2023-04-14.html: 爬取成功
+2023-04-03 17:34:20,254 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 17:34:20,873 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-03 17:34:20,873 [INFO] Task 8 - 2023-04-10.html酒店页第 3 次等待元素超时！尝试重新加载
+2023-04-03 17:34:22,616 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-03 17:34:31,993 [INFO] Task 8 - 2023-04-10.html: 爬取成功
+2023-04-03 17:34:34,690 [ERROR] Error while running task: list.remove(x): x not in list
