@@ -19,8 +19,6 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
     while True:
         try:
             await page.set_extra_http_headers(headers)
-            page.on("request", lambda request: print(">>", request.method, request.url))
-            page.on("response", lambda response: print("<<", response.status, response.url))
             await page.goto(url)
 
             # 等待 AGD-logo 出现
@@ -54,8 +52,9 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
     async with page1:
 
         await page1.set_extra_http_headers(headers)
-        page1.on("request", lambda request: print(">>", request.method, request.url))
-        page1.on("response", lambda response: print("<<", response.status, response.url))
+
+        page1.on("response", lambda response: print("<<", response.status, response.url, response.ok))
+        logging.info(f"{task_name} - {filename}page1响应状态")
         await page1.goto(page1.url)
 
         retries = 0
@@ -97,6 +96,8 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
         async with page2:
 
             await page2.set_extra_http_headers(headers)
+            page2.on("response", lambda response: print("<<", response.status, response.url, response.ok))
+            logging.info(f"{task_name} - {filename}page2响应状态")
             await page2.goto(page2.url)
 
             retries = 0
