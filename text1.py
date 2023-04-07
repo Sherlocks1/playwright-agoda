@@ -7,70 +7,86 @@ import datetime
 from crawler import crawler
 import asyncio
 
+
 def hotel_info():
     hotels = {
-        "曼谷卡塞特纳瓦敏里沃泰尔酒店": "2918402",
-        "王子宫殿酒店": "1043047",
-        "艾里四分之一UHG酒店": "4387380",
-        "江陵Hi Ocean镜浦酒店": "5272524",
-        "镜浦天空酒店": "3579492",
-        "芽庄皇宫酒店": "5010957",
-        "芽庄槟榔酒店": "4817166",
-        "长滩岛航路与蓝海度假村": "1599297",
+        "曼谷卡塞特纳瓦敏里沃泰尔酒店": {"id": "2918402", "selected": False, "num_days": None},
+        "王子宫殿酒店": {"id": "1043047", "selected": False, "num_days": None},
+        "艾里四分之一UHG酒店": {"id": "4387380", "selected": False, "num_days": None},
+        "江陵Hi Ocean镜浦酒店": {"id": "5272524", "selected": False, "num_days": None},
+        "镜浦天空酒店": {"id": "3579492", "selected": False, "num_days": None},
+        "芽庄皇宫酒店": {"id": "5010957", "selected": False, "num_days": None},
+        "芽庄槟榔酒店": {"id": "4817166", "selected": False, "num_days": None},
+        "长滩岛航路与蓝海度假村": {"id": "1599297", "selected": False, "num_days": None},
     }
-    hotel_choice = input("请输入1选择现有酒店，输入0输入自定义酒店ID：")
-    if hotel_choice == "1":
+    selected_hotels = []
+    while True:
         print("可选酒店列表：")
         for index, hotel in enumerate(hotels):
-            print(f"{index + 1}. {hotel}")
-        hotel_index = int(input("请选择对应数字：")) - 1
-        hotel_name = list(hotels.keys())[hotel_index]
-        hotel_id = hotels[hotel_name]
-        print(f"您选择的酒店为：{hotel_name}（ID：{hotel_id}）")
-        return hotel_name, hotel_id
-    else:
-        hotel_name = input("请输入酒店名称：")
-        hotel_id = input("请输入酒店ID：")
-        return hotel_name, hotel_id
+            status = "[已选]" if hotels[hotel]["selected"] else ""
+            print(f"{index + 1}. {hotel} {status}")
+        print(f"0. 确认选择（已选{len(selected_hotels)}家酒店）")
+        choice = input("请选择对应数字：")
+        if choice == "0":
+            if len(selected_hotels) == 0:
+                print("至少选择一家酒店！")
+                continue
+            else:
+                break
+        try:
+            hotel_index = int(choice) - 1
+            hotel_name = list(hotels.keys())[hotel_index]
+            hotel_id = hotels[hotel_name]["id"]
+            if hotels[hotel_name]["selected"]:
+                print("该酒店已被选中，请重新选择！")
+            else:
+                num_days = input("请输入需要爬取的天数：")
+                hotels[hotel_name]["selected"] = True
+                hotels[hotel_name]["num_days"] = int(num_days)
+                selected_hotels.append({"name": hotel_name, "id": hotel_id, "num_days": num_days})
+        except (ValueError, IndexError):
+            print("无效的输入，请重新选择！")
+    print("您已选中以下酒店：")
+    for hotel in selected_hotels:
+        print(f"{hotel['name']}（ID：{hotel['id']}，爬取天数：{hotels[hotel['name']]['num_days']}）")
+        urlgen(hotel["name"], hotel["id"], hotels[hotel["name"]]["num_days"])
+    return selected_hotels
 
 
-def urlgen(hotel_name, hotel_id):
+def urlgen(hotel_name, hotel_id, num_days):
     base_url = f"https://search.etrip.net/Hotel/Search?hotelId={hotel_id}&checkIn={{check_in_date}}&checkOut={{check_out_date}}&rooms=2&userSearch=1"
-    check_in_date_str = input("请输入入住日期（格式为MM-DD）：")
-    check_out_date_str = input("请输入离店日期（格式为MM-DD）：")
 
     # 将年份设置为当前年份
     current_year = datetime.datetime.now().year
-    check_in_date_str_with_year = f"{current_year}-{check_in_date_str}"
-    check_out_date_str_with_year = f"{current_year}-{check_out_date_str}"
 
-    check_in_date = datetime.datetime.strptime(check_in_date_str_with_year, "%Y-%m-%d")
-    check_out_date = datetime.datetime.strptime(check_out_date_str_with_year, "%Y-%m-%d")
+    check_in_date = datetime.datetime.today()
+    check_out_date = check_in_date + datetime.timedelta(days=num_days)
 
-    num_days = (check_out_date - check_in_date).days
-
-    with open("urls.txt", "w") as f:
+    with open(f"{hotel_name}_urls.txt", "w") as f:
         for i in range(num_days):
             check_in_date_i = check_in_date + datetime.timedelta(days=i)
-            check_out_date_i = check_in_date_i + datetime.timedelta(days=1)
+            check_out_date_i = check_in_date + datetime.timedelta(days=i + 1)  # 修改这行代码
             url = base_url.format(
                 check_in_date=check_in_date_i.strftime("%Y-%m-%d"),
                 check_out_date=check_out_date_i.strftime("%Y-%m-%d")
             )
             f.write(url + "\n")
 
-    print("已生成URL列表并写入urls.txt文件。")
+    print(f"已生成{hotel_name}的URL列表并写入{hotel_name}_urls.txt文件。")
 
 
 async def main():
-    hotel_name, hotel_id = hotel_info()
-    urlgen(hotel_name, hotel_id)
-    with open("urls.txt", "r") as f:
-        urls = f.readlines()
+    hotels = hotel_info()
     tasks = []
-    for url in urls:
-        task = asyncio.create_task(crawler(hotel_name, url.strip()))
+    for hotel in hotels:
+        hotel_name, hotel_id = hotel["name"], hotel["id"]
+        num_days = int(hotel.get("num_days", "1"))  # 获取并转换num_days参数，如果不存在则默认为1
+        urlgen(hotel_name, hotel_id, num_days)
+        with open(f"{hotel_name}_urls.txt", "r") as f:
+            urls = f.readlines()
+        task = asyncio.create_task(crawler(hotel_name, urls))
         tasks.append(task)
+        await asyncio.sleep(0)
     results = await asyncio.gather(*tasks)
     for result in results:
         print(result)
