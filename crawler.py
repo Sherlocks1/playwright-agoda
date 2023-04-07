@@ -15,25 +15,30 @@ from get_data import get_data
 from fake_useragent import UserAgent
 from settings import HEADLESS, MAX_CONCURRENT_TASKS, MAX_RETRIES, TIMEOUT
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler("my_log_file.log"),
-        logging.StreamHandler(),
-    ],
-)
+# logging.basicConfig(
+#     level=logging.INFO,
+#     format="%(asctime)s [%(levelname)s] %(message)s",
+#     handlers=[
+#         logging.FileHandler("my_log_file.log"),
+#         logging.StreamHandler(),
+#     ],
+# )
 
 
-async def crawler():
+async def crawler(hotel_name, urls):
     # 打开存储 URL 的文件
-    with open("urls.txt", "r") as f:
-        urls = f.read().splitlines()
+    # with open("urls.txt", "r") as f:
+    #     urls = f.read().splitlines()
 
     async with async_playwright() as playwright:
 
         browser = await playwright.chromium.launch(headless=HEADLESS)
         context = await browser.new_context()
+
+        js = """
+        Object.defineProperties(navigator, {webdriver:{get:()=>undefined}});
+        """
+        await context.add_init_script(js)
 
         # 设置页面默认超时时间
         context.set_default_timeout(TIMEOUT)
@@ -82,16 +87,16 @@ async def crawler():
             except Exception as error:
                 logging.error(f"Error while running task: {error}")
 
-        cookies = await context.cookies()
-        print(cookies)
+        # cookies = await context.cookies()
+        # print(cookies)
 
         await browser.close()
 
 
-if __name__ == '__main__':
-    try:
-        logging.info("程序开始运行")
-        asyncio.run(crawler())
-
-    except Exception as e:
-        logging.error(f"Error: {e}")
+# if __name__ == '__main__':
+#     try:
+#         logging.info("程序开始运行")
+#         asyncio.run(crawler())
+#
+#     except Exception as e:
+#         logging.error(f"Error: {e}")

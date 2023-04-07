@@ -12,7 +12,7 @@ from save_data import save_data
 
 
 async def get_data(page, url, filename, max_retries, task_name=None, headers=None):
-    logging.info(f"{task_name} 开始爬取：{filename}")
+    logging.info(f"{task_name} - {filename}: 任务开始")
 
     retries = 0
 
@@ -53,10 +53,10 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
 
         await page1.set_extra_http_headers(headers)
 
-        page1.on("response", lambda response: print("<<", response.status, response.url, response.ok))
-        logging.info(f"{task_name} - {filename}page1响应状态")
+        # page1.on("response", lambda response: print("<<", response.status, response.url, response.ok))
+        # logging.info(f"{task_name} - {filename}page1响应状态")
         await page1.goto(page1.url)
-
+        logging.info(f"{task_name} - {filename}: Agoda列表页 - 成功跳转")
         retries = 0
 
         async with page1.expect_popup(timeout=120000) as page2_info:
@@ -96,9 +96,11 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
         async with page2:
 
             await page2.set_extra_http_headers(headers)
-            page2.on("response", lambda response: print("<<", response.status, response.url, response.ok))
-            logging.info(f"{task_name} - {filename}page2响应状态")
+            # page2.on("response", lambda response: print("<<", response.status, response.url, response.ok))
+            # logging.info(f"{task_name} - {filename}page2响应状态")
             await page2.goto(page2.url)
+
+            logging.info(f"{task_name} - {filename}: 酒店页 - 成功跳转")
 
             retries = 0
             while True:

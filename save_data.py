@@ -14,6 +14,14 @@ def save_data(data):
     db = client['hotel']
     collection = db['booking']
 
+    # 获取当前日期
+    today = datetime.now()
+
+    # 清除过期数据
+    result = collection.delete_many({"check_in": {"$lt": today}})
+    # result = collection.delete_many({})
+    # print(f"已清除 {result.deleted_count} 条过期数据")
+
     # 对数据进行转换和格式化
     for doc in data:
         # 将日期字符串转换为 datetime 对象
@@ -35,34 +43,47 @@ def save_data(data):
 
         if existing_doc is None:
             # 如果没有匹配到文档，则插入一条新的文档
-            result = collection.insert_one(doc)
-            print('新增:', result.inserted_id)
+            if doc['check_in'] >= today:
+                result = collection.insert_one(doc)
+                print('新增:', result.inserted_id)
+            else:
+                print(f"该条数据的 check_in 日期早于当前日期，不进行插入操作: {doc}")
         else:
             # 如果已经匹配到文档，则进行更新操作
             new_price = doc['room_price']
             new_status = doc['room_status']
 
-            room_price_is_modified = False
-            room_status_is_modified = False
+            room_price_change = None
+            room_status_change = None
 
             if existing_doc['room_price'] != new_price:
                 # 价格发生变化，更新数据，并标记为已修改
-                doc['room_price_is_modified'] = True
-                room_price_is_modified = True
+                room_price_change = str(existing_doc['room_price']) + ' --> ' + str(new_price)
 
             if existing_doc['room_status'] != new_status:
                 # 房态发生变化，更新数据，并标记为已修改
-                doc['room_status_is_modified'] = True
-                room_status_is_modified = True
+                room_status_change = existing_doc['room_status'] + ' --> ' + new_status
 
-            if not room_price_is_modified and not room_status_is_modified:
-                # 如果价格和房态没有变化，则将相应的标志设置为 False
-                doc['room_price_is_modified'] = False
-                doc['room_status_is_modified'] = False
-                doc['parse_time'] = datetime.now()  # 更新解析时间
+            if room_price_change is None and room_status_change is None:
+                # 如果价格和房态都没有变化，打印 "无变化"
+                doc['parse_time'] = datetime.now()
+                doc['room_price_change'] = '无变化'
+                doc['room_status_change'] = '无变化'
+                collection.update_one(query, {"$set": doc})
                 print('无变化')
             else:
-                # 如果价格或房态发生了变化，则将这些变化信息输出到控制台，并更新 MongoDB 中的文档，同时标记相关字段为已修改
+                if room_price_change is None:
+                    doc['room_price_change'] = '无变化'
+                if room_price_change is not None:
+                    doc['room_price_change'] = room_price_change
+
+                if room_status_change is None:
+                    doc['room_status_change'] = '无变化'
+                if room_status_change is not None:
+                    doc['room_status_change'] = room_status_change
+
+                doc['parse_time'] = datetime.now()  # 更新解析时间
+
                 update_result = collection.update_one(query, {"$set": doc})
                 if update_result.modified_count == 1:
                     print(f'更新: {existing_doc["_id"]}')
@@ -70,9 +91,12 @@ def save_data(data):
                 else:
                     print('更新失败')
 
-                if room_price_is_modified:
+                if room_price_change is not None:
                     print(
                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间价格从{existing_doc['room_price']}元变为{new_price}元")
-                if room_status_is_modified:
+                    print("room_price_change:", room_price_change)
+
+                if room_status_change is not None:
                     print(
                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间房态从{existing_doc['room_status']}变为{new_status}")
+                    print("room_status_change:", room_status_change)

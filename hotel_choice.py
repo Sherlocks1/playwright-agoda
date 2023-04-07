@@ -27,3 +27,4 @@ def hotel_info():
         hotel_name = input("请输入酒店名称：")
         hotel_id = input("请输入酒店ID：")
         return hotel_name, hotel_id
+

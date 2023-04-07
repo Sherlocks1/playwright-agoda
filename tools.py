@@ -7,6 +7,7 @@ import os
 import random
 import re
 import asyncio
+from settings import MIN_TIME, MAX_TIME
 
 
 def clean_filename(url: str) -> str:
@@ -18,10 +19,7 @@ def clean_filename(url: str) -> str:
     return filename
 
 
-async def random_wait(min_time=2.0, max_time=5.0):
+async def random_wait(min_time=MIN_TIME, max_time=MAX_TIME):
     seconds = random.uniform(min_time, max_time)
     # logging.info(f"{task_name}{filename}随机等待 {seconds:.2f} 秒")
     await asyncio.sleep(seconds)
-
-
-

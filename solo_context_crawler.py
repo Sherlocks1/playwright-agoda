@@ -52,6 +52,11 @@ async def crawler():
 
             context = await browser.new_context()
 
+            js = """
+            Object.defineProperties(navigator, {webdriver:{get:()=>undefined}});
+            """
+            await context.add_init_script(js)
+
             # 设置页面默认超时时间
             context.set_default_timeout(TIMEOUT)
 
