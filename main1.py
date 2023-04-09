@@ -1,7 +1,7 @@
 # -*- coding = utf-8 -*-
 # @Time : 2023/4/7 11:08
 # @Author : Sherlock
-# @File : text1.py
+# @File : main1.py
 # @Software : PyCharm
 import datetime
 from crawler import crawler
@@ -77,17 +77,13 @@ def urlgen(hotel_name, hotel_id, num_days):
 
 async def main():
     hotels = hotel_info()
-    tasks = []
+    limit = asyncio.Semaphore(1)  # 限制同时运行的任务数量为1
+    results = []
     for hotel in hotels:
-        hotel_name, hotel_id = hotel["name"], hotel["id"]
-        num_days = int(hotel.get("num_days", "1"))  # 获取并转换num_days参数，如果不存在则默认为1
-        urlgen(hotel_name, hotel_id, num_days)
-        with open(f"{hotel_name}_urls.txt", "r") as f:
-            urls = f.readlines()
-        task = asyncio.create_task(crawler(hotel_name, urls))
-        tasks.append(task)
-        await asyncio.sleep(0)
-    results = await asyncio.gather(*tasks)
+        hotel_name = hotel["name"]
+        async with limit:
+            result = await crawler(hotel_name)
+            results.append(result)
     for result in results:
         print(result)
 

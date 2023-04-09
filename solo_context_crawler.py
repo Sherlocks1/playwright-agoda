@@ -9,7 +9,7 @@ import logging
 
 from playwright.async_api import async_playwright
 
-from tools import clean_filename
+from tools import clean_date
 from tools import random_wait
 from get_data import get_data
 from fake_useragent import UserAgent
@@ -64,7 +64,7 @@ async def crawler():
             page.set_default_timeout(TIMEOUT)
 
             task_name = f"Task {i + 1}"
-            filename = clean_filename(urls[i])
+            filename = clean_date(urls[i])
 
             # 设置页面headers
             ua = UserAgent(browsers=["edge", "chrome", "internet explorer", "firefox", "safari", "opera"])
@@ -72,7 +72,7 @@ async def crawler():
 
             task = asyncio.create_task(
                 get_data(page, urls[i], filename, max_retries=MAX_RETRIES,
-                         task_name=task_name, headers=headers))
+                         task_number=task_name, headers=headers))
 
             cookies = await context.cookies()
             print(cookies)

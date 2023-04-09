@@ -10,13 +10,13 @@ import asyncio
 from settings import MIN_TIME, MAX_TIME
 
 
-def clean_filename(url: str) -> str:
+def clean_date(url: str) -> str:
     match = re.search(r'checkIn=(\d{4}-\d{2}-\d{1,2})', url)
     if match:
-        filename = match.group(1) + ".html"
+        date = match.group(1)
     else:
-        filename = "unknown.html"
-    return filename
+        date = "unknown"
+    return date
 
 
 async def random_wait(min_time=MIN_TIME, max_time=MAX_TIME):

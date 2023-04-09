@@ -11,8 +11,8 @@ from explain_data import explain_data
 from save_data import save_data
 
 
-async def get_data(page, url, filename, max_retries, task_name=None, headers=None):
-    logging.info(f"{task_name} - {filename}: 任务开始")
+async def get_data(page, url, date, max_retries, task_number=None, headers=None, hotel_name=None):
+    logging.info(f"{hotel_name} - {task_number} - {date}: 任务开始")
 
     retries = 0
 
@@ -38,10 +38,10 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
 
         except Exception as error:
 
-            logging.error(f"{task_name} - {filename}: Error - {error}")
-            logging.info(f"{task_name} - {filename}: Etrip页第 {retries + 1} 次等待元素超时！尝试重新加载")
+            logging.error(f"{hotel_name} - {task_number} - {date}: Error - {error}")
+            logging.info(f"{hotel_name} - {task_number} - {date}: Etrip页第 {retries + 1} 次等待元素超时！尝试重新加载")
             if retries == max_retries:
-                logging.warning(f"{task_name} - {filename}: Etrip页达到最大重试次数,爬取失败")
+                logging.warning(f"{hotel_name} - {task_number} - {date}: Etrip页达到最大重试次数,爬取失败")
                 await page.close()
                 return  # 达到最大重试次数，退出程序
             else:
@@ -56,7 +56,7 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
         # page1.on("response", lambda response: print("<<", response.status, response.url, response.ok))
         # logging.info(f"{task_name} - {filename}page1响应状态")
         await page1.goto(page1.url)
-        logging.info(f"{task_name} - {filename}: Agoda列表页 - 成功跳转")
+        logging.info(f"{hotel_name} - {task_number} - {date}: Agoda列表页 - 成功跳转")
         retries = 0
 
         async with page1.expect_popup(timeout=120000) as page2_info:
@@ -82,10 +82,10 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
 
                     break
                 except Exception as error:
-                    logging.error(f"{task_name} - {filename}: Error - {error}")
-                    logging.info(f"{task_name} - {filename}Agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                    logging.error(f"{hotel_name} - {task_number} - {date}: Error - {error}")
+                    logging.info(f"{hotel_name} - {task_number} - {date}Agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
-                        logging.warning(f"{task_name} - {filename}: Agoda列表页达到最大重试次数,爬取失败")
+                        logging.warning(f"{hotel_name} - {task_number} - {date}: Agoda列表页达到最大重试次数,爬取失败")
                         await page1.close()
                         return  # 达到最大重试次数，退出程序
                     else:
@@ -100,7 +100,7 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
             # logging.info(f"{task_name} - {filename}page2响应状态")
             await page2.goto(page2.url)
 
-            logging.info(f"{task_name} - {filename}: 酒店页 - 成功跳转")
+            logging.info(f"{hotel_name} - {task_number} - {date}: 酒店页 - 成功跳转")
 
             retries = 0
             while True:
@@ -115,7 +115,7 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
 
                     save_data(data)
 
-                    logging.info(f"{task_name} - {filename}: 爬取成功")
+                    logging.info(f"{hotel_name} - {task_number} - {date}: 爬取成功")
 
                     # 随机等待一段时间
                     await random_wait()
@@ -126,9 +126,9 @@ async def get_data(page, url, filename, max_retries, task_name=None, headers=Non
 
                 except Exception as error:
                     logging.error(f"Error: {error}")
-                    logging.info(f"{task_name} - {filename}酒店页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                    logging.info(f"{hotel_name} - {task_number} - {date}酒店页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
-                        logging.warning(f"{task_name} - {filename}酒店页达到最大重试次数,爬取失败")
+                        logging.warning(f"{hotel_name} - {task_number} - {date}酒店页达到最大重试次数,爬取失败")
 
                     else:
                         # 刷新页面，并递增计数器

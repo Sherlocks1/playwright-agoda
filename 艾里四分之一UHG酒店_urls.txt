@@ -1,0 +1,2 @@
+https://search.etrip.net/Hotel/Search?hotelId=4387380&checkIn=2023-04-09&checkOut=2023-04-10&rooms=2&userSearch=1
+https://search.etrip.net/Hotel/Search?hotelId=4387380&checkIn=2023-04-10&checkOut=2023-04-11&rooms=2&userSearch=1

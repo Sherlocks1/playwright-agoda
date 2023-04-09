@@ -4,7 +4,7 @@
 # @File : settings.py
 # @Software : PyCharm
 
-HEADLESS = True
+HEADLESS = False
 MAX_CONCURRENT_TASKS = 6
 MAX_RETRIES = 3
 TIMEOUT = 180 * 1000  # 3 minutes in milliseconds

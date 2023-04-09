@@ -15,7 +15,8 @@ def save_data(data):
     collection = db['booking']
 
     # 获取当前日期
-    today = datetime.now()
+    today = datetime.today().date().strftime("%Y-%m-%d")
+    today_datetime = datetime.strptime(today, "%Y-%m-%d")
 
     # 清除过期数据
     result = collection.delete_many({"check_in": {"$lt": today}})
@@ -43,7 +44,9 @@ def save_data(data):
 
         if existing_doc is None:
             # 如果没有匹配到文档，则插入一条新的文档
-            if doc['check_in'] >= today:
+            if doc['check_in'] >= today_datetime:
+                doc['room_price_change'] = '新增'
+                doc['room_status_change'] = '新增'
                 result = collection.insert_one(doc)
                 print('新增:', result.inserted_id)
             else:
@@ -94,9 +97,8 @@ def save_data(data):
                 if room_price_change is not None:
                     print(
                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间价格从{existing_doc['room_price']}元变为{new_price}元")
-                    print("room_price_change:", room_price_change)
 
                 if room_status_change is not None:
                     print(
                         f"{existing_doc['hotel_name']}-{existing_doc['check_in'].strftime('%Y年%m月%d日')}-{existing_doc['room_name']}房间房态从{existing_doc['room_status']}变为{new_status}")
-                    print("room_status_change:", room_status_change)
+

@@ -9,26 +9,26 @@ import logging
 
 from playwright.async_api import async_playwright
 
-from tools import clean_filename
+from tools import clean_date
 from tools import random_wait
 from get_data import get_data
 from fake_useragent import UserAgent
 from settings import HEADLESS, MAX_CONCURRENT_TASKS, MAX_RETRIES, TIMEOUT
 
-# logging.basicConfig(
-#     level=logging.INFO,
-#     format="%(asctime)s [%(levelname)s] %(message)s",
-#     handlers=[
-#         logging.FileHandler("my_log_file.log"),
-#         logging.StreamHandler(),
-#     ],
-# )
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("my_log_file.log"),
+        logging.StreamHandler(),
+    ],
+)
 
 
-async def crawler(hotel_name, urls):
+async def crawler(hotel_name):
     # 打开存储 URL 的文件
-    # with open("urls.txt", "r") as f:
-    #     urls = f.read().splitlines()
+    with open(f"{hotel_name}_urls.txt", "r") as f:
+        urls = f.readlines()
 
     async with async_playwright() as playwright:
 
@@ -62,16 +62,16 @@ async def crawler(hotel_name, urls):
             page = await context.new_page()
             page.set_default_timeout(TIMEOUT)
 
-            task_name = f"Task {i + 1}"
-            filename = clean_filename(urls[i])
+            task_number = f"Task {i + 1}"
+            date = clean_date(urls[i])
 
             # 设置页面headers
             ua = UserAgent(browsers=["edge", "chrome", "internet explorer", "firefox", "safari", "opera"])
             headers = {'User-Agent': ua.random}
 
             task = asyncio.create_task(
-                get_data(page, urls[i], filename, max_retries=MAX_RETRIES,
-                         task_name=task_name, headers=headers))
+                get_data(page, urls[i], date, max_retries=MAX_RETRIES,
+                         task_number=task_number, headers=headers, hotel_name=hotel_name))
 
             await random_wait()
 
