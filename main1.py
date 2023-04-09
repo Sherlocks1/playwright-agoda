@@ -26,30 +26,32 @@ def hotel_info():
             status = "[已选]" if hotels[hotel]["selected"] else ""
             print(f"{index + 1}. {hotel} {status}")
         print(f"0. 确认选择（已选{len(selected_hotels)}家酒店）")
-        choice = input("请选择对应数字：")
-        if choice == "0":
+        choices = input("请选择对应数字（用逗号隔开，如：1,2,3）：").split(",")
+        if "0" in choices:
             if len(selected_hotels) == 0:
                 print("至少选择一家酒店！")
                 continue
             else:
                 break
         try:
-            hotel_index = int(choice) - 1
-            hotel_name = list(hotels.keys())[hotel_index]
-            hotel_id = hotels[hotel_name]["id"]
-            if hotels[hotel_name]["selected"]:
-                print("该酒店已被选中，请重新选择！")
+            selected_indexes = [int(choice) - 1 for choice in choices]
+            selected_names = [list(hotels.keys())[index] for index in selected_indexes]
+            selected_ids = [hotels[name]["id"] for name in selected_names]
+            if any(hotels[name]["selected"] for name in selected_names):
+                print("某些酒店已被选中，请重新选择！")
             else:
                 num_days = input("请输入需要爬取的天数：")
-                hotels[hotel_name]["selected"] = True
-                hotels[hotel_name]["num_days"] = int(num_days)
-                selected_hotels.append({"name": hotel_name, "id": hotel_id, "num_days": num_days})
+                for name in selected_names:
+                    hotels[name]["selected"] = True
+                    hotels[name]["num_days"] = int(num_days)
+                selected_hotels.extend(
+                    {"name": name, "id": hotels[name]["id"], "num_days": num_days} for name in selected_names)
         except (ValueError, IndexError):
             print("无效的输入，请重新选择！")
     print("您已选中以下酒店：")
     for hotel in selected_hotels:
-        print(f"{hotel['name']}（ID：{hotel['id']}，爬取天数：{hotels[hotel['name']]['num_days']}）")
-        urlgen(hotel["name"], hotel["id"], hotels[hotel["name"]]["num_days"])
+        print(f"{hotel['name']}（ID：{hotel['id']}，爬取天数：{hotel['num_days']}）")
+        urlgen(hotel["name"], hotel["id"], hotel["num_days"])
     return selected_hotels
 
 
@@ -60,6 +62,7 @@ def urlgen(hotel_name, hotel_id, num_days):
     current_year = datetime.datetime.now().year
 
     check_in_date = datetime.datetime.today()
+    num_days = int(num_days)
     check_out_date = check_in_date + datetime.timedelta(days=num_days)
 
     with open(f"{hotel_name}_urls.txt", "w") as f:

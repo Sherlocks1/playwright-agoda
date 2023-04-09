@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/save_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solo_context_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/solo_context_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text1.py" beforeDir="false" afterPath="$PROJECT_DIR$/text1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/曼谷卡塞特纳瓦敏里沃泰尔酒店_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/曼谷卡塞特纳瓦敏里沃泰尔酒店_urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/艾里四分之一UHG酒店_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/艾里四分之一UHG酒店_urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
       <recent name="C:\Users\produ\Documents\GitHub\playwright-agoda" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main1">
+  <component name="RunManager" selected="Python.main1 (1)">
     <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,27 +85,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="playwright-agoda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="playwright-agoda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +98,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playwright-agoda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,19 +170,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.main1" />
+      <item itemvalue="Python.main1 (1)" />
       <item itemvalue="Python.save_data" />
-      <item itemvalue="Python.get_data" />
       <item itemvalue="Python.crawler" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main1 (1)" />
         <item itemvalue="Python.main1" />
         <item itemvalue="Python.crawler" />
         <item itemvalue="Python.save_data" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.get_data" />
       </list>
     </recent_temporary>
   </component>
