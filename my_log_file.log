@@ -32369,3 +32369,134 @@ waiting for locator("div[class='css-170e3kd e19j9nj21'] img[alt='AGD-logo']") to
 2023-04-09 14:42:01,502 [INFO] 艾里四分之一UHG酒店 - Task 3 - 2023-04-11: Etrip页第 4 次等待元素超时！尝试重新加载
 2023-04-09 14:42:01,503 [WARNING] 艾里四分之一UHG酒店 - Task 3 - 2023-04-11: Etrip页达到最大重试次数,爬取失败
 2023-04-09 14:42:01,617 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:25:49,432 [INFO] 帕瑞达度假村(Parida Resort) - Task 1 - 2023-04-14: 任务开始
+2023-04-14 10:25:52,927 [INFO] 帕瑞达度假村(Parida Resort) - Task 2 - 2023-04-15: 任务开始
+2023-04-14 10:25:57,822 [INFO] 帕瑞达度假村(Parida Resort) - Task 3 - 2023-04-16: 任务开始
+2023-04-14 10:26:07,968 [INFO] 帕瑞达度假村(Parida Resort) - Task 4 - 2023-04-17: 任务开始
+2023-04-14 10:26:12,690 [INFO] 帕瑞达度假村(Parida Resort) - Task 5 - 2023-04-18: 任务开始
+2023-04-14 10:26:17,241 [INFO] 帕瑞达度假村(Parida Resort) - Task 6 - 2023-04-19: 任务开始
+2023-04-14 10:27:22,532 [INFO] 帕瑞达度假村(Parida Resort) - Task 2 - 2023-04-15: Agoda列表页 - 成功跳转
+2023-04-14 10:27:37,297 [INFO] 帕瑞达度假村(Parida Resort) - Task 1 - 2023-04-14: Agoda列表页 - 成功跳转
+2023-04-14 10:27:52,384 [INFO] 帕瑞达度假村(Parida Resort) - Task 2 - 2023-04-15: 酒店页 - 成功跳转
+2023-04-14 10:27:54,136 [INFO] 帕瑞达度假村(Parida Resort) - Task 2 - 2023-04-15: 爬取成功
+2023-04-14 10:27:57,104 [INFO] 帕瑞达度假村(Parida Resort) - Task 3 - 2023-04-16: Agoda列表页 - 成功跳转
+2023-04-14 10:27:58,883 [INFO] 帕瑞达度假村(Parida Resort) - Task 7 - 2023-04-20: 任务开始
+2023-04-14 10:28:08,098 [INFO] 帕瑞达度假村(Parida Resort) - Task 1 - 2023-04-14: 酒店页 - 成功跳转
+2023-04-14 10:28:08,694 [INFO] 帕瑞达度假村(Parida Resort) - Task 1 - 2023-04-14: 爬取成功
+2023-04-14 10:28:12,471 [INFO] 帕瑞达度假村(Parida Resort) - Task 8 - 2023-04-21: 任务开始
+2023-04-14 10:28:16,138 [INFO] 帕瑞达度假村(Parida Resort) - Task 4 - 2023-04-17: Agoda列表页 - 成功跳转
+2023-04-14 10:28:19,231 [INFO] 帕瑞达度假村(Parida Resort) - Task 3 - 2023-04-16: 酒店页 - 成功跳转
+2023-04-14 10:28:21,279 [INFO] 帕瑞达度假村(Parida Resort) - Task 5 - 2023-04-18: Agoda列表页 - 成功跳转
+2023-04-14 10:28:21,348 [INFO] 帕瑞达度假村(Parida Resort) - Task 6 - 2023-04-19: Agoda列表页 - 成功跳转
+2023-04-14 10:28:26,925 [INFO] 帕瑞达度假村(Parida Resort) - Task 3 - 2023-04-16: 爬取成功
+2023-04-14 10:28:30,800 [INFO] 帕瑞达度假村(Parida Resort) - Task 9 - 2023-04-22: 任务开始
+2023-04-14 10:29:02,057 [INFO] 帕瑞达度假村(Parida Resort) - Task 5 - 2023-04-18: 酒店页 - 成功跳转
+2023-04-14 10:29:05,927 [INFO] 帕瑞达度假村(Parida Resort) - Task 4 - 2023-04-17: 酒店页 - 成功跳转
+2023-04-14 10:29:07,174 [INFO] 帕瑞达度假村(Parida Resort) - Task 4 - 2023-04-17: 爬取成功
+2023-04-14 10:29:07,493 [INFO] 帕瑞达度假村(Parida Resort) - Task 6 - 2023-04-19: 酒店页 - 成功跳转
+2023-04-14 10:29:08,464 [INFO] 帕瑞达度假村(Parida Resort) - Task 6 - 2023-04-19: 爬取成功
+2023-04-14 10:29:11,478 [INFO] 帕瑞达度假村(Parida Resort) - Task 5 - 2023-04-18: 爬取成功
+2023-04-14 10:29:12,366 [INFO] 帕瑞达度假村(Parida Resort) - Task 10 - 2023-04-23: 任务开始
+2023-04-14 10:29:14,439 [INFO] 帕瑞达度假村(Parida Resort) - Task 7 - 2023-04-20: Agoda列表页 - 成功跳转
+2023-04-14 10:29:17,235 [INFO] 帕瑞达度假村(Parida Resort) - Task 11 - 2023-04-24: 任务开始
+2023-04-14 10:29:22,229 [INFO] 帕瑞达度假村(Parida Resort) - Task 12 - 2023-04-25: 任务开始
+2023-04-14 10:29:35,579 [INFO] 帕瑞达度假村(Parida Resort) - Task 8 - 2023-04-21: Agoda列表页 - 成功跳转
+2023-04-14 10:29:39,866 [INFO] 帕瑞达度假村(Parida Resort) - Task 7 - 2023-04-20: 酒店页 - 成功跳转
+2023-04-14 10:29:45,037 [INFO] 帕瑞达度假村(Parida Resort) - Task 7 - 2023-04-20: 爬取成功
+2023-04-14 10:29:48,792 [INFO] 帕瑞达度假村(Parida Resort) - Task 13 - 2023-04-26: 任务开始
+2023-04-14 10:30:08,458 [INFO] 帕瑞达度假村(Parida Resort) - Task 8 - 2023-04-21: 酒店页 - 成功跳转
+2023-04-14 10:30:09,042 [INFO] 帕瑞达度假村(Parida Resort) - Task 8 - 2023-04-21: 爬取成功
+2023-04-14 10:30:13,963 [INFO] 帕瑞达度假村(Parida Resort) - Task 14 - 2023-04-27: 任务开始
+2023-04-14 10:30:26,061 [INFO] 帕瑞达度假村(Parida Resort) - Task 9 - 2023-04-22: Agoda列表页 - 成功跳转
+2023-04-14 10:30:44,839 [INFO] 帕瑞达度假村(Parida Resort) - Task 10 - 2023-04-23: Agoda列表页 - 成功跳转
+2023-04-14 10:30:51,453 [INFO] 帕瑞达度假村(Parida Resort) - Task 9 - 2023-04-22: 酒店页 - 成功跳转
+2023-04-14 10:30:58,585 [INFO] 帕瑞达度假村(Parida Resort) - Task 9 - 2023-04-22: 爬取成功
+2023-04-14 10:31:02,548 [INFO] 帕瑞达度假村(Parida Resort) - Task 15 - 2023-04-28: 任务开始
+2023-04-14 10:31:14,689 [INFO] 帕瑞达度假村(Parida Resort) - Task 11 - 2023-04-24: Agoda列表页 - 成功跳转
+2023-04-14 10:31:15,626 [INFO] 帕瑞达度假村(Parida Resort) - Task 12 - 2023-04-25: Agoda列表页 - 成功跳转
+2023-04-14 10:31:21,044 [INFO] 帕瑞达度假村(Parida Resort) - Task 13 - 2023-04-26: Agoda列表页 - 成功跳转
+2023-04-14 10:31:25,629 [INFO] 帕瑞达度假村(Parida Resort) - Task 10 - 2023-04-23: 酒店页 - 成功跳转
+2023-04-14 10:31:28,310 [INFO] 帕瑞达度假村(Parida Resort) - Task 10 - 2023-04-23: 爬取成功
+2023-04-14 10:31:45,508 [INFO] 帕瑞达度假村(Parida Resort) - Task 16 - 2023-04-29: 任务开始
+2023-04-14 10:31:54,968 [INFO] 帕瑞达度假村(Parida Resort) - Task 14 - 2023-04-27: Agoda列表页 - 成功跳转
+2023-04-14 10:32:10,935 [INFO] 帕瑞达度假村(Parida Resort) - Task 11 - 2023-04-24: 酒店页 - 成功跳转
+2023-04-14 10:32:12,511 [INFO] 帕瑞达度假村(Parida Resort) - Task 11 - 2023-04-24: 爬取成功
+2023-04-14 10:32:12,512 [INFO] 帕瑞达度假村(Parida Resort) - Task 12 - 2023-04-25: 酒店页 - 成功跳转
+2023-04-14 10:32:20,023 [INFO] 帕瑞达度假村(Parida Resort) - Task 13 - 2023-04-26: 酒店页 - 成功跳转
+2023-04-14 10:32:21,127 [INFO] 帕瑞达度假村(Parida Resort) - Task 13 - 2023-04-26: 爬取成功
+2023-04-14 10:32:21,142 [INFO] 帕瑞达度假村(Parida Resort) - Task 17 - 2023-04-30: 任务开始
+2023-04-14 10:32:22,468 [INFO] 帕瑞达度假村(Parida Resort) - Task 12 - 2023-04-25: 爬取成功
+2023-04-14 10:32:25,635 [INFO] 帕瑞达度假村(Parida Resort) - Task 18 - 2023-05-01: 任务开始
+2023-04-14 10:32:29,856 [INFO] 帕瑞达度假村(Parida Resort) - Task 19 - 2023-05-02: 任务开始
+2023-04-14 10:32:41,682 [INFO] 帕瑞达度假村(Parida Resort) - Task 14 - 2023-04-27: 酒店页 - 成功跳转
+2023-04-14 10:32:42,085 [INFO] 帕瑞达度假村(Parida Resort) - Task 14 - 2023-04-27: 爬取成功
+2023-04-14 10:32:45,198 [INFO] 帕瑞达度假村(Parida Resort) - Task 15 - 2023-04-28: Agoda列表页 - 成功跳转
+2023-04-14 10:32:47,065 [INFO] 帕瑞达度假村(Parida Resort) - Task 20 - 2023-05-03: 任务开始
+2023-04-14 10:33:15,709 [INFO] 帕瑞达度假村(Parida Resort) - Task 15 - 2023-04-28: 酒店页 - 成功跳转
+2023-04-14 10:33:35,718 [ERROR] Error: Timeout 20000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//*[@id='roomGrid']") to be visible
+============================================================
+2023-04-14 10:33:35,718 [INFO] 帕瑞达度假村(Parida Resort) - Task 15 - 2023-04-28酒店页第 1 次等待元素超时！尝试重新加载
+2023-04-14 10:33:41,495 [INFO] 帕瑞达度假村(Parida Resort) - Task 15 - 2023-04-28: 爬取成功
+2023-04-14 10:33:45,118 [INFO] 帕瑞达度假村(Parida Resort) - Task 21 - 2023-05-04: 任务开始
+2023-04-14 10:33:55,278 [INFO] 帕瑞达度假村(Parida Resort) - Task 16 - 2023-04-29: Agoda列表页 - 成功跳转
+2023-04-14 10:34:02,906 [INFO] 帕瑞达度假村(Parida Resort) - Task 17 - 2023-04-30: Agoda列表页 - 成功跳转
+2023-04-14 10:34:14,630 [INFO] 帕瑞达度假村(Parida Resort) - Task 18 - 2023-05-01: Agoda列表页 - 成功跳转
+2023-04-14 10:34:26,692 [INFO] 帕瑞达度假村(Parida Resort) - Task 16 - 2023-04-29: 酒店页 - 成功跳转
+2023-04-14 10:34:27,793 [INFO] 帕瑞达度假村(Parida Resort) - Task 16 - 2023-04-29: 爬取成功
+2023-04-14 10:34:32,404 [INFO] 帕瑞达度假村(Parida Resort) - Task 22 - 2023-05-05: 任务开始
+2023-04-14 10:34:32,756 [INFO] 帕瑞达度假村(Parida Resort) - Task 17 - 2023-04-30: 酒店页 - 成功跳转
+2023-04-14 10:34:33,274 [INFO] 帕瑞达度假村(Parida Resort) - Task 17 - 2023-04-30: 爬取成功
+2023-04-14 10:34:37,664 [INFO] 帕瑞达度假村(Parida Resort) - Task 23 - 2023-05-06: 任务开始
+2023-04-14 10:34:45,132 [INFO] 帕瑞达度假村(Parida Resort) - Task 18 - 2023-05-01: 酒店页 - 成功跳转
+2023-04-14 10:34:45,482 [INFO] 帕瑞达度假村(Parida Resort) - Task 18 - 2023-05-01: 爬取成功
+2023-04-14 10:34:50,479 [INFO] 帕瑞达度假村(Parida Resort) - Task 24 - 2023-05-07: 任务开始
+2023-04-14 10:34:53,296 [INFO] 帕瑞达度假村(Parida Resort) - Task 19 - 2023-05-02: Agoda列表页 - 成功跳转
+2023-04-14 10:35:02,140 [INFO] 帕瑞达度假村(Parida Resort) - Task 20 - 2023-05-03: Agoda列表页 - 成功跳转
+2023-04-14 10:35:24,754 [INFO] 帕瑞达度假村(Parida Resort) - Task 19 - 2023-05-02: 酒店页 - 成功跳转
+2023-04-14 10:35:25,366 [INFO] 帕瑞达度假村(Parida Resort) - Task 19 - 2023-05-02: 爬取成功
+2023-04-14 10:35:29,294 [INFO] 帕瑞达度假村(Parida Resort) - Task 25 - 2023-05-08: 任务开始
+2023-04-14 10:35:35,469 [INFO] 帕瑞达度假村(Parida Resort) - Task 20 - 2023-05-03: 酒店页 - 成功跳转
+2023-04-14 10:35:35,843 [INFO] 帕瑞达度假村(Parida Resort) - Task 20 - 2023-05-03: 爬取成功
+2023-04-14 10:35:39,972 [INFO] 帕瑞达度假村(Parida Resort) - Task 26 - 2023-05-09: 任务开始
+2023-04-14 10:35:44,330 [INFO] 帕瑞达度假村(Parida Resort) - Task 21 - 2023-05-04: Agoda列表页 - 成功跳转
+2023-04-14 10:36:04,501 [INFO] 帕瑞达度假村(Parida Resort) - Task 22 - 2023-05-05: Agoda列表页 - 成功跳转
+2023-04-14 10:36:11,805 [INFO] 帕瑞达度假村(Parida Resort) - Task 21 - 2023-05-04: 酒店页 - 成功跳转
+2023-04-14 10:36:12,498 [INFO] 帕瑞达度假村(Parida Resort) - Task 21 - 2023-05-04: 爬取成功
+2023-04-14 10:36:14,631 [INFO] 帕瑞达度假村(Parida Resort) - Task 23 - 2023-05-06: Agoda列表页 - 成功跳转
+2023-04-14 10:36:17,267 [INFO] 帕瑞达度假村(Parida Resort) - Task 27 - 2023-05-10: 任务开始
+2023-04-14 10:36:31,212 [INFO] 帕瑞达度假村(Parida Resort) - Task 22 - 2023-05-05: 酒店页 - 成功跳转
+2023-04-14 10:36:31,678 [INFO] 帕瑞达度假村(Parida Resort) - Task 22 - 2023-05-05: 爬取成功
+2023-04-14 10:36:36,052 [INFO] 帕瑞达度假村(Parida Resort) - Task 28 - 2023-05-11: 任务开始
+2023-04-14 10:36:43,625 [INFO] 帕瑞达度假村(Parida Resort) - Task 24 - 2023-05-07: Agoda列表页 - 成功跳转
+2023-04-14 10:36:45,568 [INFO] 帕瑞达度假村(Parida Resort) - Task 23 - 2023-05-06: 酒店页 - 成功跳转
+2023-04-14 10:36:46,479 [INFO] 帕瑞达度假村(Parida Resort) - Task 23 - 2023-05-06: 爬取成功
+2023-04-14 10:36:50,607 [INFO] 帕瑞达度假村(Parida Resort) - Task 29 - 2023-05-12: 任务开始
+2023-04-14 10:37:11,808 [INFO] 帕瑞达度假村(Parida Resort) - Task 24 - 2023-05-07: 酒店页 - 成功跳转
+2023-04-14 10:37:12,187 [INFO] 帕瑞达度假村(Parida Resort) - Task 24 - 2023-05-07: 爬取成功
+2023-04-14 10:37:16,786 [INFO] 帕瑞达度假村(Parida Resort) - Task 30 - 2023-05-13: 任务开始
+2023-04-14 10:37:22,489 [INFO] 帕瑞达度假村(Parida Resort) - Task 25 - 2023-05-08: Agoda列表页 - 成功跳转
+2023-04-14 10:37:43,880 [INFO] 帕瑞达度假村(Parida Resort) - Task 25 - 2023-05-08: 酒店页 - 成功跳转
+2023-04-14 10:37:44,347 [INFO] 帕瑞达度假村(Parida Resort) - Task 25 - 2023-05-08: 爬取成功
+2023-04-14 10:37:49,231 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:37:56,448 [INFO] 帕瑞达度假村(Parida Resort) - Task 26 - 2023-05-09: Agoda列表页 - 成功跳转
+2023-04-14 10:37:58,055 [INFO] 帕瑞达度假村(Parida Resort) - Task 27 - 2023-05-10: Agoda列表页 - 成功跳转
+2023-04-14 10:38:20,928 [INFO] 帕瑞达度假村(Parida Resort) - Task 28 - 2023-05-11: Agoda列表页 - 成功跳转
+2023-04-14 10:38:30,258 [INFO] 帕瑞达度假村(Parida Resort) - Task 29 - 2023-05-12: Agoda列表页 - 成功跳转
+2023-04-14 10:38:32,173 [INFO] 帕瑞达度假村(Parida Resort) - Task 26 - 2023-05-09: 酒店页 - 成功跳转
+2023-04-14 10:38:32,929 [INFO] 帕瑞达度假村(Parida Resort) - Task 26 - 2023-05-09: 爬取成功
+2023-04-14 10:38:37,004 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:38:37,084 [INFO] 帕瑞达度假村(Parida Resort) - Task 30 - 2023-05-13: Agoda列表页 - 成功跳转
+2023-04-14 10:38:58,043 [INFO] 帕瑞达度假村(Parida Resort) - Task 28 - 2023-05-11: 酒店页 - 成功跳转
+2023-04-14 10:38:58,755 [INFO] 帕瑞达度假村(Parida Resort) - Task 28 - 2023-05-11: 爬取成功
+2023-04-14 10:39:01,936 [INFO] 帕瑞达度假村(Parida Resort) - Task 29 - 2023-05-12: 酒店页 - 成功跳转
+2023-04-14 10:39:02,394 [INFO] 帕瑞达度假村(Parida Resort) - Task 29 - 2023-05-12: 爬取成功
+2023-04-14 10:39:02,429 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:39:03,660 [INFO] 帕瑞达度假村(Parida Resort) - Task 30 - 2023-05-13: 酒店页 - 成功跳转
+2023-04-14 10:39:07,390 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:39:07,822 [INFO] 帕瑞达度假村(Parida Resort) - Task 30 - 2023-05-13: 爬取成功
+2023-04-14 10:39:12,727 [ERROR] Error while running task: list.remove(x): x not in list
+2023-04-14 10:39:47,848 [INFO] 帕瑞达度假村(Parida Resort) - Task 27 - 2023-05-10: 酒店页 - 成功跳转
+2023-04-14 10:39:48,216 [INFO] 帕瑞达度假村(Parida Resort) - Task 27 - 2023-05-10: 爬取成功
+2023-04-14 10:39:51,352 [ERROR] Error while running task: list.remove(x): x not in list

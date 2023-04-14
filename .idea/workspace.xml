@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997dd71f-3c22-460a-a03d-dd6f1ef8482d" name="变更" comment="删除getdata2">
+      <change afterPath="$PROJECT_DIR$/帕瑞达度假村(Parida Resort)_urls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/my_log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/曼谷卡塞特纳瓦敏里沃泰尔酒店_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/曼谷卡塞特纳瓦敏里沃泰尔酒店_urls.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/艾里四分之一UHG酒店_urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/艾里四分之一UHG酒店_urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

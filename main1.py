@@ -18,6 +18,7 @@ def hotel_info():
         "芽庄皇宫酒店": {"id": "5010957", "selected": False, "num_days": None},
         "芽庄槟榔酒店": {"id": "4817166", "selected": False, "num_days": None},
         "长滩岛航路与蓝海度假村": {"id": "1599297", "selected": False, "num_days": None},
+        "帕瑞达度假村(Parida Resort)": {"id": "3012084", "selected": False, "num_days": None},
     }
     selected_hotels = []
     while True:
