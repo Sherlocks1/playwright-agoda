@@ -6,6 +6,10 @@
 import datetime
 from crawler import crawler
 import asyncio
+from tools import url_delete
+
+
+
 
 
 def hotel_info():
@@ -90,6 +94,7 @@ async def main():
             results.append(result)
     for result in results:
         print(result)
+    url_delete()
 
 
 # 主程序入口

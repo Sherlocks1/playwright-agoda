@@ -19,7 +19,7 @@ def save_data(data):
     today_datetime = datetime.strptime(today, "%Y-%m-%d")
 
     # 清除过期数据
-    result = collection.delete_many({"check_in": {"$lt": today}})
+    result = collection.delete_many({"check_in": {"$lt": today_datetime}})
     # result = collection.delete_many({})
     # print(f"已清除 {result.deleted_count} 条过期数据")
 

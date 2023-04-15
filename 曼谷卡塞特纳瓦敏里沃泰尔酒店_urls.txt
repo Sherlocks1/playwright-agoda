@@ -1,5 +1,0 @@
-https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-09&checkOut=2023-04-10&rooms=2&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-10&checkOut=2023-04-11&rooms=2&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-11&checkOut=2023-04-12&rooms=2&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-12&checkOut=2023-04-13&rooms=2&userSearch=1
-https://search.etrip.net/Hotel/Search?hotelId=2918402&checkIn=2023-04-13&checkOut=2023-04-14&rooms=2&userSearch=1

@@ -3,7 +3,7 @@
 # @Author : Sherlock
 # @File : get_data.py
 # @Software : PyCharm
-
+import asyncio
 import logging
 
 from tools import random_wait
@@ -53,8 +53,19 @@ async def get_data(page, url, date, max_retries, task_number=None, headers=None,
 
         await page1.set_extra_http_headers(headers)
 
-        # page1.on("response", lambda response: print("<<", response.status, response.url, response.ok))
-        # logging.info(f"{task_name} - {filename}page1响应状态")
+        # page1.on("response", lambda response: (
+        #     print({hotel_name}, {task_number}, {date}, "page1响应状态 <<", response.status, response.url, response.ok)))
+
+        def response_handler(response):
+            if response.status == 404:
+                # 进行重新开始操作
+                logging.warning(f"{hotel_name} - {task_number} - {date}: Agoda列表页响应状态为404，尝试重新开始")
+                asyncio.ensure_future(get_data(page, url, date, max_retries, task_number, headers, hotel_name))
+
+        page1.on("response", response_handler)
+
+        page1.on('close', lambda: print(f'{hotel_name} - {task_number} - {date}: page1已关闭'))
+
         await page1.goto(page1.url)
         logging.info(f"{hotel_name} - {task_number} - {date}: Agoda列表页 - 成功跳转")
         retries = 0
@@ -83,7 +94,8 @@ async def get_data(page, url, date, max_retries, task_number=None, headers=None,
                     break
                 except Exception as error:
                     logging.error(f"{hotel_name} - {task_number} - {date}: Error - {error}")
-                    logging.info(f"{hotel_name} - {task_number} - {date}Agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                    logging.info(
+                        f"{hotel_name} - {task_number} - {date}Agoda列表页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
                         logging.warning(f"{hotel_name} - {task_number} - {date}: Agoda列表页达到最大重试次数,爬取失败")
                         await page1.close()
@@ -96,8 +108,10 @@ async def get_data(page, url, date, max_retries, task_number=None, headers=None,
         async with page2:
 
             await page2.set_extra_http_headers(headers)
-            # page2.on("response", lambda response: print("<<", response.status, response.url, response.ok))
-            # logging.info(f"{task_name} - {filename}page2响应状态")
+            # page2.on("response", lambda response: (
+            #     print({hotel_name}, {task_number}, {date}, "page2响应状态 <<", response.status, response.url,
+            #           response.ok)))
+
             await page2.goto(page2.url)
 
             logging.info(f"{hotel_name} - {task_number} - {date}: 酒店页 - 成功跳转")
@@ -126,7 +140,8 @@ async def get_data(page, url, date, max_retries, task_number=None, headers=None,
 
                 except Exception as error:
                     logging.error(f"Error: {error}")
-                    logging.info(f"{hotel_name} - {task_number} - {date}酒店页第 {retries + 1} 次等待元素超时！尝试重新加载")
+                    logging.info(
+                        f"{hotel_name} - {task_number} - {date}酒店页第 {retries + 1} 次等待元素超时！尝试重新加载")
                     if retries == max_retries:
                         logging.warning(f"{hotel_name} - {task_number} - {date}酒店页达到最大重试次数,爬取失败")
 

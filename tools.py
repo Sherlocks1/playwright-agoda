@@ -8,6 +8,19 @@ import random
 import re
 import asyncio
 from settings import MIN_TIME, MAX_TIME
+import os
+
+
+def url_delete():
+    # 获取当前目录
+    current_dir = os.getcwd()
+
+    # 遍历当前目录下的所有文件和子目录
+    for root, dirs, files in os.walk(current_dir):
+        for file in files:
+            # 如果文件名以 '.txt' 结尾，则删除该文件
+            if file.endswith('.txt'):
+                os.remove(os.path.join(root, file))
 
 
 def clean_date(url: str) -> str:
