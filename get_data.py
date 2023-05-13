@@ -60,7 +60,8 @@ async def get_data(page, url, date, max_retries, task_number=None, headers=None,
             if response.status == 404:
                 # 进行重新开始操作
                 logging.warning(f"{hotel_name} - {task_number} - {date}: Agoda列表页响应状态为404，尝试重新开始")
-                asyncio.ensure_future(get_data(page, url, date, max_retries, task_number, headers, hotel_name))
+                # asyncio.ensure_future(get_data(page, url, date, max_retries, task_number, headers, hotel_name))
+                # return
 
         page1.on("response", response_handler)
 

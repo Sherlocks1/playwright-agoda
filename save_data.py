@@ -21,7 +21,7 @@ def save_data(data):
     # 清除过期数据
     result = collection.delete_many({"check_in": {"$lt": today_datetime}})
     # result = collection.delete_many({})
-    # print(f"已清除 {result.deleted_count} 条过期数据")
+    print(f"已清除 {result.deleted_count} 条过期数据")
 
     # 对数据进行转换和格式化
     for doc in data:

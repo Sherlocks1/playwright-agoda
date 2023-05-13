@@ -86,6 +86,8 @@ async def crawler(hotel_name):
                 current_task_count -= 1
             except Exception as error:
                 logging.error(f"Error while running task: {error}")
+                tasks.append(completed_task)  # 添加失败的任务进队列
+                current_task_count += 1
 
         # cookies = await context.cookies()
         # print(cookies)
